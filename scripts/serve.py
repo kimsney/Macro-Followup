@@ -60,14 +60,14 @@ def _merge_preserving_analysis(fresh, old):
 
 
 def refresh_today(force=False):
-    today = datetime.now().strftime("%Y-%m-%d")
+    today = fetch_data.today_kst()
     now = time.time()
     if not force and _last_refresh["date"] == today and now - _last_refresh["at"] < CACHE_SECONDS:
         return
 
     path = DATA_DIR / f"{today}.json"
 
-    print(f"[{datetime.now().strftime('%H:%M:%S')}] {today} 수치 데이터 재수집 중...")
+    print(f"[{datetime.now(fetch_data.KST).strftime('%H:%M:%S')}] {today} 수치 데이터 재수집 중...")
     # build_report_data는 디스크에 쓰지 않는 순수 함수 - 수집(수~수십 초 소요)하는 동안
     # 파일을 건드리지 않아서, 그 사이 수동으로 편집한 내용이 사라지는 경쟁 상태를 막는다.
     fresh = fetch_data.build_report_data(today)
@@ -90,7 +90,7 @@ def refresh_today(force=False):
 
 
 def _is_stale():
-    today = datetime.now().strftime("%Y-%m-%d")
+    today = fetch_data.today_kst()
     return not (_last_refresh["date"] == today and time.time() - _last_refresh["at"] < CACHE_SECONDS)
 
 
@@ -125,7 +125,7 @@ MARKET_CLOSE_CHECKPOINTS = [(15, 35)]
 
 
 def _seconds_until(hh, mm):
-    now = datetime.now()
+    now = datetime.now(fetch_data.KST)
     target = now.replace(hour=hh, minute=mm, second=0, microsecond=0)
     if target <= now:
         target += timedelta(days=1)
@@ -136,7 +136,7 @@ def _market_close_scheduler():
     while True:
         wait = min(_seconds_until(hh, mm) for hh, mm in MARKET_CLOSE_CHECKPOINTS)
         time.sleep(wait)
-        print(f"[{datetime.now().strftime('%H:%M:%S')}] 장마감 스냅샷 확정 갱신 중...")
+        print(f"[{datetime.now(fetch_data.KST).strftime('%H:%M:%S')}] 장마감 스냅샷 확정 갱신 중...")
         try:
             refresh_today(force=True)
         except Exception as e:

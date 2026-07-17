@@ -14,9 +14,18 @@ import json
 import sys
 from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import requests
 from bs4 import BeautifulSoup
+
+KST = ZoneInfo("Asia/Seoul")
+
+
+def today_kst():
+    """실행 서버의 시간대와 무관하게 항상 한국 시각 기준 오늘 날짜를 반환한다
+    (GitHub Actions 러너는 UTC라 이 처리가 없으면 날짜가 어긋난다)."""
+    return datetime.now(KST).strftime("%Y-%m-%d")
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
@@ -176,7 +185,7 @@ def fetch_cnbc_rates():
 
 def fetch_naver_investor_flow():
     """KOSPI 외국인/기관/개인 순매매(억원, 가장 최근 거래일). 실패 시 manual_needed."""
-    bizdate = datetime.now().strftime("%Y%m%d")
+    bizdate = today_kst().replace("-", "")
     url = f"https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate={bizdate}&sosok="
     try:
         r = _get(url)
@@ -297,7 +306,7 @@ def build_report_data(date_str=None):
     """수치 데이터를 수집해 report dict를 만들어 반환한다 (디스크에 쓰지 않는다).
     serve.py처럼 느린 수집 도중 파일을 직접 건드리면 안 되는 호출자를 위한 순수 버전."""
     if date_str is None:
-        date_str = datetime.now().strftime("%Y-%m-%d")
+        date_str = today_kst()
 
     print("Yahoo Finance 데이터 수집 중...")
     yahoo = fetch_yahoo_all()
@@ -329,7 +338,7 @@ def build_report_data(date_str=None):
 
     report = {
         "date": date_str,
-        "generated_at": datetime.now().isoformat(timespec="seconds"),
+        "generated_at": datetime.now(KST).isoformat(timespec="seconds"),
         "sections": {
             "market_structure": {
                 "global_indices": indices,

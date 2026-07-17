@@ -55,8 +55,15 @@ CME FedWatch는 무료 API가 없어 항상 수동/WebSearch 필요).
 | 섹터 수급(글로벌) | SPDR 섹터 ETF 11종 등락률 | Finviz는 ToS 문제로 사용하지 않음 |
 | IB Deal 뉴스 | Claude WebSearch | 더벨은 무단 크롤링 금지 정책이 있어 본문을 수집·저장하지 않고, 헤드라인·링크·짧은 요약만 인용 |
 
-## 향후 자동화
+## 배포 (Netlify + GitHub Actions)
 
-현재: 숫자는 `serve.py`로 새로고침마다 자동, 분석 텍스트는 Claude 요청 시 수동.
-`scripts/fetch_data.py`가 소스별 함수로 분리되어 있어, 추후 GitHub 계정을 만들면 동일 로직 +
-Claude 분석(WebSearch)까지 GitHub Actions나 클라우드 예약 루틴으로 옮겨 완전 자동화할 수 있다.
+`https://github.com/kimsney/Macro-Followup`에 push되면 Netlify(`netlify.toml`, publish=".")가
+자동으로 재배포한다. 숫자 데이터는 `.github/workflows/update-data.yml`이 **30분마다** 자동으로
+`fetch_data.py`를 실행해 `data/`를 커밋·push하므로, VS Code를 안 열어도 숫자는 계속 갱신된다.
+날짜 계산은 실행 서버 시간대와 무관하게 항상 KST 기준으로 고정했다(`fetch_data.today_kst()`,
+`zoneinfo` 사용) - GitHub Actions 러너가 UTC라서 이 처리가 없으면 날짜가 어긋난다.
+
+**분석 텍스트는 이 자동화에 포함되지 않는다** - GitHub Actions는 스크립트만 실행할 뿐 WebSearch·
+추론을 못 하므로, 여전히 Claude에게 "오늘자 팔로업 분석 업데이트해줘"라고 요청해야 채워진다.
+완전 자동화하려면 Claude Code의 예약 실행(cron 스케줄 클라우드 루틴)으로 이 요청 자체를 정기
+실행시키는 방법이 있다 (아직 미설정).
