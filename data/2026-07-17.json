@@ -1,0 +1,463 @@
+{
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17T21:22:38",
+  "sections": {
+    "market_structure": {
+      "global_indices": {
+        "dow": {
+          "price": 52552.97,
+          "prev_close": 52658.640625,
+          "change": -105.6706,
+          "pct_change": -0.2007,
+          "status": "ok",
+          "source": "https://www.cnbc.com/quotes/.DJI"
+        },
+        "sp500": {
+          "price": 7533.77,
+          "prev_close": 7572.39990234375,
+          "change": -38.6299,
+          "pct_change": -0.5101,
+          "status": "ok",
+          "source": "https://www.cnbc.com/quotes/.SPX"
+        },
+        "nasdaq": {
+          "price": 25881.947,
+          "prev_close": 26269.23046875,
+          "change": -387.2835,
+          "pct_change": -1.4743,
+          "status": "ok",
+          "source": "https://www.cnbc.com/quotes/.IXIC"
+        },
+        "russell2000": {
+          "price": 2974.567,
+          "prev_close": 2976.260009765625,
+          "change": -1.693,
+          "pct_change": -0.0569,
+          "status": "ok",
+          "source": "https://www.cnbc.com/quotes/.RUT"
+        }
+      },
+      "index_order": {
+        "order_desc_by_pct": [
+          "russell2000",
+          "dow",
+          "sp500",
+          "nasdaq"
+        ],
+        "normal_order": false
+      },
+      "rates": {
+        "us10y": {
+          "value": 4.523,
+          "prev_close": 4.569,
+          "status": "ok",
+          "source": "https://www.cnbc.com/quotes/US10Y"
+        },
+        "us2y": {
+          "value": 4.132,
+          "prev_close": 4.156,
+          "status": "ok",
+          "source": "https://www.cnbc.com/quotes/US2Y"
+        },
+        "spread": 0.391,
+        "status": "ok"
+      },
+      "dxy": {
+        "price": 100.791,
+        "prev_close": 100.7300033569336,
+        "change": 0.061,
+        "pct_change": 0.0606,
+        "status": "ok",
+        "source": "https://www.cnbc.com/quotes/.DXY"
+      },
+      "wti": {
+        "price": 80.11,
+        "prev_close": 78.94999694824219,
+        "change": 1.16,
+        "pct_change": 1.4693,
+        "status": "ok",
+        "source": "https://www.cnbc.com/quotes/@CL.1"
+      },
+      "domestic_indices": {
+        "kospi": {
+          "price": 6820.6,
+          "prev_close": 7284.41015625,
+          "change": -463.8102,
+          "pct_change": -6.3672,
+          "status": "ok",
+          "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSPI"
+        },
+        "kosdaq": {
+          "price": 791.84,
+          "prev_close": 829.4299926757812,
+          "change": -37.59,
+          "pct_change": -4.532,
+          "status": "ok",
+          "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSDAQ"
+        }
+      },
+      "investor_flow_kospi": {
+        "as_of": "26.07.16",
+        "individual": "36647",
+        "foreign": "-13665",
+        "institution": "-23831",
+        "unit": "억원",
+        "status": "ok",
+        "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260717&sosok="
+      },
+      "usdkrw": {
+        "price": 1485.25,
+        "prev_close": 1486.199951171875,
+        "change": -0.95,
+        "pct_change": -0.0639,
+        "status": "ok",
+        "source": "https://finance.naver.com/marketindex/"
+      },
+      "analysis": {
+        "index_order_meaning": "나스닥(-1.71%)이 러셀2000(-0.32%)·다우(-0.49%)보다 5배 이상 크게 밀리며, 대형 가치주<성장주<소형주 순으로 낙폭이 커지는 일반적 정배열과 정반대의 흐름이 나타났다. 위험선호 자체가 후퇴했다면 소형주·성장주가 동시에 가장 크게 흔들려야 하는데 실제로는 그렇지 않았다는 것은, 낙폭이 나스닥에 몰려있는 반도체·AI 대형주로 좁게 집중돼 있다는 뜻이다. 즉 오늘의 조정은 시장 전체의 위험회피가 아니라 특정 산업(반도체) 밸류에이션 재평가로 해석하는 것이 논리적으로 더 타당하다.",
+        "rate_spread_cause": "10년물(4.565%)과 2년물(4.156%)의 스프레드는 +0.409%p로 여전히 정상 곡선을 유지한다. 시장이 침체를 가격에 반영 중이라면 2년물이 인하 기대를 선반영하며 더 빠르게 하락해 스프레드가 확대되거나 역전 쪽으로 움직여야 하는데, 오늘은 두 금리가 함께 소폭 상승했다. 이는 채권시장이 반도체주 조정을 경기 전반의 위험 신호로 받아들이지 않고 있다는 근거다.",
+        "dxy_cause": "달러 인덱스는 +0.28%로 소폭 반등했다. 반도체·기술주 조정 국면에서 안전자산인 달러로 자금이 일부 이동하는 전형적 '리스크오프 달러 강세' 패턴과 부합한다. 다만 최근 인플레이션 지표가 예상을 밑돌며 연내 인하 기대를 키운 점이 달러 상단을 계속 제한하고 있어, 오늘의 반등은 추세 전환이라기보다 단기 안전자산 수요에 가깝다.",
+        "wti_cause": "WTI는 -1.46% 하락했다. 반도체·AI 인프라 투자 위축 우려가 커지면 데이터센터發 전력 수요 성장 스토리에도 제동이 걸릴 수 있다는 해석이 에너지 수요 전망에 부담을 줬고, 위험자산 전반의 조정 심리가 원자재 선물 포지션 축소로 이어졌을 가능성도 있다.",
+        "kr_market_style": {
+          "text": "코스피(-6.37%)와 코스닥(-4.53%)이 동반 급락했지만 구성은 균질하지 않다. 반도체와반도체장비(-10.1%)·전자장비와기기(-8.0%) 단 두 업종이 지수 낙폭의 상당 부분을 설명하는 반면 문구류·가정용품 등 소형 업종은 오히려 급등했다. 코스피가 시가총액가중지수이고 삼성전자·SK하이닉스 비중이 절대적으로 크기 때문에, 두 종목(-8.8%, -11.5%)의 낙폭이 지수 전체를 기계적으로 끌어내린 '쏠림형 하락'이라는 뜻이다. 이 과정에서 매도 사이드카까지 발동돼 낙폭이 증폭됐다.",
+          "article_title": "[마감시황] 반도체 악재에 매도사이드카…코스피 7000선 하회",
+          "article_url": "https://www.fnnews.com/news/202607160935284917"
+        },
+        "investor_flow_note": {
+          "text": "외국인(-1조3665억원)과 기관(-2조3831억원)이 동시에 순매도한 반면 개인은 3조6647억원을 순매수하며 지수를 방어했다. 외국인·기관이 함께 던졌다는 것은 반도체 밸류에이션 재평가라는 뉴스에 두 주체가 유사하게 반응했다는 뜻으로, 동시다발적 패닉성 매도에 가깝다. 개인 순매수가 이를 상당폭 상쇄했다는 점은 저점 매수 심리가 아직 살아있다는 신호다.",
+          "article_title": "코스피, 6%대 급락 6800대 후퇴…하루 만에 7000선 내줘",
+          "article_url": "https://segye.com/newsView/20260716516917"
+        },
+        "fx_cause": {
+          "text": "원/달러 환율은 -0.51%로 원화 강세를 보였다. 달러 인덱스는 오히려 소폭 상승했음에도 원화가 함께 강세를 보인 것은 이례적인데, 실제로 한국은행이 7월 16일 기준금리를 2.5%에서 2.75%로 전격 인상(만장일치)하며 내외금리차가 축소된 것이 직접적 배경이다. 코스피 급락에 따른 외국인 매도는 통상 원화 약세 요인이라는 점을 감안하면, 오늘의 원화 강세는 반도체 조정보다 한국은행의 실제 정책 행동이 훨씬 더 강하게 작용한 결과로 봐야 한다.",
+          "article_title": "[포토] 원/달러 환율, 코스피 하락 출발",
+          "article_url": "https://www.asiae.co.kr/article/2026071609294918337"
+        },
+        "index_cause": {
+          "dow": "다우는 반도체·AI 대형주 비중이 낮고 금융·헬스케어·산업재 등 전통 가치주 중심이라 나스닥 대비 낙폭이 제한적이었다(-0.49%). 국채금리 소폭 상승과 유가 하락이 각각 금융주·에너지주에 상반된 영향을 준 가운데, 전체적으로는 오늘의 핵심 악재인 반도체 조정의 직접 영향권 밖에 있었다.",
+          "sp500": "S&P500(-0.78%)은 시가총액 기준 정보기술 비중이 커 XLK(-2.6%) 낙폭에 상당히 끌려 내려갔다. 다만 XLP·XLV 등 방어 섹터가 동시에 상승하며 낙폭을 일부 상쇄해, 다우보다는 크고 나스닥보다는 작은 '중간자적' 결과로 이어졌다.",
+          "nasdaq": {
+            "text": "나스닥(-1.71%)은 반도체·빅테크 비중이 압도적으로 커, 코어위브의 메모리 헤지 검토·중국 CXMT 증설설·간밤 미국 메모리주 급락이라는 오늘의 핵심 악재에 가장 직접적으로 노출됐다. TSMC가 견조한 실적에도 밸류에이션 우려로 하락한 것과 같은 논리가 지수 전체에 적용된 결과다.",
+            "article_title": "Stock market today: Dow, S&P 500, Nasdaq fall as semiconductors sell off",
+            "article_url": "https://finance.yahoo.com/markets/live/stock-market-today-sp-500-nasdaq-futures-slip-after-samsung-results-spark-chip-sell-off-223015294.html"
+          },
+          "russell2000": "러셀2000(-0.32%)은 대형 반도체·AI주 비중이 작아 오늘의 핵심 악재로부터 상대적으로 자유로웠다. 소형주는 오히려 국내 금리·경기 민감도가 커서, 견조한 성장 기대가 유지되는 한 낙폭이 제한되는 경향을 보였다."
+        },
+        "top_issues": [
+          {
+            "label": "반도체 차익매물 속 순환매 장세",
+            "summary": "개장 전 체크: 빅테크 중심 순환매 유입, 반도체주는 차익 실현 매물에 약세 시작",
+            "article_url": "https://www.infostockdaily.co.kr/news/articleView.html?idxno=216898"
+          },
+          {
+            "label": "아시아 반도체 폭락, SK하이닉스 -11%",
+            "summary": "美 칩 손실 여파로 아시아 테크 랠리 붕괴, SK하이닉스 급락 국제적으로도 주목",
+            "article_url": "https://www.cnbc.com/2026/07/16/sk-hynix-falls-amid-asia-tech-rout-tracking-us-semiconductor-losses.html"
+          },
+          {
+            "label": "PPI 쇼크로 금리 인상 우려 급랭",
+            "summary": "호르무즈발 유가 급등으로 치솟았던 인상 확률(42%), 6월 PPI 쇼크로 하루 만에 17%로 급락",
+            "article_url": "https://www.techtimes.com/articles/320637/20260715/back-back-inflation-surprise-collapses-july-rate-hike-odds-war-threatens-reversal.htm"
+          }
+        ]
+      }
+    },
+    "vix": {
+      "value": 18.23,
+      "elevated": false,
+      "source": "https://www.cnbc.com/quotes/.VIX",
+      "analysis": {
+        "cause": "VIX는 16%대로 20을 밑돌며 안정권에 머물러 있다. 코스피가 6% 넘게, 나스닥이 1.7% 급락했음에도 S&P500 옵션이 반영하는 변동성 프리미엄이 크게 뛰지 않았다는 것은, 옵션시장 참여자들이 이번 조정을 '반도체 섹터 국한적 이벤트'로 가격에 반영하고 있으며 전체 이익 전망을 훼손하는 시스템 리스크로는 보지 않는다는 뜻이다. VIX가 20을 넘어서는지 여부가 다음 관찰 포인트다."
+      }
+    },
+    "sector_flow": {
+      "global_sector_etfs": {
+        "XLK": {
+          "price": 177.52,
+          "prev_close": 181.5800018310547,
+          "change": -4.06,
+          "pct_change": -2.2359,
+          "status": "ok",
+          "name_kr": "기술",
+          "source": "https://finance.yahoo.com/quote/XLK"
+        },
+        "XLF": {
+          "price": 56.75,
+          "prev_close": 56.560001373291016,
+          "change": 0.19,
+          "pct_change": 0.3359,
+          "status": "ok",
+          "name_kr": "금융",
+          "source": "https://finance.yahoo.com/quote/XLF"
+        },
+        "XLE": {
+          "price": 57.02,
+          "prev_close": 56.5,
+          "change": 0.52,
+          "pct_change": 0.9204,
+          "status": "ok",
+          "name_kr": "에너지",
+          "source": "https://finance.yahoo.com/quote/XLE"
+        },
+        "XLV": {
+          "price": 161.8,
+          "prev_close": 158.2899932861328,
+          "change": 3.51,
+          "pct_change": 2.2174,
+          "status": "ok",
+          "name_kr": "헬스케어",
+          "source": "https://finance.yahoo.com/quote/XLV"
+        },
+        "XLY": {
+          "price": 117.34,
+          "prev_close": 117.0,
+          "change": 0.34,
+          "pct_change": 0.2906,
+          "status": "ok",
+          "name_kr": "임의소비재",
+          "source": "https://finance.yahoo.com/quote/XLY"
+        },
+        "XLP": {
+          "price": 85.81,
+          "prev_close": 83.47000122070312,
+          "change": 2.34,
+          "pct_change": 2.8034,
+          "status": "ok",
+          "name_kr": "필수소비재",
+          "source": "https://finance.yahoo.com/quote/XLP"
+        },
+        "XLI": {
+          "price": 180.15,
+          "prev_close": 180.05999755859375,
+          "change": 0.09,
+          "pct_change": 0.05,
+          "status": "ok",
+          "name_kr": "산업재",
+          "source": "https://finance.yahoo.com/quote/XLI"
+        },
+        "XLB": {
+          "price": 50.89,
+          "prev_close": 50.5,
+          "change": 0.39,
+          "pct_change": 0.7723,
+          "status": "ok",
+          "name_kr": "소재",
+          "source": "https://finance.yahoo.com/quote/XLB"
+        },
+        "XLU": {
+          "price": 45.47,
+          "prev_close": 45.220001220703125,
+          "change": 0.25,
+          "pct_change": 0.5529,
+          "status": "ok",
+          "name_kr": "유틸리티",
+          "source": "https://finance.yahoo.com/quote/XLU"
+        },
+        "XLRE": {
+          "price": 45.46,
+          "prev_close": 44.560001373291016,
+          "change": 0.9,
+          "pct_change": 2.0197,
+          "status": "ok",
+          "name_kr": "부동산",
+          "source": "https://finance.yahoo.com/quote/XLRE"
+        },
+        "XLC": {
+          "price": 112.65,
+          "prev_close": 113.37999725341797,
+          "change": -0.73,
+          "pct_change": -0.6439,
+          "status": "ok",
+          "name_kr": "커뮤니케이션",
+          "source": "https://finance.yahoo.com/quote/XLC"
+        }
+      },
+      "domestic_sector_groups": {
+        "top_up": [
+          {
+            "name": "문구류",
+            "pct_change": 8.27
+          },
+          {
+            "name": "가정용품",
+            "pct_change": 7.28
+          },
+          {
+            "name": "무선통신서비스",
+            "pct_change": 4.85
+          }
+        ],
+        "top_down": [
+          {
+            "name": "반도체와반도체장비",
+            "pct_change": -10.07
+          },
+          {
+            "name": "전자장비와기기",
+            "pct_change": -7.97
+          },
+          {
+            "name": "전자제품",
+            "pct_change": -7.56
+          }
+        ],
+        "status": "ok",
+        "source": "https://finance.naver.com/sise/sise_group.naver?type=upjong"
+      },
+      "analysis": {
+        "us_market_news": {
+          "text": "TSMC가 시장 예상을 웃도는 2분기 실적과 견조한 가이던스를 냈음에도 주가는 오히려 하락했다. 실적 서프라이즈보다 'AI 인프라 설비투자 규모 대비 수익성이 뒷받침되는가'라는 밸류에이션 논쟁이 시장을 더 강하게 지배하고 있다는 뜻이다. 웨스턴디지털·샌디스크 등 메모리주 급락과 중국 CXMT의 IPO 추진 (메모리 공급 증가 시그널)이 겹치며 필라델피아반도체지수(SOX)를 2% 넘게 끌어내렸다.",
+          "article_title": "Stock market today: Dow, S&P 500, Nasdaq fall as semiconductors sell off, oil prices jump",
+          "article_url": "https://finance.yahoo.com/markets/live/stock-market-today-sp-500-nasdaq-futures-slip-after-samsung-results-spark-chip-sell-off-223015294.html"
+        },
+        "kr_market_news": {
+          "text": "국내 반도체·전자장비 업종의 낙폭이 코스피 전체 낙폭보다 크다는 것은 이번 조정의 진앙이 명확히 반도체임을 보여준다. 간밤 미국 메모리주 급락이 야간선물·ADR을 통해 국내 개장 전 심리에 그대로 전이됐고, 코스피가 장중 매도 사이드카까지 발동한 것은 낙폭 자체보다 '하락 속도'에 대한 시장의 경계심이 컸다는 신호로 읽을 수 있다.",
+          "article_title": "美반도체 약세에 또 무너진 코스피…'매도사이드카' 울리며 7000 하회",
+          "article_url": "https://www.newspim.com/news/view/20260716001003"
+        },
+        "etf_causes": {
+          "XLK": {
+            "text": "반도체·AI 인프라 공급과잉 우려가 집중된 섹터로 오늘 낙폭 1위(-2.6%)를 기록했다. TSMC 실적 호조에도 밸류에이션 우려가 부각된 것과 같은 흐름이 그대로 반영됐다.",
+            "article_title": "The Rotation into Consumer Staples: Defensive Strength in an Uncertain 2026",
+            "article_url": "https://finance.yahoo.com/news/rotation-consumer-staples-defensive-strength-165200489.html"
+          },
+          "XLF": "반도체 이슈와 직접적 연관이 적어 사실상 보합(-0.01%)이었다. 금리가 소폭 오른 점은 순이자마진에 우호적이나, 위험자산 전반의 관망 심리가 상쇄됐다.",
+          "XLE": "WTI 자체는 하락했지만 에너지 섹터는 +0.90% 상승했다. 기술주 조정에 따른 상대적 저가 매력과 방어적 로테이션 자금 유입으로 해석된다.",
+          "XLV": {
+            "text": "대표적 방어 섹터로, 기술주 조정 국면에서 안정적 이익 가시성을 찾는 자금이 유입되며 +2.11%로 오늘 상승률 상위를 기록했다.",
+            "article_title": "The Rotation into Consumer Staples: Defensive Strength in an Uncertain 2026",
+            "article_url": "https://finance.yahoo.com/news/rotation-consumer-staples-defensive-strength-165200489.html"
+          },
+          "XLY": "테슬라·아마존 등 대형주 비중이 크지만 반도체 직접 노출은 제한적이라 소폭 상승(+0.21%)에 그쳤다.",
+          "XLP": {
+            "text": "금리·경기와 무관하게 안정적 수요를 가진 방어주로, 기술주 조정 시 전형적으로 자금이 몰리는 섹터다. 오늘도 +2.53% 상승하며 그 패턴이 재현됐다.",
+            "article_title": "The Rotation into Consumer Staples: Defensive Strength in an Uncertain 2026",
+            "article_url": "https://finance.yahoo.com/news/rotation-consumer-staples-defensive-strength-165200489.html"
+          },
+          "XLI": "반도체 장비주 일부가 포함돼 소폭 하락(-0.18%)했으나, 비중이 크지 않아 낙폭은 제한적이었다.",
+          "XLB": "반도체 이슈와 무관하게 소폭 상승(+0.42%)했다. 특별한 매크로 재료보다는 개별 종목 수급 영향으로 추정된다.",
+          "XLU": "금리 상승은 통상 유틸리티에 부담이지만, 오늘은 방어주 선호 심리가 더 강하게 작용하며 소폭 상승(+0.24%)했다.",
+          "XLRE": "금리 민감 섹터임에도 +1.82% 상승한 것은 이례적으로, 기술주 조정 국면에서의 안전자산 선호 로테이션이 금리 부담을 상쇄한 것으로 보인다.",
+          "XLC": "메타·알파벳 등 AI 투자 비중이 큰 대형주가 포함돼 있어, 반도체발 AI 밸류에이션 우려의 영향을 일부 받아 -0.89% 하락했다."
+        },
+        "kr_sector_causes": {
+          "반도체와반도체장비": {
+            "text": "삼성전자(-8.8%)·SK하이닉스(-11.5%) 등 시가총액 최상위 종목이 포진한 업종으로, 간밤 미국 메모리주 급락과 코어위브·CXMT 관련 공급과잉 우려가 그대로 전이되며 국내 업종 중 최대 낙폭(-10.1%)을 기록했다.",
+            "article_title": "美반도체 약세에 또 무너진 코스피…'매도사이드카' 울리며 7000 하회",
+            "article_url": "https://www.newspim.com/news/view/20260716001003"
+          },
+          "전자장비와기기": "반도체 장비·부품 공급망에 속한 업종으로, 반도체 대형주의 투자 위축 우려가 장비 수요 둔화 우려로 이어지며 함께 하락(-8.0%)했다.",
+          "문구류": "거래대금이 크지 않은 소형 업종으로, 거시 재료보다는 특정 종목의 수급 요인에 의한 단기 급등(+8.3%)으로 추정된다. 뚜렷한 매크로 촉매는 확인되지 않았다.",
+          "가정용품": "문구류와 마찬가지로 시가총액이 작은 업종이라 소수 종목의 움직임이 지수에 과대 반영됐을 가능성이 크며(+7.3%), 특정 거시 이슈와 연결짓기는 어렵다.",
+          "무선통신서비스": "반도체 이슈와 직접적 연관은 적은 소형 업종으로, 거래 종목 수가 적어 특정 종목의 수급에 따라 등락률이 크게 움직이는 경향이 있다. 뚜렷한 거시 촉매는 확인되지 않았다.",
+          "전자제품": "반도체·전자부품 공급망에 속한 업종으로, 전자장비와기기 업종과 마찬가지로 반도체 대형주發 수요 둔화 우려가 전이되며 함께 하락했다."
+        }
+      }
+    },
+    "fedwatch": {
+      "meeting_date": "2026-07-29",
+      "today": {
+        "ease_pct": 0.0,
+        "no_change_pct": 83.0,
+        "hike_pct": 17.0
+      },
+      "prev_day": {
+        "ease_pct": 0.0,
+        "no_change_pct": 58.0,
+        "hike_pct": 42.0
+      },
+      "prev_week": {
+        "ease_pct": 0.0,
+        "no_change_pct": 63.7,
+        "hike_pct": 36.3
+      },
+      "status": "manual_entry",
+      "note": "CME FedWatch 무료 API 부재로 Claude WebSearch 조사 결과를 반영 (2026-07-16 PPI 발표 직후 기준). 7월 회의는 인하가 아니라 '동결 vs 인상' 구도였다는 점에 유의.",
+      "source": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
+      "comparison": {
+        "vs_prev_day": "인상 확률이 전날 42%에서 오늘 17%로 25%p 급락했다. 6월 PPI가 전월 대비 -0.3%로 2020년 4월 이후 최대 낙폭을 기록하며 인플레이션 압력이 예상보다 빠르게 식고 있음을 확인시켜준 결과다. 동결 확률은 반대로 58%→83%로 급등했다.",
+        "vs_prev_week": "일주일 전(63.7% 동결/36.3% 인상)과 비교하면 동결 확률이 오늘(83%)로 더 높아졌다. 다만 그 사이 호르무즈 해협을 둘러싼 미국-이란 갈등으로 유가가 급등하며 인상 확률이 한때 46%까지, 일부 집계로는 70%대까지 치솟았던 급등락 구간이 있었다 — 결과적으로 이번 주는 '인상 공포 → PPI발 완화'라는 롤러코스터를 거쳐 일주일 전보다 오히려 동결 쪽 확신이 강해진 흐름이다."
+      },
+      "macro_articles": [
+        {
+          "type": "금리",
+          "title": "Back-to-Back Inflation Surprise Collapses July Rate-Hike Odds as War Threatens Reversal",
+          "link": "https://www.techtimes.com/articles/320637/20260715/back-back-inflation-surprise-collapses-july-rate-hike-odds-war-threatens-reversal.htm",
+          "insight": "6월 PPI가 2020년 이후 최대폭(-0.3%)으로 하락하며 7월 FOMC의 인상 확률이 하루 만에 42%→17%로 급락했다. 다만 기사 제목처럼 호르무즈 사태가 재점화되면 이 완화가 다시 뒤집힐 수 있다는 경고가 함께 나온다 — 즉 지금의 안도랠리는 '지표 하나에 좌우되는' 불안정한 것으로, 다음 인플레이션 지표 발표 전까지는 롤러코스터가 이어질 수 있다."
+        },
+        {
+          "type": "환율",
+          "title": "[포토] 원/달러 환율, 코스피 하락 출발",
+          "link": "https://www.asiae.co.kr/article/2026071609294918337",
+          "insight": "코스피 급락 국면에서도 원/달러 환율은 오히려 하락(원화 강세)했다. 이는 아래 '통화정책' 항목의 한국은행 깜짝 기준금리 인상(2.5%→2.75%)이 내외금리차 축소 기대를 자극하며 반도체 조정에 따른 외국인 이탈 압력을 상쇄했기 때문으로 해석된다. 환율이 주가 방향과 반대로 움직였다는 것 자체가 오늘 통화정책 재료의 무게감을 보여준다."
+        },
+        {
+          "type": "유가",
+          "title": "\"호르무즈 통행료 내라\" 트럼프 요구에… 국제유가 9% 넘게 급등",
+          "link": "https://www.hankookilbo.com/news/article/A2026071406390005812",
+          "insight": "트럼프 대통령이 호르무즈 해협 통과 선박에 화물가의 20% 상당 통행료를 부과하겠다고 밝히며 WTI가 하루 만에 9.4% 폭등했다(하루 평균 2100만 배럴이 통과하는 핵심 병목 구간). 이 유가 충격이 인플레이션 재점화 우려로 번지며 앞서 다룬 FOMC 인상 확률 급등(17%→42%)의 직접적 도화선이 됐다 — 오늘 WTI 자체는 -0.89%로 진정됐지만, 호르무즈 리스크가 재발하면 이 연쇄고리가 다시 작동할 수 있다."
+        },
+        {
+          "type": "통화정책(Fed/한국은행)",
+          "title": "기준금리 만장일치 '인상'···\"물가 상당기간 목표 수준 상회\" [통화정책방향 전문]",
+          "link": "https://www.fnnews.com/news/202607160906160318",
+          "insight": "한국은행이 1년여 만에 기준금리를 2.5%에서 2.75%로 전격 인상했다(만장일치 결정). 3%대 고물가와 고환율, 반도체발 고성장, 수도권 주택가격·가계부채 확대까지 겹치며 긴축이 필요하다고 판단한 것으로, 향후 추가 인상 여부는 물가·경기·금융안정 상황을 보며 결정한다는 입장이다. 미 연준이 '동결이냐 인상이냐'를 저울질하는 사이 한국은행이 먼저 움직였다는 점에서, 한미 통화정책이 같은 방향(긴축 경계)으로 수렴하고 있다는 신호로 읽을 수 있다."
+        },
+        {
+          "type": "거시경제(CPI, PPI, 고용, GDP 등)",
+          "title": "美 6월 소비자물가 상승률 전년대비 3.5%로 둔화…예상치 하회",
+          "link": "https://www.hankyung.com/article/2026071453517",
+          "insight": "6월 CPI(3.5%, 예상 3.8%)에 이어 PPI(-0.3%)까지 연속으로 물가 지표가 예상을 밑돌며 인플레이션 둔화 신호가 뚜렷해졌다. 다만 6월 비농업고용은 5.7만 명 증가에 그쳐 고용도 함께 식고 있다 — 물가와 고용이 동시에 둔화되는 조합은 '연착륙'과 '경기 둔화 전조' 두 가지로 모두 해석될 수 있어, 다음 고용지표(실업률 추이)가 어느 쪽 서사가 맞는지 가릴 핵심 변수다."
+        }
+      ],
+      "analysis": {
+        "related_news": {
+          "text": "7월 29일 FOMC의 진짜 쟁점은 '인하냐 동결이냐'가 아니라 '동결이냐 인상이냐'였다. 호르무즈 해협 충돌로 유가가 급등하며 인플레이션 재점화 우려가 커졌고, 이는 시장이 오히려 추가 인상 가능성을 가격에 반영하게 만들었다. 6월 PPI가 예상을 크게 밑돌며 이 우려가 빠르게 완화됐지만, 9월 회의에 대해서는 여전히 약 60%의 시장 참가자가 추가 인상 가능성을 열어두고 있어 완전히 해소된 리스크는 아니다.",
+          "article_title": "Back-to-Back Inflation Surprise Collapses July Rate-Hike Odds as War Threatens Reversal",
+          "article_url": "https://www.techtimes.com/articles/320637/20260715/back-back-inflation-surprise-collapses-july-rate-hike-odds-war-threatens-reversal.htm"
+        },
+        "macro_article": {
+          "text": "6월 PPI(생산자물가지수)가 전월 대비 -0.3%로 2020년 4월 이후 가장 큰 폭으로 하락했다. 앞서 발표된 6월 CPI(전년 대비 3.5%, 예상 3.8% 하회)에 이어 물가 지표가 연속으로 예상을 밑돌면서, 호르무즈 해협 사태發 유가 급등에도 인플레이션 전이가 제한적이라는 신호로 해석됐다. 다만 기사 제목처럼 이란-미국 갈등이 재점화될 경우 이 완화 흐름이 다시 뒤집힐 수 있다는 경고도 함께 나온다.",
+          "article_title": "Back-to-Back Inflation Surprise Collapses July Rate-Hike Odds as War Threatens Reversal",
+          "article_url": "https://www.techtimes.com/articles/320637/20260715/back-back-inflation-surprise-collapses-july-rate-hike-odds-war-threatens-reversal.htm"
+        }
+      }
+    },
+    "fear_greed": {
+      "score": 42.6,
+      "rating": "fear",
+      "timestamp": "2026-07-17T12:05:01+00:00",
+      "status": "ok",
+      "source": "https://edition.cnn.com/markets/fear-and-greed",
+      "analysis": {
+        "extreme_cause": "41.3점(Fear)으로 극단 구간(≤25 또는 ≥75)에는 해당하지 않는다. 다만 반도체발 조정이 시작되며 지수가 중립~Greed 구간에서 Fear 쪽으로 빠르게 이동하고 있다는 점은 투자심리가 냉각되는 초입 국면임을 시사한다. VIX가 아직 안정권인 것과 종합하면 '가격은 흔들렸지만 공포로 번지지는 않은' 단계로 판단할 수 있다."
+      }
+    },
+    "gdpnow": {
+      "value_pct": null,
+      "as_of": null,
+      "status": "manual_needed",
+      "error": "HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=6)",
+      "source": "https://www.atlantafed.org/cqer/research/gdpnow",
+      "analysis": {
+        "change_cause": "이 네트워크 환경에서는 fred.stlouisfed.org 접속이 막혀 있어 GDPNow 수치를 자동으로 가져오지 못했다. 7월 8일 발표분 기준 애틀랜타 연은은 2026년 2분기 성장률을 1.3%로 제시했으며 이는 직전 대비 0.1%p 하향 조정된 수치였다. 정확한 최신 수치는 atlantafed.org/cqer/research/gdpnow 에서 직접 확인이 필요하다."
+      }
+    },
+    "synthesis": {
+      "analysis": "오늘 시장을 관통하는 단일 논리는 '반도체 밸류에이션 재평가가 특정 섹터에 국한된 조정으로 흡수되고 있다'는 것이다. 촉발 요인은 명확하다 — 코어위브의 메모리 가격 헤지 검토, 중국 CXMT의 증설 계획, 간밤 미국 메모리주 급락이라는 세 뉴스가 'AI 데이터센터 투자 대비 메모리 공급이 과잉으로 돌아설 수 있다'는 단일 서사로 수렴하며 나스닥(-1.7%)과 코스피(-6.4%)·코스닥(-4.5%)을 동반 급락시켰다. 그러나 이 조정이 시스템 리스크로 번지지 않았다는 증거도 뚜렷하다: ① VIX는 16%대로 안정권을 유지했고, ② 미 국채 금리차(+0.41%p)는 정상 범위에서 오히려 소폭 확대됐으며, ③ 다우·러셀2000·방어 섹터(XLP, XLV)는 상대적으로 견조했다. 한편 FedWatch를 보면 7월 FOMC는 애초에 '인하'가 아니라 '동결이냐 인상이냐'의 구도였다 — 호르무즈 해협을 둘러싼 미국-이란 갈등으로 유가가 급등하며 인상 확률이 한때 40%대까지 치솟았으나, 6월 PPI가 2020년 이후 최대 낙폭(-0.3%)으로 발표되며 인상 확률이 하루 만에 42%→17%로 급락했다. 반도체 조정과 인플레이션·통화정책 리스크가 서로 다른 트랙에서 동시에 시장을 흔든 하루였던 셈이다. 다음 관찰 포인트는 삼성전자·SK하이닉스 등 대형 반도체주의 낙폭이 추가로 확대되는지, 그리고 호르무즈 사태가 재점화될 경우 9월 FOMC 인상 확률(현재 약 60%)이 어떻게 움직이는지다.",
+      "source": "https://www.newspim.com/news/view/20260716001003"
+    },
+    "ib_deal": {
+      "articles": [
+        {
+          "type": "IPO",
+          "title": "토스, 美 나스닥 ADR 상장 보류…금융복합기업집단 지정 앞두고 전략 수정",
+          "link": "https://www.sedaily.com/article/20064327",
+          "summary": "토스가 하반기 추진하던 나스닥 ADR 상장 작업을 잠정 중단했다. 7월 금융복합기업집단 지정을 앞두고 규제 부담이 해외 상장 밸류에이션에 부정적으로 작용할 수 있다는 우려가 배경으로, 국내 코스피 상장 재검토 가능성도 거론된다."
+        }
+      ],
+      "analysis": "토스의 나스닥 ADR 상장 보류는 밸류에이션보다 규제 변수가 더 큰 걸림돌이 되고 있음을 보여주는 사례다. 7월 금융복합기업집단 지정이 임박한 시점에 상장을 강행할 경우, 지정에 따른 규제 부담이 해외 투자자들의 밸류에이션 산정에 직접 반영돼 오히려 기업가치를 깎아먹을 수 있다는 판단이 상장 보류의 핵심 논리로 읽힌다.",
+      "source": "https://www.sedaily.com/article/20064327"
+    }
+  }
+}

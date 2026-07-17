@@ -1,0 +1,357 @@
+{
+  "date": "2026-07-16",
+  "generated_at": "2026-07-17T06:07:59",
+  "sections": {
+    "market_structure": {
+      "global_indices": {
+        "dow": {
+          "price": 52552.96875,
+          "prev_close": 52658.640625,
+          "change": -105.6719,
+          "pct_change": -0.2007,
+          "status": "ok",
+          "source": "https://www.cnbc.com/quotes/.DJI"
+        },
+        "sp500": {
+          "price": 7533.77001953125,
+          "prev_close": 7572.39990234375,
+          "change": -38.6299,
+          "pct_change": -0.5101,
+          "status": "ok",
+          "source": "https://www.cnbc.com/quotes/.SPX"
+        },
+        "nasdaq": {
+          "price": 25881.947265625,
+          "prev_close": 26269.23046875,
+          "change": -387.2832,
+          "pct_change": -1.4743,
+          "status": "ok",
+          "source": "https://www.cnbc.com/quotes/.IXIC"
+        },
+        "russell2000": {
+          "price": 2974.56689453125,
+          "prev_close": 2976.260009765625,
+          "change": -1.6931,
+          "pct_change": -0.0569,
+          "status": "ok",
+          "source": "https://www.cnbc.com/quotes/.RUT"
+        }
+      },
+      "index_order": {
+        "order_desc_by_pct": [
+          "russell2000",
+          "dow",
+          "sp500",
+          "nasdaq"
+        ],
+        "normal_order": false
+      },
+      "rates": {
+        "us10y": {
+          "value": 4.568999767303467,
+          "prev_close": 4.545000076293945,
+          "status": "ok",
+          "source": "https://www.cnbc.com/quotes/US10Y"
+        },
+        "us2y": {
+          "value": null,
+          "status": "manual_needed",
+          "source": "https://www.cnbc.com/quotes/US2Y"
+        },
+        "spread": null,
+        "status": "manual_needed"
+      },
+      "dxy": {
+        "price": 100.71700286865234,
+        "prev_close": 100.5,
+        "change": 0.217,
+        "pct_change": 0.2159,
+        "status": "ok",
+        "source": "https://www.cnbc.com/quotes/.DXY"
+      },
+      "wti": {
+        "price": 78.93000030517578,
+        "prev_close": 79.5999984741211,
+        "change": -0.67,
+        "pct_change": -0.8417,
+        "status": "ok",
+        "source": "https://www.cnbc.com/quotes/@CL.1"
+      },
+      "domestic_indices": {
+        "kospi": {
+          "price": 6820.6,
+          "prev_close": 7284.41015625,
+          "change": -463.8102,
+          "pct_change": -6.3672,
+          "status": "ok",
+          "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSPI"
+        },
+        "kosdaq": {
+          "price": 791.84,
+          "prev_close": 829.4299926757812,
+          "change": -37.59,
+          "pct_change": -4.532,
+          "status": "ok",
+          "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSDAQ"
+        }
+      },
+      "investor_flow_kospi": {
+        "as_of": "26.07.16",
+        "individual": "36647",
+        "foreign": "-13665",
+        "institution": "-23831",
+        "unit": "억원",
+        "status": "ok",
+        "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260717&sosok="
+      },
+      "usdkrw": {
+        "price": 1486.199951171875,
+        "prev_close": 1487.8800048828125,
+        "change": -1.6801,
+        "pct_change": -0.1129,
+        "status": "ok",
+        "source": "https://finance.naver.com/marketindex/"
+      },
+      "analysis": {
+        "index_order_meaning": "나스닥(-1.47%)이 다우(-0.20%)·러셀2000(-0.06%)보다 크게 밀리며 역배열이 나타났다. 이는 전방위 위험회피가 아니라, 전날 급등의 핵심 재료였던 반도체·AI 대형주에 매물이 집중되는 국지적 조정임을 시사한다.",
+        "index_cause": {
+          "dow": null,
+          "sp500": null,
+          "nasdaq": null,
+          "russell2000": null
+        },
+        "rate_spread_cause": null,
+        "dxy_cause": "달러 인덱스는 +0.22% 반등했다. 전날 CPI 둔화로 조정받았던 달러가 반도체주 조정에 따른 안전자산 수요로 소폭 되돌림한 것으로 해석된다.",
+        "wti_cause": "WTI는 -0.84% 하락했다. 위험자산 전반의 조정 심리가 원자재 시장에도 일부 전이된 것으로 보인다.",
+        "kr_market_style": {
+          "text": "코스피(-6.37%)·코스닥(-4.53%)이 전날 급등분의 대부분을 반납했다. 반도체와반도체장비(-10.1%)·전자장비와기기(-8.0%) 업종이 낙폭을 주도했고, 삼성전자(-8.8%)·SK하이닉스(-11.5%)가 급락했다. 코어위브의 메모리 가격 헤지 검토, 중국 CXMT의 증설 계획 소식이 간밤 미국 메모리 관련주 급락으로 이어졌고 그 여파가 그대로 전이되며 매도 사이드카까지 발동됐다.",
+          "article_title": "美반도체 약세에 또 무너진 코스피…'매도사이드카' 울리며 7000 하회",
+          "article_url": "https://www.newspim.com/news/view/20260716001003"
+        },
+        "investor_flow_note": "외국인(-1조3665억원)과 기관(-2조3831억원)이 동시에 순매도한 반면 개인은 3조6647억원을 순매수하며 낙폭을 일부 방어했다. 전날 매수 주체였던 외국인·기관이 하루 만에 매도로 전환한 것은 반도체 밸류에이션에 대한 판단이 얼마나 빠르게 흔들렸는지를 보여준다.",
+        "fx_cause": "원/달러 환율은 -0.11%로 거의 보합에 가까운 소폭 하락이었다. 코스피 급락에 따른 외국인 자금 이탈 압력과 한국은행 금리 인상 기대가 서로 상쇄된 것으로 해석된다.",
+        "top_issues": [
+          {
+            "label": "반도체 밸류에이션 급반전",
+            "summary": "전날 급등을 하루 만에 반납, 코어위브·CXMT發 메모리 공급과잉 우려 부각",
+            "article_url": "https://www.newspim.com/news/view/20260716001003"
+          },
+          {
+            "label": "코스피 매도 사이드카 재발동",
+            "summary": "코스피 -6.37%, 하루 만에 상승분 대부분 반납하며 7000선 재하회",
+            "article_url": "https://www.newspim.com/news/view/20260716001003"
+          },
+          {
+            "label": "美 메모리주 급락, SOX -2%",
+            "summary": "웨스턴디지털·샌디스크 급락, 필라델피아반도체지수 2%대 하락",
+            "article_url": "https://finance.yahoo.com/markets/live/stock-market-today-sp-500-nasdaq-futures-slip-after-samsung-results-spark-chip-sell-off-223015294.html"
+          }
+        ]
+      }
+    },
+    "vix": {
+      "value": 16.729999542236328,
+      "elevated": false,
+      "source": "https://www.cnbc.com/quotes/.VIX",
+      "analysis": {
+        "cause": "VIX는 16.73으로 전날(15.67)보다 소폭 올랐지만 여전히 20을 크게 밑도는 안정권이다. 코스피가 6% 넘게 급락했음에도 미국 옵션시장의 공포 심리는 제한적이었다는 뜻으로, 이번 조정이 반도체 섹터에 국한된 이벤트로 받아들여지고 있음을 시사한다."
+      }
+    },
+    "sector_flow": {
+      "global_sector_etfs": {
+        "XLK": {
+          "price": 177.52000427246094,
+          "prev_close": 181.5800018310547,
+          "change": -4.06,
+          "pct_change": -2.2359,
+          "status": "ok",
+          "source": "https://finance.yahoo.com/quote/XLK",
+          "name_kr": "기술"
+        },
+        "XLF": {
+          "price": 56.75,
+          "prev_close": 56.560001373291016,
+          "change": 0.19,
+          "pct_change": 0.3359,
+          "status": "ok",
+          "source": "https://finance.yahoo.com/quote/XLF",
+          "name_kr": "금융"
+        },
+        "XLE": {
+          "price": 57.02000045776367,
+          "prev_close": 56.5,
+          "change": 0.52,
+          "pct_change": 0.9204,
+          "status": "ok",
+          "source": "https://finance.yahoo.com/quote/XLE",
+          "name_kr": "에너지"
+        },
+        "XLV": {
+          "price": 161.8000030517578,
+          "prev_close": 158.2899932861328,
+          "change": 3.51,
+          "pct_change": 2.2174,
+          "status": "ok",
+          "source": "https://finance.yahoo.com/quote/XLV",
+          "name_kr": "헬스케어"
+        },
+        "XLY": {
+          "price": 117.33999633789062,
+          "prev_close": 117.0,
+          "change": 0.34,
+          "pct_change": 0.2906,
+          "status": "ok",
+          "source": "https://finance.yahoo.com/quote/XLY",
+          "name_kr": "임의소비재"
+        },
+        "XLP": {
+          "price": 85.80999755859375,
+          "prev_close": 83.47000122070312,
+          "change": 2.34,
+          "pct_change": 2.8034,
+          "status": "ok",
+          "source": "https://finance.yahoo.com/quote/XLP",
+          "name_kr": "필수소비재"
+        },
+        "XLI": {
+          "price": 180.14999389648438,
+          "prev_close": 180.05999755859375,
+          "change": 0.09,
+          "pct_change": 0.05,
+          "status": "ok",
+          "source": "https://finance.yahoo.com/quote/XLI",
+          "name_kr": "산업재"
+        },
+        "XLB": {
+          "price": 50.88999938964844,
+          "prev_close": 50.5,
+          "change": 0.39,
+          "pct_change": 0.7723,
+          "status": "ok",
+          "source": "https://finance.yahoo.com/quote/XLB",
+          "name_kr": "소재"
+        },
+        "XLU": {
+          "price": 45.470001220703125,
+          "prev_close": 45.220001220703125,
+          "change": 0.25,
+          "pct_change": 0.5529,
+          "status": "ok",
+          "source": "https://finance.yahoo.com/quote/XLU",
+          "name_kr": "유틸리티"
+        },
+        "XLRE": {
+          "price": 45.459999084472656,
+          "prev_close": 44.560001373291016,
+          "change": 0.9,
+          "pct_change": 2.0197,
+          "status": "ok",
+          "source": "https://finance.yahoo.com/quote/XLRE",
+          "name_kr": "부동산"
+        },
+        "XLC": {
+          "price": 112.6500015258789,
+          "prev_close": 113.37999725341797,
+          "change": -0.73,
+          "pct_change": -0.6439,
+          "status": "ok",
+          "source": "https://finance.yahoo.com/quote/XLC",
+          "name_kr": "커뮤니케이션"
+        }
+      },
+      "domestic_sector_groups": {
+        "top_up": [
+          {
+            "name": "문구류",
+            "pct_change": 8.27
+          },
+          {
+            "name": "가정용품",
+            "pct_change": 7.28
+          },
+          {
+            "name": "무선통신서비스",
+            "pct_change": 4.85
+          }
+        ],
+        "top_down": [
+          {
+            "name": "반도체와반도체장비",
+            "pct_change": -10.07
+          },
+          {
+            "name": "전자장비와기기",
+            "pct_change": -7.97
+          },
+          {
+            "name": "전자제품",
+            "pct_change": -7.56
+          }
+        ],
+        "status": "ok",
+        "source": "https://finance.naver.com/sise/sise_group.naver?type=upjong"
+      },
+      "analysis": {
+        "us_market_news": "TSMC의 견조한 2분기 실적에도 AI 인프라 설비투자 대비 수익성 논쟁이 부각되고, 웨스턴디지털·샌디스크 등 메모리주가 급락하며 필라델피아반도체지수(SOX)가 2% 넘게 하락했다. 중국 CXMT의 IPO 추진 소식도 메모리 공급과잉 우려를 자극했다.",
+        "kr_market_news": {
+          "text": "국내 반도체·전자장비 업종의 낙폭이 코스피 전체 낙폭보다 컸다는 것은 조정의 진앙이 명확히 반도체임을 보여준다. 전날 SK하이닉스 ADR 급등을 이끌었던 바로 그 반도체 밸류에이션 기대가, 하루 만에 코어위브·CXMT發 공급과잉 우려로 뒤집힌 셈이다.",
+          "article_title": "美반도체 약세에 또 무너진 코스피…'매도사이드카' 울리며 7000 하회",
+          "article_url": "https://www.newspim.com/news/view/20260716001003"
+        },
+        "etf_causes": {
+          "XLK": null,
+          "XLF": null,
+          "XLE": null,
+          "XLV": null,
+          "XLY": null,
+          "XLP": null,
+          "XLI": null,
+          "XLB": null,
+          "XLU": null,
+          "XLRE": null,
+          "XLC": null
+        },
+        "kr_sector_causes": {}
+      }
+    },
+    "fedwatch": {
+      "ease_pct": null,
+      "no_change_pct": null,
+      "hike_pct": null,
+      "status": "manual_needed",
+      "note": "과거 회차 확률은 CME FedWatch에서 일자별 아카이브를 별도 조회해야 함",
+      "source": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
+      "prev_week_change_note": null,
+      "analysis": {
+        "related_news": null,
+        "macro_article": null
+      }
+    },
+    "fear_greed": {
+      "score": 41.7,
+      "rating": "fear",
+      "status": "ok",
+      "source": "https://edition.cnn.com/markets/fear-and-greed",
+      "timestamp": null,
+      "analysis": {
+        "extreme_cause": null
+      }
+    },
+    "gdpnow": {
+      "value_pct": null,
+      "as_of": null,
+      "status": "manual_needed",
+      "source": "https://www.atlantafed.org/cqer/research/gdpnow",
+      "analysis": {
+        "change_cause": null
+      }
+    },
+    "synthesis": {
+      "analysis": "7월 16일은 전날(7/15) 반도체 개별 재료로 급등했던 코스피가 하루 만에 되돌림한 날이다. 코어위브의 메모리 가격 헤지 검토, 중국 CXMT의 증설 계획, 간밤 미국 메모리주 급락이라는 세 가지 뉴스가 'AI 데이터센터 투자 대비 메모리 공급이 과잉으로 돌아설 수 있다'는 서사로 수렴하며 나스닥(-1.47%)과 코스피(-6.37%)·코스닥(-4.53%)을 동반 급락시켰다. 전날 매수 주체였던 외국인·기관이 하루 만에 순매도로 돌아선 점은 이번 조정이 '반도체 밸류에이션에 대한 판단이 하루 만에 뒤집힌' 성격임을 보여준다. 다만 VIX(16.73)는 여전히 안정권이었고 다우·러셀2000은 낙폭이 제한적이어서, 전방위 위험회피가 아니라 반도체 섹터에 국한된 조정으로 시장이 받아들였음을 시사한다."
+    },
+    "ib_deal": {
+      "articles": [],
+      "analysis": null
+    }
+  }
+}

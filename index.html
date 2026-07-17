@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>매크로 팔로업</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="header-row">
+    <div class="title-block">
+      <div class="kicker">현정이의 매크로팔로업</div>
+      <h1>Daily Macro Follow-up</h1>
+      <div class="subtitle" id="generated-at">불러오는 중...</div>
+    </div>
+    <select id="date-select"></select>
+  </div>
+  <nav class="tabs" id="tab-nav">
+    <button class="tab-btn" data-section="market">① 시장 구조</button>
+    <button class="tab-btn" data-section="vix">② VIX</button>
+    <button class="tab-btn" data-section="sector">③ 섹터 수급</button>
+    <button class="tab-btn" data-section="fedwatch">④ FedWatch</button>
+    <button class="tab-btn" data-section="feargreed">⑤ Fear&amp;Greed</button>
+    <button class="tab-btn" data-section="gdpnow">⑥ GDPNow</button>
+    <button class="tab-btn" data-section="synthesis">⑦ 종합 해석</button>
+    <button class="tab-btn" data-section="ibdeal">⑧ IB Deal</button>
+  </nav>
+</header>
+
+<main id="main-content">
+  <div class="loading" id="loading-msg">데이터를 불러오는 중...</div>
+
+  <!-- ① 시장 구조 -->
+  <section class="section-panel" id="panel-market">
+    <div id="market-pulse"></div>
+    <div class="section-label">글로벌 시장</div>
+    <div id="market-global"></div>
+    <div class="section-label">국내 시장</div>
+    <div id="market-domestic"></div>
+  </section>
+
+  <!-- ② VIX -->
+  <section class="section-panel" id="panel-vix">
+    <div id="vix-content"></div>
+  </section>
+
+  <!-- ③ 섹터 수급 -->
+  <section class="section-panel" id="panel-sector">
+    <div id="sector-content"></div>
+  </section>
+
+  <!-- ④ FedWatch -->
+  <section class="section-panel" id="panel-fedwatch">
+    <div id="fedwatch-content"></div>
+  </section>
+
+  <!-- ⑤ Fear & Greed -->
+  <section class="section-panel" id="panel-feargreed">
+    <div id="feargreed-content"></div>
+  </section>
+
+  <!-- ⑥ GDPNow -->
+  <section class="section-panel" id="panel-gdpnow">
+    <div id="gdpnow-content"></div>
+  </section>
+
+  <!-- ⑦ 종합 해석 -->
+  <section class="section-panel" id="panel-synthesis">
+    <div id="synthesis-content"></div>
+  </section>
+
+  <!-- ⑧ IB Deal -->
+  <section class="section-panel" id="panel-ibdeal">
+    <div id="ibdeal-content"></div>
+  </section>
+</main>
+
+<footer>
+  데이터 출처: Yahoo Finance, 네이버 금융, CNN Fear &amp; Greed, FRED(Atlanta Fed GDPNow), CME FedWatch · 매일 수동/자동 갱신 · 지표를 클릭하면 원본 출처로 이동, 마우스를 올리면 분석이 표시됩니다
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,331 @@
+{
+  "date": "2026-07-15",
+  "generated_at": "2026-07-17T06:07:59",
+  "sections": {
+    "market_structure": {
+      "global_indices": {
+        "dow": {
+          "price": 52658.640625,
+          "prev_close": 52508.26953125,
+          "change": 150.3711,
+          "pct_change": 0.2864,
+          "status": "ok",
+          "source": "https://www.cnbc.com/quotes/.DJI"
+        },
+        "sp500": {
+          "price": 7572.39990234375,
+          "prev_close": 7543.58984375,
+          "change": 28.8101,
+          "pct_change": 0.3819,
+          "status": "ok",
+          "source": "https://www.cnbc.com/quotes/.SPX"
+        },
+        "nasdaq": {
+          "price": 26269.23046875,
+          "prev_close": 26107.009765625,
+          "change": 162.2207,
+          "pct_change": 0.6214,
+          "status": "ok",
+          "source": "https://www.cnbc.com/quotes/.IXIC"
+        },
+        "russell2000": {
+          "price": 2976.260009765625,
+          "prev_close": 2964.760009765625,
+          "change": 11.5,
+          "pct_change": 0.3879,
+          "status": "ok",
+          "source": "https://www.cnbc.com/quotes/.RUT"
+        }
+      },
+      "index_order": {
+        "order_desc_by_pct": [
+          "nasdaq",
+          "russell2000",
+          "sp500",
+          "dow"
+        ],
+        "normal_order": false
+      },
+      "rates": {
+        "us10y": {
+          "value": 4.545000076293945,
+          "prev_close": 4.585000038146973,
+          "status": "ok",
+          "source": "https://www.cnbc.com/quotes/US10Y"
+        },
+        "us2y": {
+          "value": null,
+          "status": "manual_needed",
+          "source": "https://www.cnbc.com/quotes/US2Y"
+        },
+        "spread": null,
+        "status": "manual_needed"
+      },
+      "dxy": {
+        "price": 100.5,
+        "prev_close": 100.94000244140625,
+        "change": -0.44,
+        "pct_change": -0.4359,
+        "status": "ok",
+        "source": "https://www.cnbc.com/quotes/.DXY"
+      },
+      "wti": {
+        "price": 79.5999984741211,
+        "prev_close": 79.33999633789062,
+        "change": 0.26,
+        "pct_change": 0.3277,
+        "status": "ok",
+        "source": "https://www.cnbc.com/quotes/@CL.1"
+      },
+      "domestic_indices": {
+        "kospi": {
+          "price": 7284.41015625,
+          "prev_close": 6856.830078125,
+          "change": 427.5801,
+          "pct_change": 6.2358,
+          "status": "ok",
+          "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSPI"
+        },
+        "kosdaq": {
+          "price": 829.4299926757812,
+          "prev_close": 783.97998046875,
+          "change": 45.45,
+          "pct_change": 5.7973,
+          "status": "ok",
+          "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSDAQ"
+        }
+      },
+      "investor_flow_kospi": {
+        "as_of": "26.07.15",
+        "individual": "-24666",
+        "foreign": "23031",
+        "institution": "1992",
+        "unit": "억원",
+        "status": "ok",
+        "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260717&sosok="
+      },
+      "usdkrw": {
+        "price": 1487.8800048828125,
+        "prev_close": 1497.699951171875,
+        "change": -9.8199,
+        "pct_change": -0.6557,
+        "status": "ok",
+        "source": "https://finance.naver.com/marketindex/"
+      },
+      "analysis": {
+        "index_order_meaning": "나스닥(+0.62%)·러셀2000(+0.39%)이 다우(+0.29%)보다 앞서는 흐름을 보였다. 전날 발표된 6월 CPI가 전년 대비 3.5%로 시장 예상(3.8%)을 밑돌며 인플레이션 둔화 신호로 해석됐고, 이는 성장주·소형주 중심의 위험자산 선호 회복으로 이어졌다.",
+        "index_cause": {
+          "dow": null,
+          "sp500": null,
+          "nasdaq": null,
+          "russell2000": null
+        },
+        "rate_spread_cause": null,
+        "dxy_cause": "달러 인덱스는 -0.44% 하락했다. 예상을 밑돈 CPI로 연준의 조기 인하 기대가 커지며 달러가 약세를 보였고, 이는 원화 등 신흥국 통화 강세로 연결됐다.",
+        "wti_cause": "WTI는 +0.33% 소폭 상승했다. 인플레이션 둔화가 위험자산 전반의 반등 심리를 자극하며 원자재 수요 기대에도 우호적으로 작용했다.",
+        "kr_market_style": {
+          "text": "코스피(+6.24%)·코스닥(+5.80%)이 동반 폭등했다. SK하이닉스(+8.83%)·삼성전자(+6.27%) 등 반도체 대장주가 급등을 주도했으며, 특히 바클레이스가 SK하이닉스 미국예탁증서(ADR) 목표주가를 330달러로 상향하면서 전날 ADR이 27.29% 급등한 것이 국내 투자심리에 직접적인 기폭제가 됐다. 전날(7/14) 국민연금 매도 우려 등으로 급락했던 데 따른 기술적 반등 성격도 있다.",
+          "article_title": "KOSPI Rebounds Above 7,300 on SK hynix ADR Surge",
+          "article_url": "https://en.sedaily.com/finance/2026/07/15/kospi-rebounds-above-7300-on-sk-hynix-adr-surge"
+        },
+        "investor_flow_note": "외국인이 2조3031억원, 기관이 1992억원 순매수하며 쌍끌이 매수를 보인 반면 개인은 2조4666억원을 순매도해 반등 국면에서 차익실현에 나섰다. 외국인·기관이 동시에 반도체 대형주를 사들인 것이 지수 급등의 직접적 원동력이었다.",
+        "fx_cause": "원/달러 환율은 -0.66% 하락(원화 강세)했다. 달러 약세(CPI 둔화)와 외국인의 대규모 국내 주식 순매수가 동시에 원화 강세 요인으로 작용했다.",
+        "top_issues": [
+          {
+            "label": "SK하이닉스 ADR 급등",
+            "summary": "바클레이스 목표가 330달러 상향, ADR +27.29% 급등하며 반도체 투톱 견인",
+            "article_url": "https://en.sedaily.com/finance/2026/07/15/kospi-rebounds-above-7300-on-sk-hynix-adr-surge"
+          },
+          {
+            "label": "6월 CPI 예상 하회, 인플레 둔화",
+            "summary": "3.5%로 둔화 확인, 4대 미 지수 동반 상승하며 위험자산 선호 회복",
+            "article_url": "https://www.fnnews.com/news/202607151547528708"
+          },
+          {
+            "label": "코스피 3거래일 만에 7000 회복",
+            "summary": "+6.24% 폭등, 외국인·기관 쌍끌이 매수가 반등 견인",
+            "article_url": "https://www.hankookilbo.com/news/article/A2026071510120005688"
+          }
+        ]
+      }
+    },
+    "vix": {
+      "value": 15.670000076293945,
+      "elevated": false,
+      "source": "https://www.cnbc.com/quotes/.VIX",
+      "analysis": {
+        "cause": "VIX는 15.67로 전날보다 낮아지며 안정권을 유지했다. CPI 둔화 소식에 미 증시가 상승 마감하고 국내 증시도 급반등하는 등, 위험선호가 전반적으로 개선된 하루였음을 보여준다."
+      }
+    },
+    "sector_flow": {
+      "global_sector_etfs": {
+        "XLK": {
+          "price": 181.5800018310547,
+          "prev_close": 183.6199951171875,
+          "change": -2.04,
+          "pct_change": -1.111,
+          "status": "ok",
+          "source": "https://finance.yahoo.com/quote/XLK",
+          "name_kr": "기술"
+        },
+        "XLF": {
+          "price": 56.560001373291016,
+          "prev_close": 56.18000030517578,
+          "change": 0.38,
+          "pct_change": 0.6764,
+          "status": "ok",
+          "source": "https://finance.yahoo.com/quote/XLF",
+          "name_kr": "금융"
+        },
+        "XLE": {
+          "price": 56.5,
+          "prev_close": 56.95000076293945,
+          "change": -0.45,
+          "pct_change": -0.7902,
+          "status": "ok",
+          "source": "https://finance.yahoo.com/quote/XLE",
+          "name_kr": "에너지"
+        },
+        "XLV": {
+          "price": 158.2899932861328,
+          "prev_close": 158.2899932861328,
+          "change": 0.0,
+          "pct_change": 0.0,
+          "status": "ok",
+          "source": "https://finance.yahoo.com/quote/XLV",
+          "name_kr": "헬스케어"
+        },
+        "XLY": {
+          "price": 117.0,
+          "prev_close": 115.9000015258789,
+          "change": 1.1,
+          "pct_change": 0.9491,
+          "status": "ok",
+          "source": "https://finance.yahoo.com/quote/XLY",
+          "name_kr": "임의소비재"
+        },
+        "XLP": {
+          "price": 83.47000122070312,
+          "prev_close": 83.41999816894531,
+          "change": 0.05,
+          "pct_change": 0.0599,
+          "status": "ok",
+          "source": "https://finance.yahoo.com/quote/XLP",
+          "name_kr": "필수소비재"
+        },
+        "XLI": {
+          "price": 180.05999755859375,
+          "prev_close": 180.4499969482422,
+          "change": -0.39,
+          "pct_change": -0.2161,
+          "status": "ok",
+          "source": "https://finance.yahoo.com/quote/XLI",
+          "name_kr": "산업재"
+        },
+        "XLB": {
+          "price": 50.5,
+          "prev_close": 50.63999938964844,
+          "change": -0.14,
+          "pct_change": -0.2765,
+          "status": "ok",
+          "source": "https://finance.yahoo.com/quote/XLB",
+          "name_kr": "소재"
+        },
+        "XLU": {
+          "price": 45.220001220703125,
+          "prev_close": 45.689998626708984,
+          "change": -0.47,
+          "pct_change": -1.0287,
+          "status": "ok",
+          "source": "https://finance.yahoo.com/quote/XLU",
+          "name_kr": "유틸리티"
+        },
+        "XLRE": {
+          "price": 44.560001373291016,
+          "prev_close": 44.47999954223633,
+          "change": 0.08,
+          "pct_change": 0.1799,
+          "status": "ok",
+          "source": "https://finance.yahoo.com/quote/XLRE",
+          "name_kr": "부동산"
+        },
+        "XLC": {
+          "price": 113.37999725341797,
+          "prev_close": 111.44999694824219,
+          "change": 1.93,
+          "pct_change": 1.7317,
+          "status": "ok",
+          "source": "https://finance.yahoo.com/quote/XLC",
+          "name_kr": "커뮤니케이션"
+        }
+      },
+      "domestic_sector_groups": {
+        "top_up": [],
+        "top_down": [],
+        "status": "manual_needed",
+        "source": "https://finance.naver.com/sise/sise_group.naver?type=upjong"
+      },
+      "analysis": {
+        "us_market_news": "간밤 발표된 미국 6월 CPI가 전년 대비 3.5%로 시장 예상(3.8%)과 5월치(4.2%)를 모두 밑돌며 인플레이션 둔화 신호가 뚜렷해졌다. 이는 연준의 조기 금리 인하 기대를 키우며 다우·S&P500·나스닥·러셀2000 4대 지수가 모두 상승 마감하는 배경이 됐다.",
+        "kr_market_news": {
+          "text": "코스피 급반등은 지수 전체보다 반도체 '투톱' 종목에 쏠린 결과다. SK하이닉스 ADR 급등(바클레이스 목표주가 상향)이 국내 정규장 개장 전 이미 투자심리를 끌어올렸고, 개장 후 외국인·기관의 동반 매수가 이를 확인시켜주는 흐름으로 이어졌다. 다만 미국 XLK(반도체 비중 큰 기술 섹터 ETF)는 오히려 -1.11%로 하락해, 이번 반등이 미국 기술주 전반의 강세라기보다 SK하이닉스·삼성전자 개별 종목 재료에 크게 의존했다는 한계도 엿보인다.",
+          "article_title": "개미 한숨 돌렸다...삼전·닉스 반등에 코스피 6% 상승 마감",
+          "article_url": "https://www.fnnews.com/news/202607151547528708"
+        },
+        "etf_causes": {
+          "XLK": null,
+          "XLF": null,
+          "XLE": null,
+          "XLV": null,
+          "XLY": null,
+          "XLP": null,
+          "XLI": null,
+          "XLB": null,
+          "XLU": null,
+          "XLRE": null,
+          "XLC": null
+        },
+        "kr_sector_causes": {}
+      }
+    },
+    "fedwatch": {
+      "ease_pct": null,
+      "no_change_pct": null,
+      "hike_pct": null,
+      "status": "manual_needed",
+      "note": "과거 회차 확률은 CME FedWatch에서 일자별 아카이브를 별도 조회해야 함",
+      "source": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
+      "prev_week_change_note": null,
+      "analysis": {
+        "related_news": null,
+        "macro_article": null
+      }
+    },
+    "fear_greed": {
+      "score": null,
+      "rating": null,
+      "status": "manual_needed",
+      "source": "https://edition.cnn.com/markets/fear-and-greed",
+      "timestamp": null,
+      "analysis": {
+        "extreme_cause": null
+      }
+    },
+    "gdpnow": {
+      "value_pct": null,
+      "as_of": null,
+      "status": "manual_needed",
+      "source": "https://www.atlantafed.org/cqer/research/gdpnow",
+      "analysis": {
+        "change_cause": null
+      }
+    },
+    "synthesis": {
+      "analysis": "7월 15일은 '반도체 개별 재료 + 매크로 훈풍'이 겹친 급반등 장이었다. 간밤 미국 6월 CPI가 예상을 밑돌며(3.5% vs 예상 3.8%) 인플레이션 둔화 기대가 커졌고, 여기에 바클레이스의 SK하이닉스 ADR 목표주가 상향이 겹치며 SK하이닉스(+8.83%)·삼성전자(+6.27%)가 급등, 코스피가 6.24% 폭등했다. 외국인·기관 쌍끌이 매수가 이를 뒷받침했지만 개인은 오히려 차익실현에 나서는(2조4666억원 순매도) 전형적인 급반등 국면의 수급 패턴이 나타났다. 다만 미국 반도체 섹터 ETF(XLK)는 오히려 소폭 하락(-1.11%)해, 이번 반등이 글로벌 반도체 업황 전반의 개선이라기보다 SK하이닉스·삼성전자 개별 종목 재료에 크게 의존했다는 점은 유의할 부분이다. 실제로 다음 거래일(7/16) 코스피는 -6.37%로 이날 상승분의 대부분을 반납하며, 이 반등이 추세 전환이 아니었음이 곧바로 확인됐다."
+    },
+    "ib_deal": {
+      "articles": [],
+      "analysis": null
+    }
+  }
+}
