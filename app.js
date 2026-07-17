@@ -449,10 +449,26 @@ function renderIbDeal(s) {
   document.getElementById("ibdeal-content").innerHTML = html;
 }
 
+// "26.07.16" -> "2026-07-16"
+function formatKrDate(shortDate) {
+  if (!shortDate) return null;
+  const parts = shortDate.split(".");
+  if (parts.length !== 3) return shortDate;
+  return `20${parts[0]}-${parts[1]}-${parts[2]}`;
+}
+
 function renderAll(data) {
   currentData = data;
+  const generatedAt = data.generated_at.replace("T", " ").replace(/\+09:00$/, " KST");
   document.getElementById("generated-at").textContent =
-    `${data.date} 기준 · 생성 시각 ${data.generated_at.replace("T", " ")}`;
+    `생성 시각: ${generatedAt} (새로고침마다 갱신)`;
+
+  const flow = data.sections.market_structure?.investor_flow_kospi;
+  const krAsOf = flow && flow.status === "ok" ? formatKrDate(flow.as_of) : null;
+  document.getElementById("as-of-line").textContent = krAsOf
+    ? `기준 시각: ${krAsOf} 15:30 KOSPI 마감 기준 (해외 지수·환율 등은 조회 시점 최근 체결가 기준)`
+    : `기준 시각: ${data.date} (국내 수급 데이터 확인 필요)`;
+
   const s = data.sections;
   renderMarket(s.market_structure);
   renderVix(s.vix);
