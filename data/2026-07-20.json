@@ -1,6 +1,6 @@
 {
   "date": "2026-07-20",
-  "generated_at": "2026-07-20T05:10:12+09:00",
+  "generated_at": "2026-07-20T08:41:52+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -49,13 +49,13 @@
       "rates": {
         "us10y": {
           "value": 4.551,
-          "prev_close": 4.569,
+          "prev_close": 4.541,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
           "value": 4.183,
-          "prev_close": 4.156,
+          "prev_close": 4.172,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
@@ -63,18 +63,18 @@
         "status": "ok"
       },
       "dxy": {
-        "price": 100.755,
+        "price": 100.857,
         "prev_close": 100.75,
-        "change": 0.005,
-        "pct_change": 0.005,
+        "change": 0.107,
+        "pct_change": 0.1062,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 81.78,
-        "prev_close": 78.94999694824219,
-        "change": 2.83,
-        "pct_change": 3.5845,
+        "price": 83.95,
+        "prev_close": 82.48999786376953,
+        "change": 1.46,
+        "pct_change": 1.7699,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
@@ -106,10 +106,10 @@
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260720&sosok="
       },
       "usdkrw": {
-        "price": 1488.17,
+        "price": 1488.08,
         "prev_close": 1478.8499755859375,
-        "change": 9.32,
-        "pct_change": 0.6302,
+        "change": 9.23,
+        "pct_change": 0.6241,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -243,30 +243,30 @@
       "domestic_sector_groups": {
         "top_up": [
           {
-            "name": "문구류",
-            "pct_change": 8.27
+            "name": "음료",
+            "pct_change": 0.0
           },
           {
-            "name": "가정용품",
-            "pct_change": 7.28
+            "name": "종이와목재",
+            "pct_change": 0.0
           },
           {
-            "name": "무선통신서비스",
-            "pct_change": 4.85
+            "name": "호텔,레스토랑,레저",
+            "pct_change": 0.0
           }
         ],
         "top_down": [
           {
-            "name": "반도체와반도체장비",
-            "pct_change": -10.07
+            "name": "건강관리장비와용품",
+            "pct_change": 0.0
           },
           {
             "name": "전자장비와기기",
-            "pct_change": -7.97
+            "pct_change": 0.0
           },
           {
-            "name": "전자제품",
-            "pct_change": -7.56
+            "name": "전기제품",
+            "pct_change": 0.0
           }
         ],
         "status": "ok",
