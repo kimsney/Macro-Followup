@@ -1,6 +1,6 @@
 {
   "date": "2026-07-20",
-  "generated_at": "2026-07-20T08:41:52+09:00",
+  "generated_at": "2026-07-20T17:33:06+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -48,94 +48,126 @@
       },
       "rates": {
         "us10y": {
-          "value": 4.551,
+          "value": 4.558,
           "prev_close": 4.541,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
-          "value": 4.183,
+          "value": 4.181,
           "prev_close": 4.172,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
-        "spread": 0.368,
+        "spread": 0.377,
         "status": "ok"
       },
       "dxy": {
-        "price": 100.857,
+        "price": 100.723,
         "prev_close": 100.75,
-        "change": 0.107,
-        "pct_change": 0.1062,
+        "change": -0.027,
+        "pct_change": -0.0268,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 83.95,
+        "price": 81.55,
         "prev_close": 82.48999786376953,
-        "change": 1.46,
-        "pct_change": 1.7699,
+        "change": -0.94,
+        "pct_change": -1.1395,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
       "domestic_indices": {
         "kospi": {
-          "price": 6820.6,
-          "prev_close": 7284.41015625,
-          "change": -463.8102,
-          "pct_change": -6.3672,
+          "price": 6516.27,
+          "prev_close": 6820.60009765625,
+          "change": -304.3301,
+          "pct_change": -4.4619,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSPI"
         },
         "kosdaq": {
-          "price": 791.84,
-          "prev_close": 829.4299926757812,
-          "change": -37.59,
-          "pct_change": -4.532,
+          "price": 749.64,
+          "prev_close": 791.8400268554688,
+          "change": -42.2,
+          "pct_change": -5.3294,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSDAQ"
         }
       },
       "investor_flow_kospi": {
-        "as_of": "26.07.16",
-        "individual": "36647",
-        "foreign": "-13665",
-        "institution": "-23831",
+        "as_of": "26.07.20",
+        "individual": "3491",
+        "foreign": "5153",
+        "institution": "-9191",
         "unit": "억원",
         "status": "ok",
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260720&sosok="
       },
       "usdkrw": {
-        "price": 1488.08,
+        "price": 1481.38,
         "prev_close": 1478.8499755859375,
-        "change": 9.23,
-        "pct_change": 0.6241,
+        "change": 2.53,
+        "pct_change": 0.1711,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
       "analysis": {
-        "top_issues": [],
-        "index_order_meaning": null,
+        "top_issues": [
+          {
+            "label": "브렌트유 90달러 돌파, 호르무즈 봉쇄 격화",
+            "summary": "이란 혁명수비대가 호르무즈 해협 전면 봉쇄 선언, 브렌트유 6월 중순 이후 최고치",
+            "article_url": "https://www.cnbc.com/2026/07/20/oil-prices-today-brent-wti-crude-us-iran-centcom-hormuz.html"
+          },
+          {
+            "label": "코스피·코스닥 동반 매도 사이드카 발동",
+            "summary": "양 시장 모두 프로그램 매도호가 효력정지, 코스피 4.46%·코스닥 5.33% 급락",
+            "article_url": "https://www.newspim.com/news/view/20260720000897"
+          },
+          {
+            "label": "이란發 유가 충격, 9월 Fed 인상 확률 73%로",
+            "summary": "호르무즈 봉쇄가 인플레이션 재점화 우려로 번지며 9월 FOMC 인상 베팅 급등",
+            "article_url": "https://www.techtimes.com/articles/320773/20260716/iran-oil-shock-spills-demand-inflation-lifting-fed-rate-hike-odds-73-september.htm"
+          }
+        ],
+        "index_order_meaning": "나스닥(-1.40%)이 다우(-0.77%)·러셀2000(-0.42%)보다 낙폭이 커, 대형 가치주<성장주<소형주 순으로 확대되는 정배열과는 반대 흐름이 이어졌다. 엔비디아·AMAT·램리서치 등 반도체·장비주 중심의 매도가 지속되며 기술주 비중이 큰 지수가 계속 소외됐다는 뜻으로, 지난주부터 이어진 반도체 국지적 조정이 아직 끝나지 않았음을 보여준다.",
         "index_cause": {
-          "dow": null,
-          "sp500": null,
-          "nasdaq": null,
-          "russell2000": null
+          "dow": "다우는 반도체 비중이 낮아 -0.77%로 상대적으로 선방했다. 다만 호르무즈발 유가 급등 우려가 경기 전반에 대한 불확실성으로 작용하며 가치주 중심 지수도 하락을 피하지 못했다.",
+          "sp500": "S&P500(-1.01%)은 시가총액 상위 기술주 비중 때문에 다우보다 더 크게 밀렸다. 엔비디아(-2.21%) 등 반도체 대형주 약세가 지수 전체에 그대로 반영됐다.",
+          "nasdaq": {
+            "text": "나스닥(-1.40%)은 필라델피아반도체지수(-1.63%)와 함께 이번 조정의 진앙으로 남아있다. 엔비디아·마이크로소프트·아마존 등 대형 기술주와 어플라이드머티어리얼즈(-5.57%)·램리서치(-2.39%) 등 반도체 장비주까지 동반 약세를 보이며, 조정이 개별 종목을 넘어 공급망 전반으로 번지는 양상이다.",
+            "article_title": "뉴욕증시, 반도체 매도세 지속에 하락...나스닥 1.4%↓",
+            "article_url": "https://www.ytn.co.kr/_ln/0104_202607180519423841"
+          },
+          "russell2000": "러셀2000(-0.42%)은 반도체 대형주 비중이 작아 낙폭이 가장 제한적이었다. 소형주가 상대적으로 방어된 것은 이번 조정이 여전히 반도체·기술주에 집중된 국지적 이벤트임을 시사한다."
         },
-        "rate_spread_cause": null,
-        "dxy_cause": null,
-        "wti_cause": null,
-        "kr_market_style": null,
-        "investor_flow_note": null,
-        "fx_cause": null
+        "rate_spread_cause": "10년물(4.558%)과 2년물(4.181%)의 스프레드는 +0.377%p로 정상 곡선을 유지했다. 호르무즈발 유가 급등이 인플레이션 재점화 우려를 자극하며 두 금리 모두 소폭 상승했지만, 스프레드 자체가 크게 흔들리지 않았다는 것은 채권시장이 아직 경기침체보다는 '일시적 공급충격'으로 이번 사태를 받아들이고 있다는 뜻이다.",
+        "dxy_cause": "달러 인덱스는 -0.03%로 사실상 보합이었다. 호르무즈 사태에 따른 안전자산 수요(달러 강세 요인)와, 9월 인상 기대 되돌림 가능성(달러 약세 요인)이 팽팽히 맞선 결과로 해석된다.",
+        "wti_cause": {
+          "text": "이 표에 기록된 WTI(-1.14%, $81.55)는 지난 금요일(7/17) 종가 기준으로, 주말 사이 벌어진 호르무즈 해협 전면 봉쇄 발표와 브렌트유 90달러 돌파를 아직 반영하지 못했다. 실시간으로는 월요일 WTI가 오히려 +2.29% 오른 $84대까지 상승한 것으로 보도되고 있어, 다음 자동 갱신 때 이 급등분이 반영될 가능성이 높다. 즉 현재 표시된 하락 수치를 액면 그대로 해석하면 안 된다.",
+          "article_title": "Brent breaches $90 as Middle East risks mount with U.S-Iran tensions on the rise",
+          "article_url": "https://www.cnbc.com/2026/07/20/oil-prices-today-brent-wti-crude-us-iran-centcom-hormuz.html"
+        },
+        "kr_market_style": {
+          "text": "코스피(-4.46%)·코스닥(-5.33%)이 동반 급락하며 양 시장 모두 매도 사이드카가 발동됐다(코스닥 10:52, 코스피 11:12). 반도체 투자심리 위축이 계속되는 가운데 주말 사이 이란이 호르무즈 해협을 전면 봉쇄하겠다고 발표하면서 지정학적 긴장이 급격히 고조된 것이 직접적 계기가 됐다. 특히 손해보험(-9.3%)·생명보험(-8.5%) 등 보험 섹터가 지수보다 더 크게 흔들린 것은, 최근 건강보험 거짓청구 조사 재개·GA 수수료 규제 이슈로 이미 부담을 안고 있던 업종에 전방위 매도 심리까지 겹친 결과로 보인다.",
+          "article_title": "코스피·코스닥 동반 급락…양 시장서 매도 사이드카",
+          "article_url": "https://www.asiatoday.co.kr/kn/view.php?key=20260720010006901"
+        },
+        "investor_flow_note": "개인(+3491억원)과 외국인(+5153억원)이 순매수한 반면 기관이 9191억원을 순매도하며 지수를 끌어내렸다. 급락 국면에서 개인·외국인이 오히려 저가 매수에 나선 반면 기관이 리스크 관리 차원의 매도를 택한 전형적인 패턴으로, 기관 수급이 이번 조정의 실질적인 낙폭 결정 요인이었다.",
+        "fx_cause": {
+          "text": "원/달러 환율은 +0.17%로 소폭 상승(원화 약세)했다. 한국은행이 7월 16일 기준금리를 2.75%로 인상하며 원화를 지지했지만, 호르무즈발 지정학적 긴장이 안전자산인 달러 수요를 자극하며 그 효과를 상당 부분 상쇄했다. 근본적으로는 한국은행이 최근 원화 약세 요인의 약 70%를 국민연금 등의 해외투자 확대에 따른 구조적 달러 수요로 지목하고 있어, 금리 인상만으로는 추세를 완전히 돌리기 어렵다는 점도 함께 봐야 한다.",
+          "article_title": "원달러 환율 상승, 왜 오를까? 2026년 기준 전망과 영향 분석",
+          "article_url": "https://info.zzangnews.com/2026/07/2026_0956887377.html"
+        }
       }
     },
     "vix": {
-      "value": 18.77,
+      "value": 18.4,
       "elevated": false,
       "source": "https://www.cnbc.com/quotes/.VIX",
       "analysis": {
-        "cause": null
+        "cause": "VIX는 18.4로 지난 금요일(18.77)보다 소폭 낮아졌지만 여전히 이전 대비 높은 수준을 유지하고 있다. 20 밑에 머물러 있다는 것은 아직 패닉 단계는 아니라는 뜻이지만, 호르무즈 사태가 유가·금리·증시를 동시에 흔들고 있는 만큼 20 돌파 여부를 계속 지켜볼 필요가 있다."
       }
     },
     "sector_flow": {
@@ -243,91 +275,141 @@
       "domestic_sector_groups": {
         "top_up": [
           {
-            "name": "음료",
-            "pct_change": 0.0
+            "name": "다각화된통신서비스",
+            "pct_change": 2.06
           },
           {
-            "name": "종이와목재",
-            "pct_change": 0.0
+            "name": "카드",
+            "pct_change": 1.81
           },
           {
-            "name": "호텔,레스토랑,레저",
-            "pct_change": 0.0
+            "name": "다각화된소비자서비스",
+            "pct_change": 1.51
           }
         ],
         "top_down": [
           {
-            "name": "건강관리장비와용품",
-            "pct_change": 0.0
+            "name": "손해보험",
+            "pct_change": -9.26
           },
           {
-            "name": "전자장비와기기",
-            "pct_change": 0.0
+            "name": "생명과학도구및서비스",
+            "pct_change": -8.93
           },
           {
-            "name": "전기제품",
-            "pct_change": 0.0
+            "name": "생명보험",
+            "pct_change": -8.45
           }
         ],
         "status": "ok",
         "source": "https://finance.naver.com/sise/sise_group.naver?type=upjong"
       },
       "analysis": {
-        "us_market_news": null,
-        "kr_market_news": null,
-        "etf_causes": {
-          "XLK": null,
-          "XLF": null,
-          "XLE": null,
-          "XLV": null,
-          "XLY": null,
-          "XLP": null,
-          "XLI": null,
-          "XLB": null,
-          "XLU": null,
-          "XLRE": null,
-          "XLC": null
+        "us_market_news": {
+          "text": "엔비디아(-2.21%)·마이크로소프트(-1.82%)·아마존(-1.06%) 등 대형 기술주에 이어 어플라이드머티어리얼즈(-5.57%)·램리서치(-2.39%) 등 반도체 장비주까지 약세를 보이며 필라델피아반도체지수가 1.63% 하락했다. VIX는 12.19% 급등한 18.77을 기록해, 시장이 이번 조정을 심상치 않게 받아들이고 있음을 보여준다.",
+          "article_title": "[서울데이터랩]미국 증시, 기술주 약세에 일제 하락…나스닥 1.4% 밀려",
+          "article_url": "https://www.seoul.co.kr/news/economy/securities/2026/07/18/20260718500002"
         },
-        "kr_sector_causes": {}
+        "kr_market_news": {
+          "text": "국내 업종 중에서는 반도체보다 오히려 손해보험(-9.3%)·생명과학도구및서비스(-8.9%)·생명보험(-8.5%)의 낙폭이 두드러졌다. 이는 이번 급락이 특정 산업 재료보다 지수 전반의 패닉성 매도에 가까웠다는 뜻으로, 평소 변동성이 낮은 보험 섹터까지 크게 흔들렸다는 점이 오늘 조정의 폭을 가늠하게 한다. 반면 다각화된통신서비스(+2.1%)·카드(+1.8%) 등 내수 방어적 업종은 상대적으로 버텼다.",
+          "article_title": "[마감시황] 코스피 4% 또 급락…반도체 쇼크에 양 시장 사이드카",
+          "article_url": "https://www.newspim.com/news/view/20260720000897"
+        },
+        "etf_causes": {
+          "XLK": "반도체·대형 기술주 매도가 이어지며 -1.09%. 지난주부터 이어진 조정의 연장선이다.",
+          "XLF": "금리 상승과 위험자산 회피 심리가 겹치며 -0.86%. 특별한 개별 재료보다는 전반적 리스크오프 흐름.",
+          "XLE": "브렌트유 90달러 돌파에도 +1.16%에 그친 것은, 이 데이터가 아직 주말 유가 급등을 반영하지 못한 금요일 종가 기준이기 때문이다. 다음 갱신에서 더 큰 상승이 반영될 가능성이 있다.",
+          "XLV": "-0.44%로 상대적으로 견조. 방어 섹터 성격이 유지됐다.",
+          "XLY": "-1.62%로 낙폭이 컸다. 유가 급등에 따른 소비 여력 위축 우려가 임의소비재에 부담을 준 것으로 보인다.",
+          "XLP": "-0.72%로 소폭 하락, 필수소비재도 이번엔 방어력이 제한적이었다.",
+          "XLI": "-0.41%로 낙폭 제한적.",
+          "XLB": "-0.71%, 유가·원자재 변동성 확대의 영향을 받았다.",
+          "XLU": "-0.66%, 금리 상승이 배당 매력을 갉아먹으며 소폭 하락.",
+          "XLRE": "-0.09%로 거의 보합, 금리 민감 섹터 중에서는 선방했다.",
+          "XLC": "-1.78%로 낙폭이 큰 편. 메타·알파벳 등 AI 투자 비중이 큰 대형주가 반도체발 밸류에이션 우려의 영향을 받았다."
+        },
+        "kr_sector_causes": {
+          "손해보험": "-9.26%로 국내 업종 중 최대 낙폭. 건강보험 거짓청구 기획조사 재개, GA 소속 설계사 수수료 규제 확대 등 7월 중순부터 이어진 규제 리스크에 오늘 지수 전반의 패닉성 매도가 겹치며 낙폭이 증폭된 것으로 보인다.",
+          "생명과학도구및서비스": "-8.93%. 뚜렷한 개별 재료보다는 위험자산 회피 국면에서 고베타 업종이 함께 흔들린 결과로 추정된다.",
+          "생명보험": "-8.45%. 손해보험과 마찬가지로 규제 리스크와 전반적 매도 심리가 겹쳤다.",
+          "다각화된통신서비스": "+2.06%로 상승 1위. 급락장에서 내수 방어적 성격의 업종으로 상대적 자금 유입이 있었던 것으로 보인다.",
+          "카드": "+1.81%. 경기 방어적 성격의 소비 관련 업종이 상대적으로 강세를 보였다.",
+          "다각화된소비자서비스": "+1.51%. 다른 방어 업종과 유사한 패턴으로 급락장에서 상대적으로 견조했다."
+        }
       }
     },
     "fedwatch": {
-      "meeting_date": null,
+      "meeting_date": "2026-07-29",
       "today": {
-        "ease_pct": null,
-        "no_change_pct": null,
-        "hike_pct": null
+        "ease_pct": 0.0,
+        "no_change_pct": 84.0,
+        "hike_pct": 16.0
       },
       "prev_day": {
-        "ease_pct": null,
-        "no_change_pct": null,
-        "hike_pct": null
+        "ease_pct": 0.0,
+        "no_change_pct": 86.7,
+        "hike_pct": 13.3
       },
       "prev_week": {
-        "ease_pct": null,
-        "no_change_pct": null,
-        "hike_pct": null
+        "ease_pct": 0.0,
+        "no_change_pct": 53.5,
+        "hike_pct": 46.5
       },
-      "status": "manual_needed",
-      "note": "CME FedWatch 무료 API 없음 - Claude WebSearch로 오늘/전날/전주 확률을 수동 기입 필요",
+      "status": "manual_entry",
+      "note": "CME FedWatch 무료 API 부재로 Claude WebSearch 조사 결과를 반영 (2026-07-20 기준). 이번 주 내내 확률이 크게 출렁였다 - 호르무즈 봉쇄 확대 소식이 나올 때마다 인상 확률이 튀었다가, 물가 지표가 진정될 때마다 되돌아오는 패턴이 반복되고 있다.",
       "source": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
       "comparison": {
-        "vs_prev_day": null,
-        "vs_prev_week": null
+        "vs_prev_day": "인상 확률이 13.3%→16%로 소폭 상승했다. 주말 사이 이란이 호르무즈 해협을 전면 봉쇄하겠다고 발표하고 브렌트유가 90달러를 돌파하면서, 인플레이션 재점화 우려가 다시 살아난 영향으로 보인다. 다만 지난주 CPI·PPI 서프라이즈 이후 안정됐던 기대가 완전히 뒤집힐 정도는 아니다.",
+        "vs_prev_week": "일주일 전(7/13, 인상 46.5%)과 비교하면 오늘(16%)은 여전히 훨씬 낮다. 그 사이 6월 CPI·PPI가 예상을 크게 밑돌며 인상 우려가 큰 폭으로 완화된 뒤, 주말 호르무즈 사태로 소폭 되돌림이 나온 정도로 이해하면 된다. 다만 9월 회의에 대해서는 여전히 약 73%(7/16 기준)라는 높은 인상 확률이 유지되고 있어, 7월은 넘기더라도 9월 인상 경계감은 오히려 커지는 추세다."
       },
-      "macro_articles": [],
+      "macro_articles": [
+        {
+          "type": "금리",
+          "title": "Iran Oil Shock Spills Into Demand Inflation, Lifting Fed Rate-Hike Odds to 73% by September",
+          "link": "https://www.techtimes.com/articles/320773/20260716/iran-oil-shock-spills-demand-inflation-lifting-fed-rate-hike-odds-73-september.htm",
+          "insight": "7월 인상 확률은 진정됐지만 9월 인상 확률은 오히려 73%까지 치솟았다(6월 중순 26%에서 급등). 유가발 인플레이션 우려가 '이번 달'이 아니라 '다음 번' 회의로 리스크를 이연시키고 있다는 뜻으로, 7월을 넘겼다고 안심할 단계가 아니다."
+        },
+        {
+          "type": "환율",
+          "title": "원달러 환율 상승, 왜 오를까? 2026년 기준 전망과 영향 분석",
+          "link": "https://info.zzangnews.com/2026/07/2026_0956887377.html",
+          "insight": "한국은행 금리 인상(2.75%)이라는 강력한 원화 지지 요인이 있었음에도 환율이 상승 압력을 받는 이유는 지정학적 리스크에 따른 달러 안전자산 수요 때문이다. 한국은행 스스로도 최근 원화 약세의 약 70%를 국민연금 등 해외투자 확대에 따른 구조적 달러 수요로 지목하고 있어, 이는 금리 정책만으로는 해결되지 않는 장기 트렌드임을 시사한다."
+        },
+        {
+          "type": "유가",
+          "title": "Brent breaches $90 as Middle East risks mount with U.S-Iran tensions on the rise",
+          "link": "https://www.cnbc.com/2026/07/20/oil-prices-today-brent-wti-crude-us-iran-centcom-hormuz.html",
+          "insight": "이란 혁명수비대가 미국의 공격 중단 전까지 모든 유조선·가스운반선의 호르무즈 통과를 봉쇄하겠다고 발표했고, 실제로 통행 선박 수가 평소 100척 이상에서 한 자릿수로 급감했다. 이는 단순한 가격 변동이 아니라 실물 공급 차질이 시작됐다는 신호로, 봉쇄가 장기화될 경우 유가 상승이 구조적으로 굳어질 위험이 있다."
+        },
+        {
+          "type": "통화정책(Fed/한국은행)",
+          "title": "Latest improvement on inflation isn't 'mission accomplished,' Warsh says",
+          "link": "https://www.cnn.com/2026/07/14/business/live-news/cpi-inflation-kevin-warsh-capitol-hill-testimony",
+          "insight": "파월의 후임 워시 의장은 6월 물가 둔화에도 '미션 완료가 아니다'라며 매파적 태도를 재확인했다. 이는 향후 유가발 인플레이션이 재점화될 경우 연준이 주저 없이 추가 긴축에 나설 수 있다는 뜻으로, 시장이 9월 인상 확률을 높게 유지하는 배경이기도 하다."
+        },
+        {
+          "type": "거시경제(CPI, PPI, 고용, GDP 등)",
+          "title": "Stunning CPI Miss Kills July Rate Hike, But Hormuz Puts September Back on Table",
+          "link": "https://www.techtimes.com/articles/320507/20260714/stunning-cpi-miss-kills-july-rate-hike-hormuz-puts-september-back-table.htm",
+          "insight": "6월 CPI 서프라이즈(예상 하회)가 7월 인상 우려를 잠재웠지만, 제목 그대로 호르무즈 사태가 9월 인상 논의를 다시 테이블 위에 올려놨다. 물가 지표 자체는 우호적이었는데도 지정학적 변수가 통화정책 경로를 계속 흔들고 있다는 것이 이번 달 매크로의 핵심 특징이다."
+        }
+      ],
       "analysis": {
-        "related_news": null
+        "related_news": {
+          "text": "7월 29일 회의는 인상 확률이 16%까지 낮아지며 동결이 유력하다. 하지만 진짜 관전 포인트는 9월이다 - 호르무즈 봉쇄가 장기화되며 유가발 인플레이션이 재점화되면 9월 인상 확률(현재 약 73%)이 더 굳어질 수 있고, 반대로 외교적 타결이 나오면 다시 빠르게 되돌려질 수 있다. 당분간 FedWatch 수치보다 호르무즈 관련 헤드라인이 더 중요한 선행 지표가 될 것으로 보인다.",
+          "article_title": "Iran Oil Shock Spills Into Demand Inflation, Lifting Fed Rate-Hike Odds to 73% by September",
+          "article_url": "https://www.techtimes.com/articles/320773/20260716/iran-oil-shock-spills-demand-inflation-lifting-fed-rate-hike-odds-73-september.htm"
+        }
       }
     },
     "fear_greed": {
       "score": 37.1,
       "rating": "fear",
-      "timestamp": "2026-07-17T23:59:50+00:00",
+      "timestamp": "2026-07-20T08:16:16+00:00",
       "status": "ok",
       "source": "https://edition.cnn.com/markets/fear-and-greed",
       "analysis": {
-        "extreme_cause": null
+        "extreme_cause": "37.1점(Fear)으로 극단 구간(≤25)에는 아직 못 미친다. 다만 지난주 41점대에서 계속 낮아지고 있는 추세는, 반도체 조정에 호르무즈 지정학적 리스크까지 겹치며 투자심리가 꾸준히 냉각되고 있음을 보여준다. 25 이하로 진입하는지가 다음 관찰 포인트다."
       }
     },
     "gdpnow": {
@@ -337,15 +419,24 @@
       "error": "HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=6)",
       "source": "https://www.atlantafed.org/cqer/research/gdpnow",
       "analysis": {
-        "change_cause": null
+        "change_cause": "이 네트워크에서는 fred.stlouisfed.org 접속이 막혀 있어 자동 수집에 실패했다. 7월 8일 기준 애틀랜타 연은은 2분기 성장률을 1.3%로 제시한 바 있으며, 호르무즈 사태로 유가가 급등하면 물류·에너지 비용 상승이 3분기 GDPNow 트래킹치에도 하방 압력으로 작용할 수 있다. 정확한 최신 수치는 atlantafed.org/cqer/research/gdpnow 에서 직접 확인이 필요하다."
       }
     },
     "synthesis": {
-      "analysis": null
+      "analysis": "오늘 시장은 '반도체 조정'이라는 지난주부터의 흐름 위에 '호르무즈 봉쇄'라는 새로운 지정학적 충격이 겹쳐진 하루였다. 이란이 주말 사이 호르무즈 해협을 전면 봉쇄하겠다고 발표하고 브렌트유가 90달러를 돌파하면서, 코스피(-4.46%)·코스닥(-5.33%)이 동반 급락하며 양 시장 모두 매도 사이드카가 발동됐다. 특징적인 것은 낙폭 상위 업종이 반도체가 아니라 손해보험·생명보험 등 평소 변동성이 낮은 섹터였다는 점인데, 이는 오늘의 매도가 특정 산업 재료보다 지수 전반에 대한 패닉성 매도에 가까웠음을 시사한다. 다만 VIX(18.4)가 아직 20을 밑돌고, 미 국채 금리차(+0.377%p)도 정상 범위를 유지하고 있어 시스템 리스크로 확산됐다고 보기는 이르다. FedWatch는 7월 인상 확률을 16%까지 낮게 보면서도 9월 인상 확률은 73%로 높게 유지하고 있어, 시장은 '당장'보다 '호르무즈가 장기화될 경우의 파급력'을 더 걱정하고 있는 것으로 읽힌다. 특히 오늘 표시된 WTI 수치(-1.14%)는 아직 주말 유가 급등을 반영하지 못한 금요일 종가라는 점에 유의해야 한다 - 실제로는 월요일 WTI가 +2.29%로 이미 상승 전환했다는 보도가 나오고 있어, 다음 갱신에서 이 흐름이 확인될 가능성이 높다. 다음 관찰 포인트는 호르무즈 봉쇄의 실제 지속 기간과, 그에 따라 9월 FOMC 인상 확률이 어떻게 움직이는지다.",
+      "source": "https://www.cnbc.com/2026/07/20/oil-prices-today-brent-wti-crude-us-iran-centcom-hormuz.html"
     },
     "ib_deal": {
-      "articles": [],
-      "analysis": null
+      "articles": [
+        {
+          "type": "M&A",
+          "title": "솔루엠, GDK 이어 아이큐어까지 인수…헬스케어 포트폴리오 확대",
+          "link": "https://www.thebell.co.kr/",
+          "summary": "전자부품기업 솔루엠이 화장품 제조업체 GDK 인수에 이어 아이큐어까지 품으며 헬스케어 사업 확장에 속도를 내고 있다. 본업(전자부품)과 무관한 헬스케어·뷰티 영역으로 연속 M&A에 나서는 행보가 눈에 띈다."
+        }
+      ],
+      "analysis": "솔루엠의 연속 헬스케어 M&A는 국내 전자부품 기업들이 본업 성장 정체 속에서 신사업으로 포트폴리오를 다각화하려는 흐름을 보여주는 사례다. 다만 오늘처럼 시장 전반이 급락하는 국면에서 비관련 다각화형 M&A는 밸류에이션 재평가 압력을 받기 쉬워, 인수 이후 통합 성과를 시장이 어떻게 평가하는지가 관전 포인트가 될 것으로 보인다.",
+      "source": "https://www.thebell.co.kr/"
     }
   }
 }
