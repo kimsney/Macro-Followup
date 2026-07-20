@@ -30,33 +30,9 @@ _last_refresh = {"date": None, "at": 0.0}
 _refresh_lock = threading.Lock()
 _refreshing = False
 
-# 섹션별로 "자동 재수집 시 건드리지 않고 보존할 필드" - 전부 분석/WebSearch 기반이거나
-# (fedwatch처럼) 자동 소스가 없어 Claude가 수동으로 채워둔 값들이다.
-PRESERVE_KEYS = {
-    "market_structure": ["analysis"],
-    "vix": ["analysis"],
-    "sector_flow": ["analysis"],
-    "fedwatch": ["analysis", "meeting_date", "today", "prev_day", "prev_week",
-                 "comparison", "macro_articles", "note", "status"],
-    "fear_greed": ["analysis"],
-    "gdpnow": ["analysis"],
-    "synthesis": ["analysis", "source"],
-    "ib_deal": ["articles", "analysis", "source"],
-}
-
-
-def _merge_preserving_analysis(fresh, old):
-    if not old:
-        return fresh
-    for section, keys in PRESERVE_KEYS.items():
-        old_sec = old.get("sections", {}).get(section)
-        fresh_sec = fresh.get("sections", {}).get(section)
-        if not old_sec or fresh_sec is None:
-            continue
-        for k in keys:
-            if k in old_sec:
-                fresh_sec[k] = old_sec[k]
-    return fresh
+# 보존 필드 병합 로직은 fetch_data.merge_preserving_analysis로 공통화했다 (GitHub Actions의
+# build_report()도 동일 로직을 쓴다 - 두 곳이 따로 관리되면서 어긋나는 것을 방지).
+_merge_preserving_analysis = fetch_data.merge_preserving_analysis
 
 
 def refresh_today(force=False):

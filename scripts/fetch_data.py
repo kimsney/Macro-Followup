@@ -404,13 +404,56 @@ def build_report_data(date_str=None):
     return report
 
 
+# 섹션별로 "자동 재수집 시 건드리지 않고 보존할 필드" - 전부 분석/WebSearch 기반이거나
+# (fedwatch처럼) 자동 소스가 없어 Claude가 수동으로 채워둔 값들이다. GitHub Actions의 정기
+# 수치 갱신이 이 필드들을 지우지 않도록 build_report()와 serve.py가 공통으로 사용한다.
+PRESERVE_KEYS = {
+    "market_structure": ["analysis"],
+    "vix": ["analysis"],
+    "sector_flow": ["analysis"],
+    "fedwatch": ["analysis", "meeting_date", "today", "prev_day", "prev_week",
+                 "comparison", "macro_articles", "note", "status"],
+    "fear_greed": ["analysis"],
+    "gdpnow": ["analysis"],
+    "synthesis": ["analysis", "source"],
+    "ib_deal": ["articles", "analysis", "source"],
+}
+
+
+def merge_preserving_analysis(fresh, old):
+    """기존 파일(old)에 이미 채워진 분석/수동 입력 필드를 새로 수집한 데이터(fresh)에
+    그대로 옮겨 보존한다."""
+    if not old:
+        return fresh
+    for section, keys in PRESERVE_KEYS.items():
+        old_sec = old.get("sections", {}).get(section)
+        fresh_sec = fresh.get("sections", {}).get(section)
+        if not old_sec or fresh_sec is None:
+            continue
+        for k in keys:
+            if k in old_sec:
+                fresh_sec[k] = old_sec[k]
+    return fresh
+
+
 def build_report(date_str=None):
-    """build_report_data로 수집한 뒤 파일에 쓰고 index.json을 갱신한다 (CLI/1회성 실행용)."""
+    """build_report_data로 수집한 뒤 파일에 쓰고 index.json을 갱신한다 (CLI/1회성 실행용,
+    GitHub Actions도 이 경로를 사용). 같은 날짜 파일이 이미 있으면 분석/수동 입력 필드를
+    보존한 채로 수치만 갱신한다 - 그래야 정기 자동 수집이 채워둔 분석을 지우지 않는다."""
     report = build_report_data(date_str)
     date_str = report["date"]
 
     DATA_DIR.mkdir(exist_ok=True)
     out_path = DATA_DIR / f"{date_str}.json"
+
+    old = None
+    if out_path.exists():
+        try:
+            old = json.loads(out_path.read_text(encoding="utf-8"))
+        except Exception:
+            old = None
+    report = merge_preserving_analysis(report, old)
+
     out_path.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"저장 완료: {out_path}")
 
