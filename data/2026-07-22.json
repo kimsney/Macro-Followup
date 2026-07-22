@@ -1,6 +1,6 @@
 {
   "date": "2026-07-22",
-  "generated_at": "2026-07-22T05:44:14+09:00",
+  "generated_at": "2026-07-22T09:09:44+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -48,33 +48,33 @@
       },
       "rates": {
         "us10y": {
-          "value": 4.626,
-          "prev_close": 4.598,
+          "value": 4.63,
+          "prev_close": 4.628,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
-          "value": 4.261,
-          "prev_close": 4.215,
+          "value": 4.257,
+          "prev_close": 4.261,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
-        "spread": 0.365,
+        "spread": 0.373,
         "status": "ok"
       },
       "dxy": {
-        "price": 101.189,
+        "price": 101.177,
         "prev_close": 100.98999786376953,
-        "change": 0.199,
-        "pct_change": 0.197,
+        "change": 0.187,
+        "pct_change": 0.1852,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 84.43,
+        "price": 84.81,
         "prev_close": 83.2300033569336,
-        "change": 1.2,
-        "pct_change": 1.4418,
+        "change": 1.58,
+        "pct_change": 1.8984,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
@@ -97,19 +97,19 @@
         }
       },
       "investor_flow_kospi": {
-        "as_of": "26.07.21",
-        "individual": "-16421",
-        "foreign": "2952",
-        "institution": "13744",
+        "as_of": "26.07.22",
+        "individual": "-4352",
+        "foreign": "8136",
+        "institution": "-3788",
         "unit": "억원",
         "status": "ok",
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260722&sosok="
       },
       "usdkrw": {
-        "price": 1481.51,
+        "price": 1480.39,
         "prev_close": 1475.010009765625,
-        "change": 6.5,
-        "pct_change": 0.4407,
+        "change": 5.38,
+        "pct_change": 0.3647,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -243,30 +243,30 @@
       "domestic_sector_groups": {
         "top_up": [
           {
+            "name": "전자장비와기기",
+            "pct_change": 9.77
+          },
+          {
             "name": "반도체와반도체장비",
-            "pct_change": 5.16
+            "pct_change": 6.8
           },
           {
-            "name": "복합기업",
-            "pct_change": 4.75
-          },
-          {
-            "name": "생명보험",
-            "pct_change": 4.39
+            "name": "기계",
+            "pct_change": 6.59
           }
         ],
         "top_down": [
           {
             "name": "문구류",
-            "pct_change": -29.89
+            "pct_change": -17.21
           },
           {
-            "name": "생물공학",
-            "pct_change": -3.01
+            "name": "인터넷과카탈로그소매",
+            "pct_change": -0.5
           },
           {
-            "name": "건강관리업체및서비스",
-            "pct_change": -2.43
+            "name": "레저용장비와제품",
+            "pct_change": -0.38
           }
         ],
         "status": "ok",
@@ -323,7 +323,7 @@
     "fear_greed": {
       "score": 41.0,
       "rating": "fear",
-      "timestamp": "2026-07-21T20:27:30+00:00",
+      "timestamp": "2026-07-21T23:52:44+00:00",
       "status": "ok",
       "source": "https://edition.cnn.com/markets/fear-and-greed",
       "analysis": {
