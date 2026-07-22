@@ -1,6 +1,6 @@
 {
   "date": "2026-07-23",
-  "generated_at": "2026-07-23T05:20:14+09:00",
+  "generated_at": "2026-07-23T08:48:47+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -29,10 +29,10 @@
           "source": "https://www.cnbc.com/quotes/.IXIC"
         },
         "russell2000": {
-          "price": 2959.9387,
+          "price": 2959.9382,
           "prev_close": 2987.39990234375,
-          "change": -27.4612,
-          "pct_change": -0.9192,
+          "change": -27.4617,
+          "pct_change": -0.9193,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/.RUT"
         }
@@ -48,32 +48,33 @@
       },
       "rates": {
         "us10y": {
-          "value": null,
-          "status": "manual_needed",
+          "value": 4.659,
+          "prev_close": 4.657,
+          "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
-          "value": null,
-          "status": "manual_needed",
+          "value": 4.3,
+          "prev_close": 4.302,
+          "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
-        "spread": null,
-        "status": "manual_needed",
-        "error": "HTTPSConnectionPool(host='quote.cnbc.com', port=443): Read timed out. (read timeout=10)"
+        "spread": 0.359,
+        "status": "ok"
       },
       "dxy": {
-        "price": 101.112,
+        "price": 101.141,
         "prev_close": 101.18000030517578,
-        "change": -0.068,
-        "pct_change": -0.0672,
+        "change": -0.039,
+        "pct_change": -0.0385,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 86.4,
+        "price": 87.9,
         "prev_close": 84.91000366210938,
-        "change": 1.49,
-        "pct_change": 1.7548,
+        "change": 2.99,
+        "pct_change": 3.5214,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
@@ -105,10 +106,10 @@
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260723&sosok="
       },
       "usdkrw": {
-        "price": 1477.37,
+        "price": 1476.8,
         "prev_close": 1479.719970703125,
-        "change": -2.35,
-        "pct_change": -0.1588,
+        "change": -2.92,
+        "pct_change": -0.1973,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -130,7 +131,7 @@
       }
     },
     "vix": {
-      "value": 16.91,
+      "value": 16.64,
       "elevated": false,
       "source": "https://www.cnbc.com/quotes/.VIX",
       "analysis": {
@@ -149,10 +150,10 @@
           "source": "https://finance.yahoo.com/quote/XLK"
         },
         "XLF": {
-          "price": 56.04,
+          "price": 56.05,
           "prev_close": 56.11000061035156,
-          "change": -0.07,
-          "pct_change": -0.1248,
+          "change": -0.06,
+          "pct_change": -0.1069,
           "status": "ok",
           "name_kr": "금융",
           "source": "https://finance.yahoo.com/quote/XLF"
@@ -242,30 +243,30 @@
       "domestic_sector_groups": {
         "top_up": [
           {
-            "name": "무선통신서비스",
-            "pct_change": 8.45
+            "name": "음료",
+            "pct_change": 0.0
           },
           {
-            "name": "기계",
-            "pct_change": 5.49
+            "name": "종이와목재",
+            "pct_change": 0.0
           },
           {
-            "name": "전자제품",
-            "pct_change": 5.45
+            "name": "호텔,레스토랑,레저",
+            "pct_change": 0.0
           }
         ],
         "top_down": [
           {
-            "name": "문구류",
-            "pct_change": -20.08
-          },
-          {
-            "name": "생물공학",
-            "pct_change": -3.65
-          },
-          {
             "name": "건강관리장비와용품",
-            "pct_change": -3.21
+            "pct_change": 0.0
+          },
+          {
+            "name": "전자장비와기기",
+            "pct_change": 0.0
+          },
+          {
+            "name": "전기제품",
+            "pct_change": 0.0
           }
         ],
         "status": "ok",
@@ -320,9 +321,9 @@
       }
     },
     "fear_greed": {
-      "score": 43.0,
+      "score": 42.8,
       "rating": "fear",
-      "timestamp": "2026-07-22T20:01:28+00:00",
+      "timestamp": "2026-07-22T23:29:40+00:00",
       "status": "ok",
       "source": "https://edition.cnn.com/markets/fear-and-greed",
       "analysis": {
