@@ -1,6 +1,6 @@
 {
   "date": "2026-07-23",
-  "generated_at": "2026-07-23T08:48:47+09:00",
+  "generated_at": "2026-07-23T18:15:54+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -29,9 +29,9 @@
           "source": "https://www.cnbc.com/quotes/.IXIC"
         },
         "russell2000": {
-          "price": 2959.9382,
+          "price": 2959.938,
           "prev_close": 2987.39990234375,
-          "change": -27.4617,
+          "change": -27.4619,
           "pct_change": -0.9193,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/.RUT"
@@ -48,68 +48,68 @@
       },
       "rates": {
         "us10y": {
-          "value": 4.659,
+          "value": 4.679,
           "prev_close": 4.657,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
-          "value": 4.3,
+          "value": 4.319,
           "prev_close": 4.302,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
-        "spread": 0.359,
+        "spread": 0.36,
         "status": "ok"
       },
       "dxy": {
-        "price": 101.141,
-        "prev_close": 101.18000030517578,
-        "change": -0.039,
-        "pct_change": -0.0385,
+        "price": 101.111,
+        "prev_close": 101.13999938964844,
+        "change": -0.029,
+        "pct_change": -0.0287,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 87.9,
-        "prev_close": 84.91000366210938,
-        "change": 2.99,
-        "pct_change": 3.5214,
+        "price": 89.48,
+        "prev_close": 86.83000183105469,
+        "change": 2.65,
+        "pct_change": 3.0519,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
       "domestic_indices": {
         "kospi": {
-          "price": 6797.7,
-          "prev_close": 6747.9501953125,
-          "change": 49.7498,
-          "pct_change": 0.7373,
+          "price": 7096.89,
+          "prev_close": 6797.7001953125,
+          "change": 299.1898,
+          "pct_change": 4.4013,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSPI"
         },
         "kosdaq": {
-          "price": 751.09,
-          "prev_close": 753.3400268554688,
-          "change": -2.25,
-          "pct_change": -0.2987,
+          "price": 790.28,
+          "prev_close": 751.0900268554688,
+          "change": 39.19,
+          "pct_change": 5.2178,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSDAQ"
         }
       },
       "investor_flow_kospi": {
-        "as_of": "26.07.22",
-        "individual": "-12176",
-        "foreign": "26211",
-        "institution": "-13963",
+        "as_of": "26.07.23",
+        "individual": "-22077",
+        "foreign": "21359",
+        "institution": "976",
         "unit": "억원",
         "status": "ok",
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260723&sosok="
       },
       "usdkrw": {
-        "price": 1476.8,
+        "price": 1470.32,
         "prev_close": 1479.719970703125,
-        "change": -2.92,
-        "pct_change": -0.1973,
+        "change": -9.4,
+        "pct_change": -0.6353,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -131,7 +131,7 @@
       }
     },
     "vix": {
-      "value": 16.64,
+      "value": 17.45,
       "elevated": false,
       "source": "https://www.cnbc.com/quotes/.VIX",
       "analysis": {
@@ -243,30 +243,30 @@
       "domestic_sector_groups": {
         "top_up": [
           {
-            "name": "음료",
-            "pct_change": 0.0
+            "name": "에너지장비및서비스",
+            "pct_change": 16.39
           },
           {
-            "name": "종이와목재",
-            "pct_change": 0.0
+            "name": "전기장비",
+            "pct_change": 11.53
           },
           {
-            "name": "호텔,레스토랑,레저",
-            "pct_change": 0.0
+            "name": "건설",
+            "pct_change": 9.95
           }
         ],
         "top_down": [
           {
-            "name": "건강관리장비와용품",
-            "pct_change": 0.0
+            "name": "문구류",
+            "pct_change": -5.41
           },
           {
-            "name": "전자장비와기기",
-            "pct_change": 0.0
+            "name": "백화점과일반상점",
+            "pct_change": 0.04
           },
           {
-            "name": "전기제품",
-            "pct_change": 0.0
+            "name": "은행",
+            "pct_change": 0.22
           }
         ],
         "status": "ok",
@@ -321,9 +321,9 @@
       }
     },
     "fear_greed": {
-      "score": 42.8,
+      "score": 43.2,
       "rating": "fear",
-      "timestamp": "2026-07-22T23:29:40+00:00",
+      "timestamp": "2026-07-23T08:58:01+00:00",
       "status": "ok",
       "source": "https://edition.cnn.com/markets/fear-and-greed",
       "analysis": {
