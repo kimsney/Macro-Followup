@@ -1,6 +1,6 @@
 {
   "date": "2026-07-26",
-  "generated_at": "2026-07-26T18:02:00+09:00",
+  "generated_at": "2026-07-26T21:48:16+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -64,17 +64,17 @@
       },
       "dxy": {
         "price": 101.465,
-        "prev_close": 101.43000030517578,
-        "change": 0.035,
-        "pct_change": 0.0345,
+        "prev_close": 101.47000122070312,
+        "change": -0.005,
+        "pct_change": -0.0049,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
         "price": 89.31,
-        "prev_close": 92.19000244140625,
-        "change": -2.88,
-        "pct_change": -3.124,
+        "prev_close": 89.30999755859375,
+        "change": 0.0,
+        "pct_change": 0.0,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
