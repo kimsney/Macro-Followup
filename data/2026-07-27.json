@@ -1,6 +1,6 @@
 {
   "date": "2026-07-27",
-  "generated_at": "2026-07-27T05:33:04+09:00",
+  "generated_at": "2026-07-27T19:51:59+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -48,68 +48,68 @@
       },
       "rates": {
         "us10y": {
-          "value": 4.681,
-          "prev_close": 4.703,
+          "value": 4.639,
+          "prev_close": 4.679,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
-          "value": 4.337,
-          "prev_close": 4.36,
+          "value": 4.307,
+          "prev_close": 4.331,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
-        "spread": 0.344,
+        "spread": 0.332,
         "status": "ok"
       },
       "dxy": {
-        "price": 101.465,
+        "price": 101.269,
         "prev_close": 101.47000122070312,
-        "change": -0.005,
-        "pct_change": -0.0049,
+        "change": -0.201,
+        "pct_change": -0.1981,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 89.31,
-        "prev_close": 92.19000244140625,
-        "change": -2.88,
-        "pct_change": -3.124,
+        "price": 83.06,
+        "prev_close": 89.30999755859375,
+        "change": -6.25,
+        "pct_change": -6.9981,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
       "domestic_indices": {
         "kospi": {
-          "price": 6690.62,
+          "price": 6755.75,
           "prev_close": 7096.89013671875,
-          "change": -406.2701,
-          "pct_change": -5.7246,
+          "change": -341.1401,
+          "pct_change": -4.8069,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSPI"
         },
         "kosdaq": {
-          "price": 748.22,
-          "prev_close": 790.280029296875,
-          "change": -42.06,
-          "pct_change": -5.3222,
+          "price": 764.86,
+          "prev_close": 748.219970703125,
+          "change": 16.64,
+          "pct_change": 2.2239,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSDAQ"
         }
       },
       "investor_flow_kospi": {
-        "as_of": "26.07.24",
-        "individual": "51782",
-        "foreign": "-32683",
-        "institution": "-19514",
+        "as_of": "26.07.27",
+        "individual": "19788",
+        "foreign": "-28811",
+        "institution": "8595",
         "unit": "억원",
         "status": "ok",
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260727&sosok="
       },
       "usdkrw": {
-        "price": 1459.42,
+        "price": 1468.64,
         "prev_close": 1474.0400390625,
-        "change": -14.62,
-        "pct_change": -0.9918,
+        "change": -5.4,
+        "pct_change": -0.3663,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -131,7 +131,7 @@
       }
     },
     "vix": {
-      "value": 18.58,
+      "value": 17.6,
       "elevated": false,
       "source": "https://www.cnbc.com/quotes/.VIX",
       "analysis": {
@@ -243,30 +243,30 @@
       "domestic_sector_groups": {
         "top_up": [
           {
-            "name": "제약",
-            "pct_change": 4.24
+            "name": "인터넷과카탈로그소매",
+            "pct_change": 7.42
           },
           {
-            "name": "다각화된통신서비스",
-            "pct_change": 2.72
+            "name": "양방향미디어와서비스",
+            "pct_change": 6.38
           },
           {
-            "name": "포장재",
-            "pct_change": 2.57
+            "name": "방송과엔터테인먼트",
+            "pct_change": 4.7
           }
         ],
         "top_down": [
           {
-            "name": "문구류",
-            "pct_change": -11.23
+            "name": "에너지장비및서비스",
+            "pct_change": -13.96
           },
           {
-            "name": "전자제품",
-            "pct_change": -9.62
+            "name": "우주항공과국방",
+            "pct_change": -8.77
           },
           {
-            "name": "자동차",
-            "pct_change": -8.87
+            "name": "무역회사와판매업체",
+            "pct_change": -4.92
           }
         ],
         "status": "ok",
@@ -323,7 +323,7 @@
     "fear_greed": {
       "score": 39.4,
       "rating": "fear",
-      "timestamp": "2026-07-24T23:59:54+00:00",
+      "timestamp": "2026-07-27T10:34:46+00:00",
       "status": "ok",
       "source": "https://edition.cnn.com/markets/fear-and-greed",
       "analysis": {
