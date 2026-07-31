@@ -1,6 +1,6 @@
 {
   "date": "2026-07-31",
-  "generated_at": "2026-07-31T05:45:22+09:00",
+  "generated_at": "2026-07-31T17:11:00+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -48,68 +48,68 @@
       },
       "rates": {
         "us10y": {
-          "value": 4.673,
-          "prev_close": 4.622,
+          "value": 4.651,
+          "prev_close": 4.663,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
-          "value": 4.25,
-          "prev_close": 4.236,
+          "value": 4.246,
+          "prev_close": 4.229,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
-        "spread": 0.423,
+        "spread": 0.405,
         "status": "ok"
       },
       "dxy": {
-        "price": 99.975,
-        "prev_close": 100.80000305175781,
-        "change": -0.825,
-        "pct_change": -0.8185,
+        "price": 100.147,
+        "prev_close": 100.01000213623047,
+        "change": 0.137,
+        "pct_change": 0.137,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 84.12,
-        "prev_close": 84.45999908447266,
-        "change": -0.34,
-        "pct_change": -0.4026,
+        "price": 82.22,
+        "prev_close": 83.58999633789062,
+        "change": -1.37,
+        "pct_change": -1.639,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
       "domestic_indices": {
         "kospi": {
-          "price": 5593.56,
-          "prev_close": 5663.240234375,
-          "change": -69.6802,
-          "pct_change": -1.2304,
+          "price": 6595.45,
+          "prev_close": 5593.56005859375,
+          "change": 1001.8899,
+          "pct_change": 17.9115,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSPI"
         },
         "kosdaq": {
-          "price": 644.78,
-          "prev_close": 662.6799926757812,
-          "change": -17.9,
-          "pct_change": -2.7012,
+          "price": 719.76,
+          "prev_close": 644.780029296875,
+          "change": 74.98,
+          "pct_change": 11.6288,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSDAQ"
         }
       },
       "investor_flow_kospi": {
-        "as_of": "26.07.30",
-        "individual": "-14309",
-        "foreign": "13280",
-        "institution": "805",
+        "as_of": "26.07.31",
+        "individual": "-82739",
+        "foreign": "72414",
+        "institution": "11397",
         "unit": "억원",
         "status": "ok",
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260731&sosok="
       },
       "usdkrw": {
-        "price": 1422.1,
+        "price": 1430.2,
         "prev_close": 1442.280029296875,
-        "change": -20.18,
-        "pct_change": -1.3992,
+        "change": -12.08,
+        "pct_change": -0.8376,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -131,7 +131,7 @@
       }
     },
     "vix": {
-      "value": 17.09,
+      "value": 16.83,
       "elevated": false,
       "source": "https://www.cnbc.com/quotes/.VIX",
       "analysis": {
@@ -243,30 +243,30 @@
       "domestic_sector_groups": {
         "top_up": [
           {
-            "name": "복합유틸리티",
-            "pct_change": 6.09
+            "name": "반도체와반도체장비",
+            "pct_change": 28.03
           },
           {
-            "name": "조선",
-            "pct_change": 5.0
+            "name": "전자장비와기기",
+            "pct_change": 26.79
           },
           {
-            "name": "손해보험",
-            "pct_change": 4.7
+            "name": "전기장비",
+            "pct_change": 21.18
           }
         ],
         "top_down": [
           {
-            "name": "전자장비와기기",
-            "pct_change": -11.32
+            "name": "담배",
+            "pct_change": -3.61
           },
           {
-            "name": "전기장비",
-            "pct_change": -5.38
+            "name": "다각화된통신서비스",
+            "pct_change": -1.64
           },
           {
-            "name": "건강관리장비와용품",
-            "pct_change": -3.74
+            "name": "음료",
+            "pct_change": -1.47
           }
         ],
         "status": "ok",
@@ -321,9 +321,9 @@
       }
     },
     "fear_greed": {
-      "score": 38.9,
+      "score": 39.0,
       "rating": "fear",
-      "timestamp": "2026-07-30T20:28:33+00:00",
+      "timestamp": "2026-07-31T07:54:31+00:00",
       "status": "ok",
       "source": "https://edition.cnn.com/markets/fear-and-greed",
       "analysis": {
