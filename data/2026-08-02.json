@@ -1,6 +1,6 @@
 {
   "date": "2026-08-02",
-  "generated_at": "2026-08-02T08:47:48+09:00",
+  "generated_at": "2026-08-02T16:55:55+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -64,9 +64,9 @@
       },
       "dxy": {
         "price": 99.803,
-        "prev_close": 100.01000213623047,
-        "change": -0.207,
-        "pct_change": -0.207,
+        "prev_close": 99.80000305175781,
+        "change": 0.003,
+        "pct_change": 0.003,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
