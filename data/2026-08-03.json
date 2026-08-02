@@ -1,6 +1,6 @@
 {
   "date": "2026-08-03",
-  "generated_at": "2026-08-03T05:15:53+09:00",
+  "generated_at": "2026-08-03T08:45:25+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -48,33 +48,33 @@
       },
       "rates": {
         "us10y": {
-          "value": 4.718,
-          "prev_close": 4.663,
+          "value": 4.696,
+          "prev_close": 4.745,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
-          "value": 4.262,
-          "prev_close": 4.229,
+          "value": 4.252,
+          "prev_close": 4.291,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
-        "spread": 0.456,
+        "spread": 0.444,
         "status": "ok"
       },
       "dxy": {
-        "price": 99.803,
+        "price": 99.732,
         "prev_close": 99.80000305175781,
-        "change": 0.003,
-        "pct_change": 0.003,
+        "change": -0.068,
+        "pct_change": -0.0681,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 84.67,
-        "prev_close": 83.58999633789062,
-        "change": 1.08,
-        "pct_change": 1.292,
+        "price": 80.72,
+        "prev_close": 84.66999816894531,
+        "change": -3.95,
+        "pct_change": -4.6652,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
@@ -106,10 +106,10 @@
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260803&sosok="
       },
       "usdkrw": {
-        "price": 1436.6,
+        "price": 1438.26,
         "prev_close": 1420.5999755859375,
-        "change": 16.0,
-        "pct_change": 1.1263,
+        "change": 17.66,
+        "pct_change": 1.2431,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -243,30 +243,30 @@
       "domestic_sector_groups": {
         "top_up": [
           {
-            "name": "반도체와반도체장비",
-            "pct_change": 28.03
+            "name": "음료",
+            "pct_change": 0.0
           },
           {
-            "name": "전자장비와기기",
-            "pct_change": 26.79
+            "name": "종이와목재",
+            "pct_change": 0.0
           },
           {
-            "name": "전기장비",
-            "pct_change": 21.18
+            "name": "호텔,레스토랑,레저",
+            "pct_change": 0.0
           }
         ],
         "top_down": [
           {
-            "name": "담배",
-            "pct_change": -3.61
+            "name": "건강관리장비와용품",
+            "pct_change": 0.0
           },
           {
-            "name": "다각화된통신서비스",
-            "pct_change": -1.64
+            "name": "전자장비와기기",
+            "pct_change": 0.0
           },
           {
-            "name": "음료",
-            "pct_change": -1.47
+            "name": "전기제품",
+            "pct_change": 0.0
           }
         ],
         "status": "ok",
