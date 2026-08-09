@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "generated_at": "2026-08-10T01:00:43+09:00",
+  "generated_at": "2026-08-10T03:01:43+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -29,9 +29,9 @@
           "source": "https://www.cnbc.com/quotes/.IXIC"
         },
         "russell2000": {
-          "price": 3034.4941,
+          "price": 3034.494,
           "prev_close": 3001.550048828125,
-          "change": 32.9441,
+          "change": 32.944,
           "pct_change": 1.0976,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/.RUT"
