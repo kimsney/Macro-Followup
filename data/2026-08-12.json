@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "generated_at": "2026-08-12T14:12:30+09:00",
+  "generated_at": "2026-08-12T18:43:26+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -48,68 +48,68 @@
       },
       "rates": {
         "us10y": {
-          "value": 4.684,
+          "value": 4.668,
           "prev_close": 4.684,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
-          "value": 4.218,
+          "value": 4.197,
           "prev_close": 4.218,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
-        "spread": 0.466,
+        "spread": 0.471,
         "status": "ok"
       },
       "dxy": {
-        "price": 99.881,
+        "price": 99.796,
         "prev_close": 99.81999969482422,
-        "change": 0.061,
-        "pct_change": 0.0611,
+        "change": -0.024,
+        "pct_change": -0.024,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 83.76,
+        "price": 82.72,
         "prev_close": 83.19999694824219,
-        "change": 0.56,
-        "pct_change": 0.6731,
+        "change": -0.48,
+        "pct_change": -0.5769,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
       "domestic_indices": {
         "kospi": {
-          "price": 6597.07,
+          "price": 6579.04,
           "prev_close": 6345.52978515625,
-          "change": 251.5402,
-          "pct_change": 3.9641,
+          "change": 233.5102,
+          "pct_change": 3.6799,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSPI"
         },
         "kosdaq": {
-          "price": 857.95,
+          "price": 858.91,
           "prev_close": 857.8400268554688,
-          "change": 0.11,
-          "pct_change": 0.0128,
+          "change": 1.07,
+          "pct_change": 0.1247,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSDAQ"
         }
       },
       "investor_flow_kospi": {
         "as_of": "26.08.12",
-        "individual": "-31556",
-        "foreign": "23120",
-        "institution": "10370",
+        "individual": "-31911",
+        "foreign": "28354",
+        "institution": "5279",
         "unit": "억원",
         "status": "ok",
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260812&sosok="
       },
       "usdkrw": {
-        "price": 1414.93,
+        "price": 1414.79,
         "prev_close": 1417.31005859375,
-        "change": -2.3801,
-        "pct_change": -0.1679,
+        "change": -2.5201,
+        "pct_change": -0.1778,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -131,7 +131,7 @@
       }
     },
     "vix": {
-      "value": 15.28,
+      "value": 15.38,
       "elevated": false,
       "source": "https://www.cnbc.com/quotes/.VIX",
       "analysis": {
@@ -243,30 +243,30 @@
       "domestic_sector_groups": {
         "top_up": [
           {
-            "name": "인터넷과카탈로그소매",
-            "pct_change": 13.03
+            "name": "전자제품",
+            "pct_change": 12.4
           },
           {
-            "name": "전자제품",
-            "pct_change": 10.49
+            "name": "인터넷과카탈로그소매",
+            "pct_change": 11.06
           },
           {
             "name": "반도체와반도체장비",
-            "pct_change": 5.56
+            "pct_change": 5.98
           }
         ],
         "top_down": [
           {
             "name": "생명과학도구및서비스",
-            "pct_change": -3.66
-          },
-          {
-            "name": "백화점과일반상점",
-            "pct_change": -3.04
+            "pct_change": -4.51
           },
           {
             "name": "게임엔터테인먼트",
-            "pct_change": -2.99
+            "pct_change": -3.67
+          },
+          {
+            "name": "문구류",
+            "pct_change": -3.42
           }
         ],
         "status": "ok",
@@ -321,9 +321,9 @@
       }
     },
     "fear_greed": {
-      "score": 60.7,
+      "score": 60.9,
       "rating": "greed",
-      "timestamp": "2026-08-12T00:00:00+00:00",
+      "timestamp": "2026-08-12T09:25:16+00:00",
       "status": "ok",
       "source": "https://edition.cnn.com/markets/fear-and-greed",
       "analysis": {
