@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "generated_at": "2026-08-13T14:19:37+09:00",
+  "generated_at": "2026-08-13T18:43:23+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -48,68 +48,68 @@
       },
       "rates": {
         "us10y": {
-          "value": 4.68,
+          "value": 4.67,
           "prev_close": 4.692,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
-          "value": 4.184,
+          "value": 4.172,
           "prev_close": 4.199,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
-        "spread": 0.496,
+        "spread": 0.498,
         "status": "ok"
       },
       "dxy": {
-        "price": 99.967,
+        "price": 99.93,
         "prev_close": 100.01000213623047,
-        "change": -0.043,
-        "pct_change": -0.043,
+        "change": -0.08,
+        "pct_change": -0.08,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 83.07,
+        "price": 81.67,
         "prev_close": 83.2699966430664,
-        "change": -0.2,
-        "pct_change": -0.2402,
+        "change": -1.6,
+        "pct_change": -1.9215,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
       "domestic_indices": {
         "kospi": {
-          "price": 6834.34,
+          "price": 6813.34,
           "prev_close": 6579.0400390625,
-          "change": 255.3,
-          "pct_change": 3.8805,
+          "change": 234.3,
+          "pct_change": 3.5613,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSPI"
         },
         "kosdaq": {
-          "price": 864.75,
+          "price": 861.37,
           "prev_close": 858.9099731445312,
-          "change": 5.84,
-          "pct_change": 0.6799,
+          "change": 2.46,
+          "pct_change": 0.2864,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSDAQ"
         }
       },
       "investor_flow_kospi": {
         "as_of": "26.08.13",
-        "individual": "-26726",
-        "foreign": "25557",
-        "institution": "1494",
+        "individual": "-27410",
+        "foreign": "21102",
+        "institution": "6834",
         "unit": "억원",
         "status": "ok",
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260813&sosok="
       },
       "usdkrw": {
-        "price": 1414.98,
+        "price": 1421.38,
         "prev_close": 1412.1800537109375,
-        "change": 2.7999,
-        "pct_change": 0.1983,
+        "change": 9.1999,
+        "pct_change": 0.6515,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -131,7 +131,7 @@
       }
     },
     "vix": {
-      "value": 14.55,
+      "value": 14.65,
       "elevated": false,
       "source": "https://www.cnbc.com/quotes/.VIX",
       "analysis": {
@@ -223,18 +223,18 @@
         },
         "XLRE": {
           "price": 44.49,
-          "prev_close": 44.08000183105469,
-          "change": 0.41,
-          "pct_change": 0.9301,
+          "prev_close": 44.400001525878906,
+          "change": 0.09,
+          "pct_change": 0.2027,
           "status": "ok",
           "name_kr": "부동산",
           "source": "https://finance.yahoo.com/quote/XLRE"
         },
         "XLC": {
           "price": 110.27,
-          "prev_close": 111.2699966430664,
-          "change": -1.0,
-          "pct_change": -0.8987,
+          "prev_close": 111.83000183105469,
+          "change": -1.56,
+          "pct_change": -1.395,
           "status": "ok",
           "name_kr": "커뮤니케이션",
           "source": "https://finance.yahoo.com/quote/XLC"
@@ -244,29 +244,29 @@
         "top_up": [
           {
             "name": "전자장비와기기",
-            "pct_change": 11.51
+            "pct_change": 9.28
           },
           {
             "name": "창업투자",
-            "pct_change": 6.49
+            "pct_change": 5.91
           },
           {
             "name": "반도체와반도체장비",
-            "pct_change": 5.97
+            "pct_change": 5.15
           }
         ],
         "top_down": [
           {
             "name": "인터넷과카탈로그소매",
-            "pct_change": -7.96
+            "pct_change": -8.17
           },
           {
             "name": "전기유틸리티",
-            "pct_change": -5.19
+            "pct_change": -4.88
           },
           {
             "name": "문구류",
-            "pct_change": -3.22
+            "pct_change": -4.29
           }
         ],
         "status": "ok",
@@ -321,9 +321,9 @@
       }
     },
     "fear_greed": {
-      "score": 62.1,
+      "score": 62,
       "rating": "greed",
-      "timestamp": "2026-08-13T00:00:00+00:00",
+      "timestamp": "2026-08-13T09:24:46+00:00",
       "status": "ok",
       "source": "https://edition.cnn.com/markets/fear-and-greed",
       "analysis": {
