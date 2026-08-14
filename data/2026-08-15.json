@@ -1,6 +1,6 @@
 {
   "date": "2026-08-15",
-  "generated_at": "2026-08-15T07:55:19+09:00",
+  "generated_at": "2026-08-15T08:55:15+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -323,7 +323,7 @@
     "fear_greed": {
       "score": 65.0,
       "rating": "greed",
-      "timestamp": "2026-08-14T22:38:32+00:00",
+      "timestamp": "2026-08-14T23:38:39+00:00",
       "status": "ok",
       "source": "https://edition.cnn.com/markets/fear-and-greed",
       "analysis": {
