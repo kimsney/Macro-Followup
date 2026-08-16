@@ -1,6 +1,6 @@
 {
   "date": "2026-08-17",
-  "generated_at": "2026-08-17T06:47:35+09:00",
+  "generated_at": "2026-08-17T07:26:39+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -49,13 +49,13 @@
       "rates": {
         "us10y": {
           "value": 4.692,
-          "prev_close": 4.641,
+          "prev_close": 4.696,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
           "value": 4.171,
-          "prev_close": 4.14,
+          "prev_close": 4.171,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
@@ -63,18 +63,18 @@
         "status": "ok"
       },
       "dxy": {
-        "price": 99.636,
+        "price": 99.662,
         "prev_close": 99.66999816894531,
-        "change": -0.034,
-        "pct_change": -0.0341,
+        "change": -0.008,
+        "pct_change": -0.008,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 82.4,
-        "prev_close": 81.25,
-        "change": 1.15,
-        "pct_change": 1.4154,
+        "price": 82.59,
+        "prev_close": 82.4000015258789,
+        "change": 0.19,
+        "pct_change": 0.2306,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
