@@ -1,6 +1,6 @@
 {
   "date": "2026-08-18",
-  "generated_at": "2026-08-18T06:30:17+09:00",
+  "generated_at": "2026-08-18T06:54:27+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -63,10 +63,10 @@
         "status": "ok"
       },
       "dxy": {
-        "price": 99.574,
+        "price": 99.581,
         "prev_close": 99.66999816894531,
-        "change": -0.096,
-        "pct_change": -0.0963,
+        "change": -0.089,
+        "pct_change": -0.0893,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
@@ -106,10 +106,10 @@
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260818&sosok="
       },
       "usdkrw": {
-        "price": 1414.87,
+        "price": 1415.1,
         "prev_close": 1415.3699951171875,
-        "change": -0.5,
-        "pct_change": -0.0353,
+        "change": -0.27,
+        "pct_change": -0.0191,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -323,7 +323,7 @@
     "fear_greed": {
       "score": 60.0,
       "rating": "greed",
-      "timestamp": "2026-08-17T21:09:43+00:00",
+      "timestamp": "2026-08-17T21:34:58+00:00",
       "status": "ok",
       "source": "https://edition.cnn.com/markets/fear-and-greed",
       "analysis": {
