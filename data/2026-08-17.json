@@ -1,6 +1,6 @@
 {
   "date": "2026-08-17",
-  "generated_at": "2026-08-17T08:46:54+09:00",
+  "generated_at": "2026-08-17T10:38:56+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -48,13 +48,13 @@
       },
       "rates": {
         "us10y": {
-          "value": 4.69,
+          "value": 4.688,
           "prev_close": 4.696,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
-          "value": 4.163,
+          "value": 4.161,
           "prev_close": 4.171,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
@@ -63,18 +63,18 @@
         "status": "ok"
       },
       "dxy": {
-        "price": 99.594,
+        "price": 99.52,
         "prev_close": 99.66999816894531,
-        "change": -0.076,
-        "pct_change": -0.0763,
+        "change": -0.15,
+        "pct_change": -0.1505,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 82.47,
+        "price": 82.26,
         "prev_close": 82.4000015258789,
-        "change": 0.07,
-        "pct_change": 0.085,
+        "change": -0.14,
+        "pct_change": -0.1699,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
@@ -106,10 +106,10 @@
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260817&sosok="
       },
       "usdkrw": {
-        "price": 1416.48,
+        "price": 1411.35,
         "prev_close": 1416.8499755859375,
-        "change": -0.37,
-        "pct_change": -0.0261,
+        "change": -5.5,
+        "pct_change": -0.3882,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
