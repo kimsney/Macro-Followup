@@ -1,6 +1,6 @@
 {
   "date": "2026-08-18",
-  "generated_at": "2026-08-18T11:59:38+09:00",
+  "generated_at": "2026-08-18T12:52:49+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -29,9 +29,9 @@
           "source": "https://www.cnbc.com/quotes/.IXIC"
         },
         "russell2000": {
-          "price": 3057.5398,
+          "price": 3057.54,
           "prev_close": 3068.419921875,
-          "change": -10.8801,
+          "change": -10.8799,
           "pct_change": -0.3546,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/.RUT"
@@ -48,68 +48,68 @@
       },
       "rates": {
         "us10y": {
-          "value": 4.73,
+          "value": 4.732,
           "prev_close": 4.724,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
-          "value": 4.186,
+          "value": 4.192,
           "prev_close": 4.182,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
-        "spread": 0.544,
+        "spread": 0.54,
         "status": "ok"
       },
       "dxy": {
-        "price": 99.585,
+        "price": 99.63,
         "prev_close": 99.66999816894531,
-        "change": -0.085,
-        "pct_change": -0.0853,
+        "change": -0.04,
+        "pct_change": -0.0401,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 85.09,
+        "price": 85.04,
         "prev_close": 82.4000015258789,
-        "change": 2.69,
-        "pct_change": 3.2646,
+        "change": 2.64,
+        "pct_change": 3.2039,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
       "domestic_indices": {
         "kospi": {
-          "price": 6975.91,
+          "price": 6873.13,
           "prev_close": 6977.93994140625,
-          "change": -2.0299,
-          "pct_change": -0.0291,
+          "change": -104.8099,
+          "pct_change": -1.502,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSPI"
         },
         "kosdaq": {
-          "price": 851.53,
+          "price": 844.03,
           "prev_close": 864.6500244140625,
-          "change": -13.12,
-          "pct_change": -1.5174,
+          "change": -20.62,
+          "pct_change": -2.3848,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSDAQ"
         }
       },
       "investor_flow_kospi": {
         "as_of": "26.08.18",
-        "individual": "-3803",
-        "foreign": "7996",
-        "institution": "-3594",
+        "individual": "54",
+        "foreign": "6079",
+        "institution": "-5493",
         "unit": "억원",
         "status": "ok",
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260818&sosok="
       },
       "usdkrw": {
-        "price": 1408.08,
+        "price": 1412.24,
         "prev_close": 1415.3699951171875,
-        "change": -7.29,
-        "pct_change": -0.5151,
+        "change": -3.13,
+        "pct_change": -0.2211,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -244,29 +244,29 @@
         "top_up": [
           {
             "name": "해운사",
-            "pct_change": 4.63
+            "pct_change": 4.91
           },
           {
             "name": "생명보험",
-            "pct_change": 3.55
+            "pct_change": 3.43
           },
           {
-            "name": "석유와가스",
-            "pct_change": 2.34
+            "name": "손해보험",
+            "pct_change": 2.07
           }
         ],
         "top_down": [
           {
             "name": "건강관리업체및서비스",
-            "pct_change": -6.78
-          },
-          {
-            "name": "건강관리기술",
-            "pct_change": -4.73
+            "pct_change": -7.78
           },
           {
             "name": "레저용장비와제품",
-            "pct_change": -4.53
+            "pct_change": -5.47
+          },
+          {
+            "name": "건강관리기술",
+            "pct_change": -4.97
           }
         ],
         "status": "ok",
