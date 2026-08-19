@@ -1,6 +1,6 @@
 {
   "date": "2026-08-20",
-  "generated_at": "2026-08-20T07:54:27+09:00",
+  "generated_at": "2026-08-20T08:26:55+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -71,10 +71,10 @@
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 84.32,
+        "price": 84.58,
         "prev_close": 84.94000244140625,
-        "change": -0.62,
-        "pct_change": -0.7299,
+        "change": -0.36,
+        "pct_change": -0.4238,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
@@ -106,10 +106,10 @@
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260820&sosok="
       },
       "usdkrw": {
-        "price": 1388.32,
+        "price": 1388.49,
         "prev_close": 1413.5799560546875,
-        "change": -25.26,
-        "pct_change": -1.787,
+        "change": -25.09,
+        "pct_change": -1.7749,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -243,30 +243,30 @@
       "domestic_sector_groups": {
         "top_up": [
           {
-            "name": "레저용장비와제품",
-            "pct_change": 3.09
+            "name": "음료",
+            "pct_change": 0.0
           },
           {
-            "name": "전문소매",
-            "pct_change": 2.83
+            "name": "종이와목재",
+            "pct_change": 0.0
           },
           {
-            "name": "도로와철도운송",
-            "pct_change": 2.27
+            "name": "호텔,레스토랑,레저",
+            "pct_change": 0.0
           }
         ],
         "top_down": [
           {
-            "name": "생명보험",
-            "pct_change": -9.5
+            "name": "건강관리장비와용품",
+            "pct_change": 0.0
           },
           {
-            "name": "반도체와반도체장비",
-            "pct_change": -8.42
+            "name": "전자장비와기기",
+            "pct_change": 0.0
           },
           {
-            "name": "문구류",
-            "pct_change": -8.12
+            "name": "전기제품",
+            "pct_change": 0.0
           }
         ],
         "status": "ok",
@@ -323,7 +323,7 @@
     "fear_greed": {
       "score": 56.3,
       "rating": "greed",
-      "timestamp": "2026-08-19T22:33:58+00:00",
+      "timestamp": "2026-08-19T23:08:55+00:00",
       "status": "ok",
       "source": "https://edition.cnn.com/markets/fear-and-greed",
       "analysis": {
