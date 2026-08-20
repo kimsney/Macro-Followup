@@ -1,6 +1,6 @@
 {
   "date": "2026-08-20",
-  "generated_at": "2026-08-20T20:31:23+09:00",
+  "generated_at": "2026-08-20T21:57:56+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -48,33 +48,33 @@
       },
       "rates": {
         "us10y": {
-          "value": 4.688,
+          "value": 4.694,
           "prev_close": 4.653,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
-          "value": 4.194,
+          "value": 4.187,
           "prev_close": 4.179,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
-        "spread": 0.494,
+        "spread": 0.507,
         "status": "ok"
       },
       "dxy": {
-        "price": 98.713,
+        "price": 98.767,
         "prev_close": 98.83000183105469,
-        "change": -0.117,
-        "pct_change": -0.1184,
+        "change": -0.063,
+        "pct_change": -0.0637,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 87.02,
+        "price": 86.95,
         "prev_close": 85.83000183105469,
-        "change": 1.19,
-        "pct_change": 1.3865,
+        "change": 1.12,
+        "pct_change": 1.3049,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
@@ -106,10 +106,10 @@
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260820&sosok="
       },
       "usdkrw": {
-        "price": 1395.45,
+        "price": 1394.93,
         "prev_close": 1413.5799560546875,
-        "change": -18.13,
-        "pct_change": -1.2826,
+        "change": -18.65,
+        "pct_change": -1.3193,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -131,7 +131,7 @@
       }
     },
     "vix": {
-      "value": 15.2,
+      "value": 16.05,
       "elevated": false,
       "source": "https://www.cnbc.com/quotes/.VIX",
       "analysis": {
@@ -323,7 +323,7 @@
     "fear_greed": {
       "score": 57,
       "rating": "greed",
-      "timestamp": "2026-08-20T11:14:16+00:00",
+      "timestamp": "2026-08-20T12:39:31+00:00",
       "status": "ok",
       "source": "https://edition.cnn.com/markets/fear-and-greed",
       "analysis": {
