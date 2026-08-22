@@ -1,6 +1,6 @@
 {
   "date": "2026-08-22",
-  "generated_at": "2026-08-22T12:49:54+09:00",
+  "generated_at": "2026-08-22T13:37:59+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -71,10 +71,10 @@
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 86.64,
+        "price": 87.06,
         "prev_close": 87.83000183105469,
-        "change": -1.19,
-        "pct_change": -1.3549,
+        "change": -0.77,
+        "pct_change": -0.8767,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
