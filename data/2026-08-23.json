@@ -1,13 +1,13 @@
 {
   "date": "2026-08-23",
-  "generated_at": "2026-08-23T03:37:04+09:00",
+  "generated_at": "2026-08-23T04:26:23+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
         "dow": {
-          "price": 53277.01,
+          "price": 53277.0,
           "prev_close": 52759.2109375,
-          "change": 517.7991,
+          "change": 517.7891,
           "pct_change": 0.9814,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/.DJI"
