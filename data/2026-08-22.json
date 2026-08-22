@@ -1,6 +1,6 @@
 {
   "date": "2026-08-22",
-  "generated_at": "2026-08-22T11:58:33+09:00",
+  "generated_at": "2026-08-22T12:49:54+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -29,9 +29,9 @@
           "source": "https://www.cnbc.com/quotes/.IXIC"
         },
         "russell2000": {
-          "price": 3017.8708,
+          "price": 3017.871,
           "prev_close": 2992.429931640625,
-          "change": 25.4409,
+          "change": 25.4411,
           "pct_change": 0.8502,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/.RUT"
@@ -106,10 +106,10 @@
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260822&sosok="
       },
       "usdkrw": {
-        "price": 1385.0,
+        "price": 1383.9,
         "prev_close": 1390.7900390625,
-        "change": -5.79,
-        "pct_change": -0.4163,
+        "change": -6.89,
+        "pct_change": -0.4954,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
