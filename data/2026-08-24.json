@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "generated_at": "2026-08-24T07:51:00+09:00",
+  "generated_at": "2026-08-24T08:26:24+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -63,18 +63,18 @@
         "status": "ok"
       },
       "dxy": {
-        "price": 98.861,
+        "price": 98.866,
         "prev_close": 98.80000305175781,
-        "change": 0.061,
-        "pct_change": 0.0617,
+        "change": 0.066,
+        "pct_change": 0.0668,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 86.33,
+        "price": 86.13,
         "prev_close": 87.05999755859375,
-        "change": -0.73,
-        "pct_change": -0.8385,
+        "change": -0.93,
+        "pct_change": -1.0682,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
@@ -106,10 +106,10 @@
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260824&sosok="
       },
       "usdkrw": {
-        "price": 1385.97,
+        "price": 1385.94,
         "prev_close": 1390.7900390625,
-        "change": -4.82,
-        "pct_change": -0.3466,
+        "change": -4.85,
+        "pct_change": -0.3487,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -243,30 +243,30 @@
       "domestic_sector_groups": {
         "top_up": [
           {
-            "name": "생명보험",
-            "pct_change": 8.88
+            "name": "음료",
+            "pct_change": 0.0
           },
           {
-            "name": "무선통신서비스",
-            "pct_change": 4.8
+            "name": "종이와목재",
+            "pct_change": 0.0
           },
           {
-            "name": "손해보험",
-            "pct_change": 3.55
+            "name": "호텔,레스토랑,레저",
+            "pct_change": 0.0
           }
         ],
         "top_down": [
           {
-            "name": "에너지장비및서비스",
-            "pct_change": -7.07
-          },
-          {
-            "name": "우주항공과국방",
-            "pct_change": -6.9
+            "name": "건강관리장비와용품",
+            "pct_change": 0.0
           },
           {
             "name": "전자장비와기기",
-            "pct_change": -6.04
+            "pct_change": 0.0
+          },
+          {
+            "name": "전기제품",
+            "pct_change": 0.0
           }
         ],
         "status": "ok",
