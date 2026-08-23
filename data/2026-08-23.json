@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "generated_at": "2026-08-23T20:48:45+09:00",
+  "generated_at": "2026-08-23T21:49:38+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -72,9 +72,9 @@
       },
       "wti": {
         "price": 87.06,
-        "prev_close": 87.83000183105469,
-        "change": -0.77,
-        "pct_change": -0.8767,
+        "prev_close": 87.05999755859375,
+        "change": 0.0,
+        "pct_change": 0.0,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
