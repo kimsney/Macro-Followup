@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "generated_at": "2026-08-24T17:54:03+09:00",
+  "generated_at": "2026-08-24T18:53:27+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -48,13 +48,13 @@
       },
       "rates": {
         "us10y": {
-          "value": 4.706,
+          "value": 4.71,
           "prev_close": 4.738,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
-          "value": 4.221,
+          "value": 4.225,
           "prev_close": 4.234,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
@@ -63,18 +63,18 @@
         "status": "ok"
       },
       "dxy": {
-        "price": 98.982,
+        "price": 99.006,
         "prev_close": 98.80000305175781,
-        "change": 0.182,
-        "pct_change": 0.1842,
+        "change": 0.206,
+        "pct_change": 0.2085,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 85.16,
+        "price": 85.27,
         "prev_close": 87.05999755859375,
-        "change": -1.9,
-        "pct_change": -2.1824,
+        "change": -1.79,
+        "pct_change": -2.0561,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
@@ -98,18 +98,18 @@
       },
       "investor_flow_kospi": {
         "as_of": "26.08.24",
-        "individual": "33213",
-        "foreign": "-36764",
-        "institution": "-12928",
+        "individual": "33217",
+        "foreign": "-36691",
+        "institution": "-12901",
         "unit": "억원",
         "status": "ok",
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260824&sosok="
       },
       "usdkrw": {
-        "price": 1383.88,
+        "price": 1381.68,
         "prev_close": 1390.7900390625,
-        "change": -6.91,
-        "pct_change": -0.4968,
+        "change": -9.11,
+        "pct_change": -0.655,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -323,7 +323,7 @@
     "fear_greed": {
       "score": 55.2,
       "rating": "greed",
-      "timestamp": "2026-08-24T08:38:01+00:00",
+      "timestamp": "2026-08-24T09:33:01+00:00",
       "status": "ok",
       "source": "https://edition.cnn.com/markets/fear-and-greed",
       "analysis": {
