@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "generated_at": "2026-08-24T18:53:27+09:00",
+  "generated_at": "2026-08-24T19:41:27+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -63,18 +63,18 @@
         "status": "ok"
       },
       "dxy": {
-        "price": 99.006,
+        "price": 98.98,
         "prev_close": 98.80000305175781,
-        "change": 0.206,
-        "pct_change": 0.2085,
+        "change": 0.18,
+        "pct_change": 0.1822,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 85.27,
+        "price": 84.89,
         "prev_close": 87.05999755859375,
-        "change": -1.79,
-        "pct_change": -2.0561,
+        "change": -2.17,
+        "pct_change": -2.4925,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
@@ -106,10 +106,10 @@
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260824&sosok="
       },
       "usdkrw": {
-        "price": 1381.68,
+        "price": 1383.06,
         "prev_close": 1390.7900390625,
-        "change": -9.11,
-        "pct_change": -0.655,
+        "change": -7.73,
+        "pct_change": -0.5558,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -131,7 +131,7 @@
       }
     },
     "vix": {
-      "value": 15.9,
+      "value": 15.91,
       "elevated": false,
       "source": "https://www.cnbc.com/quotes/.VIX",
       "analysis": {
@@ -323,7 +323,7 @@
     "fear_greed": {
       "score": 55.2,
       "rating": "greed",
-      "timestamp": "2026-08-24T09:33:01+00:00",
+      "timestamp": "2026-08-24T10:13:01+00:00",
       "status": "ok",
       "source": "https://edition.cnn.com/markets/fear-and-greed",
       "analysis": {
