@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "generated_at": "2026-08-26T08:29:00+09:00",
+  "generated_at": "2026-08-26T08:52:57+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -48,19 +48,18 @@
       },
       "rates": {
         "us10y": {
-          "value": 4.623,
-          "prev_close": 4.639,
-          "status": "ok",
+          "value": null,
+          "status": "manual_needed",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
-          "value": 4.176,
-          "prev_close": 4.197,
-          "status": "ok",
+          "value": null,
+          "status": "manual_needed",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
-        "spread": 0.447,
-        "status": "ok"
+        "spread": null,
+        "status": "manual_needed",
+        "error": "'previous_day_closing'"
       },
       "dxy": {
         "price": 98.902,
@@ -71,10 +70,10 @@
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 81.0,
+        "price": 81.02,
         "prev_close": 85.01000213623047,
-        "change": -4.01,
-        "pct_change": -4.7171,
+        "change": -3.99,
+        "pct_change": -4.6936,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
@@ -106,10 +105,10 @@
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260826&sosok="
       },
       "usdkrw": {
-        "price": 1381.88,
+        "price": 1381.91,
         "prev_close": 1380.760009765625,
-        "change": 1.12,
-        "pct_change": 0.0811,
+        "change": 1.15,
+        "pct_change": 0.0833,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -323,7 +322,7 @@
     "fear_greed": {
       "score": 58.8,
       "rating": "greed",
-      "timestamp": "2026-08-25T23:11:17+00:00",
+      "timestamp": "2026-08-25T23:36:26+00:00",
       "status": "ok",
       "source": "https://edition.cnn.com/markets/fear-and-greed",
       "analysis": {
