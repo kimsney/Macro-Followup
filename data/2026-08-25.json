@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "generated_at": "2026-08-25T14:06:41+09:00",
+  "generated_at": "2026-08-25T14:59:15+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -48,68 +48,68 @@
       },
       "rates": {
         "us10y": {
-          "value": 4.712,
+          "value": 4.706,
           "prev_close": 4.704,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
-          "value": 4.249,
+          "value": 4.242,
           "prev_close": 4.236,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
-        "spread": 0.463,
+        "spread": 0.464,
         "status": "ok"
       },
       "dxy": {
-        "price": 99.075,
+        "price": 99.083,
         "prev_close": 99.0,
-        "change": 0.075,
-        "pct_change": 0.0758,
+        "change": 0.083,
+        "pct_change": 0.0838,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 85.11,
+        "price": 84.69,
         "prev_close": 85.01000213623047,
-        "change": 0.1,
-        "pct_change": 0.1176,
+        "change": -0.32,
+        "pct_change": -0.3764,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
       "domestic_indices": {
         "kospi": {
-          "price": 6688.3,
+          "price": 6739.68,
           "prev_close": 6696.9599609375,
-          "change": -8.66,
-          "pct_change": -0.1293,
+          "change": 42.72,
+          "pct_change": 0.6379,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSPI"
         },
         "kosdaq": {
-          "price": 818.92,
+          "price": 822.41,
           "prev_close": 813.3300170898438,
-          "change": 5.59,
-          "pct_change": 0.6873,
+          "change": 9.08,
+          "pct_change": 1.1164,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSDAQ"
         }
       },
       "investor_flow_kospi": {
         "as_of": "26.08.25",
-        "individual": "10255",
-        "foreign": "-30466",
-        "institution": "6775",
+        "individual": "9805",
+        "foreign": "-32928",
+        "institution": "7205",
         "unit": "억원",
         "status": "ok",
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260825&sosok="
       },
       "usdkrw": {
-        "price": 1381.98,
+        "price": 1384.98,
         "prev_close": 1384.97998046875,
-        "change": -3.0,
-        "pct_change": -0.2166,
+        "change": 0.0,
+        "pct_change": 0.0,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -243,30 +243,30 @@
       "domestic_sector_groups": {
         "top_up": [
           {
-            "name": "건설",
-            "pct_change": 6.81
+            "name": "기계",
+            "pct_change": 6.82
           },
           {
             "name": "전기유틸리티",
-            "pct_change": 6.27
+            "pct_change": 6.66
           },
           {
-            "name": "기계",
-            "pct_change": 5.45
+            "name": "건설",
+            "pct_change": 6.63
           }
         ],
         "top_down": [
           {
-            "name": "생물공학",
-            "pct_change": -2.44
+            "name": "무선통신서비스",
+            "pct_change": -3.15
           },
           {
-            "name": "무선통신서비스",
-            "pct_change": -2.24
+            "name": "생물공학",
+            "pct_change": -2.43
           },
           {
             "name": "전기제품",
-            "pct_change": -1.8
+            "pct_change": -1.86
           }
         ],
         "status": "ok",
