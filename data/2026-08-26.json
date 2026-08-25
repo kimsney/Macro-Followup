@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "generated_at": "2026-08-26T06:33:30+09:00",
+  "generated_at": "2026-08-26T07:32:14+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -49,13 +49,13 @@
       "rates": {
         "us10y": {
           "value": 4.623,
-          "prev_close": 4.704,
+          "prev_close": 4.639,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
           "value": 4.176,
-          "prev_close": 4.236,
+          "prev_close": 4.197,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
@@ -63,18 +63,18 @@
         "status": "ok"
       },
       "dxy": {
-        "price": 98.919,
+        "price": 98.902,
         "prev_close": 99.0,
-        "change": -0.081,
-        "pct_change": -0.0818,
+        "change": -0.098,
+        "pct_change": -0.099,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 81.11,
+        "price": 81.07,
         "prev_close": 85.01000213623047,
-        "change": -3.9,
-        "pct_change": -4.5877,
+        "change": -3.94,
+        "pct_change": -4.6347,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
@@ -106,10 +106,10 @@
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260826&sosok="
       },
       "usdkrw": {
-        "price": 1381.52,
+        "price": 1381.86,
         "prev_close": 1380.760009765625,
-        "change": 0.76,
-        "pct_change": 0.055,
+        "change": 1.1,
+        "pct_change": 0.0797,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -323,7 +323,7 @@
     "fear_greed": {
       "score": 58.8,
       "rating": "greed",
-      "timestamp": "2026-08-25T21:16:05+00:00",
+      "timestamp": "2026-08-25T22:16:21+00:00",
       "status": "ok",
       "source": "https://edition.cnn.com/markets/fear-and-greed",
       "analysis": {
