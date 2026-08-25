@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "generated_at": "2026-08-25T14:59:15+09:00",
+  "generated_at": "2026-08-25T16:02:31+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -48,68 +48,68 @@
       },
       "rates": {
         "us10y": {
-          "value": 4.706,
+          "value": 4.7,
           "prev_close": 4.704,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
-          "value": 4.242,
+          "value": 4.24,
           "prev_close": 4.236,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
-        "spread": 0.464,
+        "spread": 0.46,
         "status": "ok"
       },
       "dxy": {
-        "price": 99.083,
+        "price": 99.107,
         "prev_close": 99.0,
-        "change": 0.083,
-        "pct_change": 0.0838,
+        "change": 0.107,
+        "pct_change": 0.1081,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 84.69,
+        "price": 84.35,
         "prev_close": 85.01000213623047,
-        "change": -0.32,
-        "pct_change": -0.3764,
+        "change": -0.66,
+        "pct_change": -0.7764,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
       "domestic_indices": {
         "kospi": {
-          "price": 6739.68,
+          "price": 6742.74,
           "prev_close": 6696.9599609375,
-          "change": 42.72,
-          "pct_change": 0.6379,
+          "change": 45.78,
+          "pct_change": 0.6836,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSPI"
         },
         "kosdaq": {
-          "price": 822.41,
+          "price": 827.15,
           "prev_close": 813.3300170898438,
-          "change": 9.08,
-          "pct_change": 1.1164,
+          "change": 13.82,
+          "pct_change": 1.6992,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSDAQ"
         }
       },
       "investor_flow_kospi": {
         "as_of": "26.08.25",
-        "individual": "9805",
-        "foreign": "-32928",
-        "institution": "7205",
+        "individual": "10517",
+        "foreign": "-38144",
+        "institution": "11707",
         "unit": "억원",
         "status": "ok",
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260825&sosok="
       },
       "usdkrw": {
-        "price": 1384.98,
+        "price": 1385.78,
         "prev_close": 1384.97998046875,
-        "change": 0.0,
-        "pct_change": 0.0,
+        "change": 0.8,
+        "pct_change": 0.0578,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -243,30 +243,30 @@
       "domestic_sector_groups": {
         "top_up": [
           {
-            "name": "기계",
-            "pct_change": 6.82
+            "name": "건설",
+            "pct_change": 7.16
           },
           {
             "name": "전기유틸리티",
-            "pct_change": 6.66
+            "pct_change": 6.42
           },
           {
-            "name": "건설",
-            "pct_change": 6.63
+            "name": "항공화물운송과물류",
+            "pct_change": 6.3
           }
         ],
         "top_down": [
           {
             "name": "무선통신서비스",
-            "pct_change": -3.15
+            "pct_change": -2.49
           },
           {
             "name": "생물공학",
-            "pct_change": -2.43
+            "pct_change": -1.88
           },
           {
             "name": "전기제품",
-            "pct_change": -1.86
+            "pct_change": -1.74
           }
         ],
         "status": "ok",
@@ -321,9 +321,9 @@
       }
     },
     "fear_greed": {
-      "score": 55.0,
+      "score": 54.5,
       "rating": "neutral",
-      "timestamp": "2026-08-25T00:00:00+00:00",
+      "timestamp": "2026-08-25T00:59:55+00:00",
       "status": "ok",
       "source": "https://edition.cnn.com/markets/fear-and-greed",
       "analysis": {
