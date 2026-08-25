@@ -1,38 +1,38 @@
 {
   "date": "2026-08-26",
-  "generated_at": "2026-08-26T01:42:40+09:00",
+  "generated_at": "2026-08-26T02:35:37+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
         "dow": {
-          "price": 53518.51,
+          "price": 53484.95,
           "prev_close": 53417.16015625,
-          "change": 101.3498,
-          "pct_change": 0.1897,
+          "change": 67.7898,
+          "pct_change": 0.1269,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/.DJI"
         },
         "sp500": {
-          "price": 7676.3,
+          "price": 7665.82,
           "prev_close": 7652.85986328125,
-          "change": 23.4401,
-          "pct_change": 0.3063,
+          "change": 12.9601,
+          "pct_change": 0.1693,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/.SPX"
         },
         "nasdaq": {
-          "price": 26139.36,
+          "price": 26103.69,
           "prev_close": 25980.189453125,
-          "change": 159.1705,
-          "pct_change": 0.6127,
+          "change": 123.5005,
+          "pct_change": 0.4754,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/.IXIC"
         },
         "russell2000": {
-          "price": 3004.705,
+          "price": 3004.267,
           "prev_close": 2995.080078125,
-          "change": 9.6249,
-          "pct_change": 0.3214,
+          "change": 9.1869,
+          "pct_change": 0.3067,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/.RUT"
         }
@@ -48,7 +48,7 @@
       },
       "rates": {
         "us10y": {
-          "value": 4.645,
+          "value": 4.641,
           "prev_close": 4.704,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
@@ -59,22 +59,22 @@
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
-        "spread": 0.441,
+        "spread": 0.437,
         "status": "ok"
       },
       "dxy": {
-        "price": 98.957,
+        "price": 98.965,
         "prev_close": 99.0,
-        "change": -0.043,
-        "pct_change": -0.0434,
+        "change": -0.035,
+        "pct_change": -0.0354,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 82.28,
+        "price": 82.32,
         "prev_close": 85.01000213623047,
-        "change": -2.73,
-        "pct_change": -3.2114,
+        "change": -2.69,
+        "pct_change": -3.1643,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
@@ -106,10 +106,10 @@
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260826&sosok="
       },
       "usdkrw": {
-        "price": 1383.57,
+        "price": 1383.23,
         "prev_close": 1384.97998046875,
-        "change": -1.41,
-        "pct_change": -0.1018,
+        "change": -1.75,
+        "pct_change": -0.1264,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -131,7 +131,7 @@
       }
     },
     "vix": {
-      "value": 15.5,
+      "value": 15.51,
       "elevated": false,
       "source": "https://www.cnbc.com/quotes/.VIX",
       "analysis": {
@@ -141,100 +141,100 @@
     "sector_flow": {
       "global_sector_etfs": {
         "XLK": {
-          "price": 181.64,
+          "price": 181.22,
           "prev_close": 180.0500030517578,
-          "change": 1.59,
-          "pct_change": 0.8831,
+          "change": 1.17,
+          "pct_change": 0.6498,
           "status": "ok",
           "name_kr": "기술",
           "source": "https://finance.yahoo.com/quote/XLK"
         },
         "XLF": {
-          "price": 58.205,
+          "price": 58.2,
           "prev_close": 58.220001220703125,
-          "change": -0.015,
-          "pct_change": -0.0258,
+          "change": -0.02,
+          "pct_change": -0.0344,
           "status": "ok",
           "name_kr": "금융",
           "source": "https://finance.yahoo.com/quote/XLF"
         },
         "XLE": {
-          "price": 62.62,
+          "price": 62.495,
           "prev_close": 63.11000061035156,
-          "change": -0.49,
-          "pct_change": -0.7764,
+          "change": -0.615,
+          "pct_change": -0.9745,
           "status": "ok",
           "name_kr": "에너지",
           "source": "https://finance.yahoo.com/quote/XLE"
         },
         "XLV": {
-          "price": 175.59,
+          "price": 175.38,
           "prev_close": 174.6999969482422,
-          "change": 0.89,
-          "pct_change": 0.5094,
+          "change": 0.68,
+          "pct_change": 0.3892,
           "status": "ok",
           "name_kr": "헬스케어",
           "source": "https://finance.yahoo.com/quote/XLV"
         },
         "XLY": {
-          "price": 118.29,
+          "price": 118.025,
           "prev_close": 118.30000305175781,
-          "change": -0.01,
-          "pct_change": -0.0085,
+          "change": -0.275,
+          "pct_change": -0.2325,
           "status": "ok",
           "name_kr": "임의소비재",
           "source": "https://finance.yahoo.com/quote/XLY"
         },
         "XLP": {
-          "price": 86.48,
+          "price": 86.35,
           "prev_close": 87.44999694824219,
-          "change": -0.97,
-          "pct_change": -1.1092,
+          "change": -1.1,
+          "pct_change": -1.2579,
           "status": "ok",
           "name_kr": "필수소비재",
           "source": "https://finance.yahoo.com/quote/XLP"
         },
         "XLI": {
-          "price": 178.71,
+          "price": 178.4,
           "prev_close": 179.0,
-          "change": -0.29,
-          "pct_change": -0.162,
+          "change": -0.6,
+          "pct_change": -0.3352,
           "status": "ok",
           "name_kr": "산업재",
           "source": "https://finance.yahoo.com/quote/XLI"
         },
         "XLB": {
-          "price": 53.475,
+          "price": 53.43,
           "prev_close": 53.58000183105469,
-          "change": -0.105,
-          "pct_change": -0.196,
+          "change": -0.15,
+          "pct_change": -0.28,
           "status": "ok",
           "name_kr": "소재",
           "source": "https://finance.yahoo.com/quote/XLB"
         },
         "XLU": {
-          "price": 43.21,
+          "price": 43.25,
           "prev_close": 43.220001220703125,
-          "change": -0.01,
-          "pct_change": -0.0231,
+          "change": 0.03,
+          "pct_change": 0.0694,
           "status": "ok",
           "name_kr": "유틸리티",
           "source": "https://finance.yahoo.com/quote/XLU"
         },
         "XLRE": {
-          "price": 45.385,
+          "price": 45.38,
           "prev_close": 45.33000183105469,
-          "change": 0.055,
-          "pct_change": 0.1213,
+          "change": 0.05,
+          "pct_change": 0.1103,
           "status": "ok",
           "name_kr": "부동산",
           "source": "https://finance.yahoo.com/quote/XLRE"
         },
         "XLC": {
-          "price": 113.01,
+          "price": 112.875,
           "prev_close": 112.31999969482422,
-          "change": 0.69,
-          "pct_change": 0.6143,
+          "change": 0.555,
+          "pct_change": 0.4941,
           "status": "ok",
           "name_kr": "커뮤니케이션",
           "source": "https://finance.yahoo.com/quote/XLC"
@@ -321,9 +321,9 @@
       }
     },
     "fear_greed": {
-      "score": 58.5,
+      "score": 58.3,
       "rating": "greed",
-      "timestamp": "2026-08-25T16:35:25+00:00",
+      "timestamp": "2026-08-25T17:30:26+00:00",
       "status": "ok",
       "source": "https://edition.cnn.com/markets/fear-and-greed",
       "analysis": {
