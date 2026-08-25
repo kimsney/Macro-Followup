@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "generated_at": "2026-08-26T07:32:14+09:00",
+  "generated_at": "2026-08-26T08:29:00+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -71,10 +71,10 @@
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 81.07,
+        "price": 81.0,
         "prev_close": 85.01000213623047,
-        "change": -3.94,
-        "pct_change": -4.6347,
+        "change": -4.01,
+        "pct_change": -4.7171,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
@@ -106,10 +106,10 @@
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260826&sosok="
       },
       "usdkrw": {
-        "price": 1381.86,
+        "price": 1381.88,
         "prev_close": 1380.760009765625,
-        "change": 1.1,
-        "pct_change": 0.0797,
+        "change": 1.12,
+        "pct_change": 0.0811,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -243,30 +243,30 @@
       "domestic_sector_groups": {
         "top_up": [
           {
-            "name": "건설",
-            "pct_change": 7.16
+            "name": "음료",
+            "pct_change": 0.0
           },
           {
-            "name": "전기유틸리티",
-            "pct_change": 6.42
+            "name": "종이와목재",
+            "pct_change": 0.0
           },
           {
-            "name": "항공화물운송과물류",
-            "pct_change": 6.3
+            "name": "호텔,레스토랑,레저",
+            "pct_change": 0.0
           }
         ],
         "top_down": [
           {
-            "name": "무선통신서비스",
-            "pct_change": -2.49
+            "name": "건강관리장비와용품",
+            "pct_change": 0.0
           },
           {
-            "name": "생물공학",
-            "pct_change": -1.88
+            "name": "전자장비와기기",
+            "pct_change": 0.0
           },
           {
             "name": "전기제품",
-            "pct_change": -1.74
+            "pct_change": 0.0
           }
         ],
         "status": "ok",
@@ -323,7 +323,7 @@
     "fear_greed": {
       "score": 58.8,
       "rating": "greed",
-      "timestamp": "2026-08-25T22:16:21+00:00",
+      "timestamp": "2026-08-25T23:11:17+00:00",
       "status": "ok",
       "source": "https://edition.cnn.com/markets/fear-and-greed",
       "analysis": {
