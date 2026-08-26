@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "generated_at": "2026-08-26T16:27:03+09:00",
+  "generated_at": "2026-08-26T17:10:31+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -48,7 +48,7 @@
       },
       "rates": {
         "us10y": {
-          "value": 4.649,
+          "value": 4.645,
           "prev_close": 4.639,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
@@ -59,22 +59,22 @@
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
-        "spread": 0.45,
+        "spread": 0.446,
         "status": "ok"
       },
       "dxy": {
-        "price": 98.95,
+        "price": 98.967,
         "prev_close": 98.91999816894531,
-        "change": 0.03,
-        "pct_change": 0.0303,
+        "change": 0.047,
+        "pct_change": 0.0475,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 80.28,
+        "price": 79.88,
         "prev_close": 82.36000061035156,
-        "change": -2.08,
-        "pct_change": -2.5255,
+        "change": -2.48,
+        "pct_change": -3.0112,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
@@ -98,7 +98,7 @@
       },
       "investor_flow_kospi": {
         "as_of": "26.08.26",
-        "individual": "-22424",
+        "individual": "-22425",
         "foreign": "-1162",
         "institution": "7594",
         "unit": "억원",
@@ -106,10 +106,10 @@
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260826&sosok="
       },
       "usdkrw": {
-        "price": 1384.18,
+        "price": 1384.2,
         "prev_close": 1380.760009765625,
-        "change": 3.42,
-        "pct_change": 0.2477,
+        "change": 3.44,
+        "pct_change": 0.2491,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -131,7 +131,7 @@
       }
     },
     "vix": {
-      "value": 15.45,
+      "value": 15.68,
       "elevated": false,
       "source": "https://www.cnbc.com/quotes/.VIX",
       "analysis": {
@@ -323,7 +323,7 @@
     "fear_greed": {
       "score": 59.1,
       "rating": "greed",
-      "timestamp": "2026-08-26T00:59:46+00:00",
+      "timestamp": "2026-08-26T07:52:16+00:00",
       "status": "ok",
       "source": "https://edition.cnn.com/markets/fear-and-greed",
       "analysis": {
