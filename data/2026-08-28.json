@@ -1,6 +1,6 @@
 {
   "date": "2026-08-28",
-  "generated_at": "2026-08-28T06:06:19+09:00",
+  "generated_at": "2026-08-28T14:33:52+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -29,9 +29,9 @@
           "source": "https://www.cnbc.com/quotes/.IXIC"
         },
         "russell2000": {
-          "price": 3014.3394,
+          "price": 3014.339,
           "prev_close": 3005.89990234375,
-          "change": 8.4395,
+          "change": 8.4391,
           "pct_change": 0.2808,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/.RUT"
@@ -48,68 +48,68 @@
       },
       "rates": {
         "us10y": {
-          "value": 4.676,
-          "prev_close": 4.664,
+          "value": 4.68,
+          "prev_close": 4.672,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
           "value": 4.234,
-          "prev_close": 4.224,
+          "prev_close": 4.232,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
-        "spread": 0.442,
+        "spread": 0.446,
         "status": "ok"
       },
       "dxy": {
-        "price": 99.135,
-        "prev_close": 99.16999816894531,
-        "change": -0.035,
-        "pct_change": -0.0353,
+        "price": 99.192,
+        "prev_close": 99.16000366210938,
+        "change": 0.032,
+        "pct_change": 0.0323,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 83.5,
-        "prev_close": 82.2300033569336,
-        "change": 1.27,
-        "pct_change": 1.5444,
+        "price": 83.24,
+        "prev_close": 83.52999877929688,
+        "change": -0.29,
+        "pct_change": -0.3472,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
       "domestic_indices": {
         "kospi": {
-          "price": 6912.37,
-          "prev_close": 6808.2099609375,
-          "change": 104.16,
-          "pct_change": 1.5299,
+          "price": 6801.97,
+          "prev_close": 6912.3701171875,
+          "change": -110.4001,
+          "pct_change": -1.5971,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSPI"
         },
         "kosdaq": {
-          "price": 837.65,
-          "prev_close": 826.8699951171875,
-          "change": 10.78,
-          "pct_change": 1.3037,
+          "price": 835.78,
+          "prev_close": 837.6500244140625,
+          "change": -1.87,
+          "pct_change": -0.2232,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSDAQ"
         }
       },
       "investor_flow_kospi": {
-        "as_of": "26.08.27",
-        "individual": "-19116",
-        "foreign": "1333",
-        "institution": "1835",
+        "as_of": "26.08.28",
+        "individual": "2153",
+        "foreign": "-14764",
+        "institution": "-2424",
         "unit": "억원",
         "status": "ok",
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260828&sosok="
       },
       "usdkrw": {
-        "price": 1381.13,
+        "price": 1375.56,
         "prev_close": 1383.489990234375,
-        "change": -2.36,
-        "pct_change": -0.1706,
+        "change": -7.93,
+        "pct_change": -0.5732,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -243,30 +243,30 @@
       "domestic_sector_groups": {
         "top_up": [
           {
-            "name": "전기장비",
-            "pct_change": 10.3
+            "name": "기타금융",
+            "pct_change": 7.07
           },
           {
-            "name": "전기제품",
-            "pct_change": 6.44
+            "name": "인터넷과카탈로그소매",
+            "pct_change": 6.86
           },
           {
-            "name": "우주항공과국방",
-            "pct_change": 4.72
+            "name": "화장품",
+            "pct_change": 5.26
           }
         ],
         "top_down": [
           {
-            "name": "인터넷과카탈로그소매",
-            "pct_change": -4.37
+            "name": "전기유틸리티",
+            "pct_change": -3.29
           },
           {
-            "name": "자동차",
-            "pct_change": -2.86
+            "name": "통신장비",
+            "pct_change": -3.18
           },
           {
-            "name": "게임엔터테인먼트",
-            "pct_change": -2.25
+            "name": "반도체와반도체장비",
+            "pct_change": -3.08
           }
         ],
         "status": "ok",
@@ -321,9 +321,9 @@
       }
     },
     "fear_greed": {
-      "score": 58.2,
+      "score": 57.9,
       "rating": "greed",
-      "timestamp": "2026-08-27T20:46:03+00:00",
+      "timestamp": "2026-08-28T00:00:00+00:00",
       "status": "ok",
       "source": "https://edition.cnn.com/markets/fear-and-greed",
       "analysis": {
