@@ -1,6 +1,6 @@
 {
   "date": "2026-08-29",
-  "generated_at": "2026-08-29T10:51:56+09:00",
+  "generated_at": "2026-08-29T17:49:14+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -29,9 +29,9 @@
           "source": "https://www.cnbc.com/quotes/.IXIC"
         },
         "russell2000": {
-          "price": 2972.3718,
+          "price": 2972.372,
           "prev_close": 3014.340087890625,
-          "change": -41.9683,
+          "change": -41.9681,
           "pct_change": -1.3923,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/.RUT"
@@ -71,10 +71,10 @@
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 83.44,
+        "price": 83.4,
         "prev_close": 83.52999877929688,
-        "change": -0.09,
-        "pct_change": -0.1077,
+        "change": -0.13,
+        "pct_change": -0.1556,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
@@ -106,10 +106,10 @@
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260829&sosok="
       },
       "usdkrw": {
-        "price": 1375.67,
+        "price": 1371.5,
         "prev_close": 1380.449951171875,
-        "change": -4.78,
-        "pct_change": -0.3463,
+        "change": -8.95,
+        "pct_change": -0.6483,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
