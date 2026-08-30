@@ -1,6 +1,6 @@
 {
   "date": "2026-08-31",
-  "generated_at": "2026-08-31T06:25:08+09:00",
+  "generated_at": "2026-08-31T08:44:11+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -48,33 +48,33 @@
       },
       "rates": {
         "us10y": {
-          "value": 4.73,
-          "prev_close": 4.672,
+          "value": 4.722,
+          "prev_close": 4.722,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
-          "value": 4.36,
-          "prev_close": 4.232,
+          "value": 4.344,
+          "prev_close": 4.35,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
-        "spread": 0.37,
+        "spread": 0.378,
         "status": "ok"
       },
       "dxy": {
-        "price": 99.677,
+        "price": 99.648,
         "prev_close": 99.69999694824219,
-        "change": -0.023,
-        "pct_change": -0.0231,
+        "change": -0.052,
+        "pct_change": -0.0522,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 83.4,
-        "prev_close": 83.52999877929688,
-        "change": -0.13,
-        "pct_change": -0.1556,
+        "price": 84.8,
+        "prev_close": 83.4000015258789,
+        "change": 1.4,
+        "pct_change": 1.6787,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
@@ -106,10 +106,10 @@
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260831&sosok="
       },
       "usdkrw": {
-        "price": 1377.07,
+        "price": 1377.88,
         "prev_close": 1380.449951171875,
-        "change": -3.38,
-        "pct_change": -0.2448,
+        "change": -2.57,
+        "pct_change": -0.1862,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -243,30 +243,30 @@
       "domestic_sector_groups": {
         "top_up": [
           {
-            "name": "인터넷과카탈로그소매",
-            "pct_change": 7.4
+            "name": "음료",
+            "pct_change": 0.0
           },
           {
-            "name": "기타금융",
-            "pct_change": 7.18
+            "name": "종이와목재",
+            "pct_change": 0.0
           },
           {
-            "name": "화장품",
-            "pct_change": 6.33
+            "name": "호텔,레스토랑,레저",
+            "pct_change": 0.0
           }
         ],
         "top_down": [
           {
-            "name": "반도체와반도체장비",
-            "pct_change": -3.74
+            "name": "건강관리장비와용품",
+            "pct_change": 0.0
           },
           {
-            "name": "전기유틸리티",
-            "pct_change": -3.57
+            "name": "전자장비와기기",
+            "pct_change": 0.0
           },
           {
-            "name": "통신장비",
-            "pct_change": -2.93
+            "name": "전기제품",
+            "pct_change": 0.0
           }
         ],
         "status": "ok",
