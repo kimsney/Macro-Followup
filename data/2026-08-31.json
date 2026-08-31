@@ -1,6 +1,6 @@
 {
   "date": "2026-08-31",
-  "generated_at": "2026-08-31T08:44:11+09:00",
+  "generated_at": "2026-08-31T13:50:30+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -48,68 +48,68 @@
       },
       "rates": {
         "us10y": {
-          "value": 4.722,
+          "value": 4.71,
           "prev_close": 4.722,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
-          "value": 4.344,
+          "value": 4.325,
           "prev_close": 4.35,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
-        "spread": 0.378,
+        "spread": 0.385,
         "status": "ok"
       },
       "dxy": {
-        "price": 99.648,
+        "price": 99.604,
         "prev_close": 99.69999694824219,
-        "change": -0.052,
-        "pct_change": -0.0522,
+        "change": -0.096,
+        "pct_change": -0.0963,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 84.8,
+        "price": 85.16,
         "prev_close": 83.4000015258789,
-        "change": 1.4,
-        "pct_change": 1.6787,
+        "change": 1.76,
+        "pct_change": 2.1103,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
       "domestic_indices": {
         "kospi": {
-          "price": 6788.88,
-          "prev_close": 6912.3701171875,
-          "change": -123.4901,
-          "pct_change": -1.7865,
+          "price": 6688.08,
+          "prev_close": 6788.8798828125,
+          "change": -100.7999,
+          "pct_change": -1.4848,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSPI"
         },
         "kosdaq": {
-          "price": 838.41,
-          "prev_close": 837.6500244140625,
-          "change": 0.76,
-          "pct_change": 0.0907,
+          "price": 820.81,
+          "prev_close": 838.4099731445312,
+          "change": -17.6,
+          "pct_change": -2.0992,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSDAQ"
         }
       },
       "investor_flow_kospi": {
-        "as_of": "26.08.28",
-        "individual": "4194",
-        "foreign": "-8525",
-        "institution": "-11876",
+        "as_of": "26.08.31",
+        "individual": "2815",
+        "foreign": "-8314",
+        "institution": "-7319",
         "unit": "억원",
         "status": "ok",
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260831&sosok="
       },
       "usdkrw": {
-        "price": 1377.88,
+        "price": 1374.19,
         "prev_close": 1380.449951171875,
-        "change": -2.57,
-        "pct_change": -0.1862,
+        "change": -6.26,
+        "pct_change": -0.4535,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -243,30 +243,30 @@
       "domestic_sector_groups": {
         "top_up": [
           {
-            "name": "음료",
-            "pct_change": 0.0
+            "name": "전자제품",
+            "pct_change": 4.28
           },
           {
-            "name": "종이와목재",
-            "pct_change": 0.0
+            "name": "석유와가스",
+            "pct_change": 1.88
           },
           {
-            "name": "호텔,레스토랑,레저",
-            "pct_change": 0.0
+            "name": "화학",
+            "pct_change": 1.6
           }
         ],
         "top_down": [
           {
-            "name": "건강관리장비와용품",
-            "pct_change": 0.0
+            "name": "비철금속",
+            "pct_change": -5.9
           },
           {
-            "name": "전자장비와기기",
-            "pct_change": 0.0
+            "name": "생물공학",
+            "pct_change": -4.7
           },
           {
-            "name": "전기제품",
-            "pct_change": 0.0
+            "name": "전기장비",
+            "pct_change": -4.33
           }
         ],
         "status": "ok",
