@@ -1,6 +1,6 @@
 {
   "date": "2026-09-01",
-  "generated_at": "2026-09-01T07:59:11+09:00",
+  "generated_at": "2026-09-01T10:47:11+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -48,68 +48,68 @@
       },
       "rates": {
         "us10y": {
-          "value": 4.754,
+          "value": 4.78,
           "prev_close": 4.758,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
-          "value": 4.344,
+          "value": 4.356,
           "prev_close": 4.35,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
-        "spread": 0.41,
+        "spread": 0.424,
         "status": "ok"
       },
       "dxy": {
-        "price": 99.413,
+        "price": 99.463,
         "prev_close": 99.69999694824219,
-        "change": -0.287,
-        "pct_change": -0.2879,
+        "change": -0.237,
+        "pct_change": -0.2377,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 86.23,
+        "price": 86.71,
         "prev_close": 83.4000015258789,
-        "change": 2.83,
-        "pct_change": 3.3933,
+        "change": 3.31,
+        "pct_change": 3.9688,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
       "domestic_indices": {
         "kospi": {
-          "price": 6820.02,
+          "price": 6797.57,
           "prev_close": 6788.8798828125,
-          "change": 31.1401,
-          "pct_change": 0.4587,
+          "change": 8.6901,
+          "pct_change": 0.128,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSPI"
         },
         "kosdaq": {
-          "price": 834.29,
+          "price": 822.04,
           "prev_close": 838.4099731445312,
-          "change": -4.12,
-          "pct_change": -0.4914,
+          "change": -16.37,
+          "pct_change": -1.9525,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSDAQ"
         }
       },
       "investor_flow_kospi": {
-        "as_of": "26.08.31",
-        "individual": "-1464",
-        "foreign": "-6434",
-        "institution": "-7891",
+        "as_of": "26.09.01",
+        "individual": "3283",
+        "foreign": "-1848",
+        "institution": "-6327",
         "unit": "억원",
         "status": "ok",
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260901&sosok="
       },
       "usdkrw": {
-        "price": 1367.37,
+        "price": 1370.48,
         "prev_close": 1380.449951171875,
-        "change": -13.08,
-        "pct_change": -0.9475,
+        "change": -9.97,
+        "pct_change": -0.7222,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -243,30 +243,30 @@
       "domestic_sector_groups": {
         "top_up": [
           {
-            "name": "전자제품",
-            "pct_change": 7.16
+            "name": "석유와가스",
+            "pct_change": 4.35
           },
           {
-            "name": "전자장비와기기",
-            "pct_change": 2.79
+            "name": "손해보험",
+            "pct_change": 2.88
           },
           {
-            "name": "화학",
-            "pct_change": 2.23
+            "name": "무역회사와판매업체",
+            "pct_change": 2.4
           }
         ],
         "top_down": [
           {
-            "name": "비철금속",
-            "pct_change": -5.77
+            "name": "전자제품",
+            "pct_change": -5.29
           },
           {
             "name": "우주항공과국방",
-            "pct_change": -3.79
+            "pct_change": -3.44
           },
           {
-            "name": "무선통신서비스",
-            "pct_change": -3.44
+            "name": "건설",
+            "pct_change": -3.17
           }
         ],
         "status": "ok",
@@ -323,7 +323,7 @@
     "fear_greed": {
       "score": 49.7,
       "rating": "neutral",
-      "timestamp": "2026-08-31T22:40:09+00:00",
+      "timestamp": "2026-08-31T23:59:43+00:00",
       "status": "ok",
       "source": "https://edition.cnn.com/markets/fear-and-greed",
       "analysis": {
