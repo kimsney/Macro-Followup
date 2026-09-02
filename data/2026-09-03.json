@@ -1,6 +1,6 @@
 {
   "date": "2026-09-03",
-  "generated_at": "2026-09-03T06:39:03+09:00",
+  "generated_at": "2026-09-03T08:55:48+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -48,33 +48,33 @@
       },
       "rates": {
         "us10y": {
-          "value": 4.782,
-          "prev_close": 4.796,
+          "value": 4.776,
+          "prev_close": 4.794,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
           "value": 4.371,
-          "prev_close": 4.394,
+          "prev_close": 4.386,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
-        "spread": 0.411,
+        "spread": 0.405,
         "status": "ok"
       },
       "dxy": {
-        "price": 99.553,
+        "price": 99.599,
         "prev_close": 99.66999816894531,
-        "change": -0.117,
-        "pct_change": -0.1174,
+        "change": -0.071,
+        "pct_change": -0.0712,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 90.63,
+        "price": 90.64,
         "prev_close": 90.22000122070312,
-        "change": 0.41,
-        "pct_change": 0.4544,
+        "change": 0.42,
+        "pct_change": 0.4655,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
@@ -106,10 +106,10 @@
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260903&sosok="
       },
       "usdkrw": {
-        "price": 1358.54,
+        "price": 1359.17,
         "prev_close": 1372.8599853515625,
-        "change": -14.32,
-        "pct_change": -1.0431,
+        "change": -13.69,
+        "pct_change": -0.9972,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -243,30 +243,30 @@
       "domestic_sector_groups": {
         "top_up": [
           {
-            "name": "항공사",
-            "pct_change": 3.07
+            "name": "음료",
+            "pct_change": 0.0
           },
           {
-            "name": "가정용기기와용품",
-            "pct_change": -0.2
+            "name": "종이와목재",
+            "pct_change": 0.0
           },
           {
-            "name": "컴퓨터와주변기기",
-            "pct_change": -0.26
+            "name": "호텔,레스토랑,레저",
+            "pct_change": 0.0
           }
         ],
         "top_down": [
           {
-            "name": "항공화물운송과물류",
-            "pct_change": -6.13
+            "name": "건강관리장비와용품",
+            "pct_change": 0.0
           },
           {
-            "name": "조선",
-            "pct_change": -5.96
+            "name": "전자장비와기기",
+            "pct_change": 0.0
           },
           {
-            "name": "자동차",
-            "pct_change": -5.43
+            "name": "전기제품",
+            "pct_change": 0.0
           }
         ],
         "status": "ok",
@@ -323,7 +323,7 @@
     "fear_greed": {
       "score": 33.2,
       "rating": "fear",
-      "timestamp": "2026-09-02T21:19:18+00:00",
+      "timestamp": "2026-09-02T23:39:35+00:00",
       "status": "ok",
       "source": "https://edition.cnn.com/markets/fear-and-greed",
       "analysis": {
