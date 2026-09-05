@@ -1,14 +1,14 @@
 {
   "date": "2026-09-05",
-  "generated_at": "2026-09-05T08:50:29+09:00",
+  "generated_at": "2026-09-05T12:51:14+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
         "dow": {
-          "price": 53414.25,
+          "price": 53414.2,
           "prev_close": 53686.109375,
-          "change": -271.8594,
-          "pct_change": -0.5064,
+          "change": -271.9094,
+          "pct_change": -0.5065,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/.DJI"
         },
@@ -106,10 +106,10 @@
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260905&sosok="
       },
       "usdkrw": {
-        "price": 1345.99,
+        "price": 1351.1,
         "prev_close": 1355.4100341796875,
-        "change": -9.42,
-        "pct_change": -0.695,
+        "change": -4.31,
+        "pct_change": -0.318,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -323,7 +323,7 @@
     "fear_greed": {
       "score": 41.9,
       "rating": "fear",
-      "timestamp": "2026-09-04T23:33:51+00:00",
+      "timestamp": "2026-09-04T23:59:43+00:00",
       "status": "ok",
       "source": "https://edition.cnn.com/markets/fear-and-greed",
       "analysis": {
