@@ -1,14 +1,14 @@
 {
   "date": "2026-09-05",
-  "generated_at": "2026-09-05T12:51:14+09:00",
+  "generated_at": "2026-09-05T17:14:05+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
         "dow": {
-          "price": 53414.2,
+          "price": 53414.25,
           "prev_close": 53686.109375,
-          "change": -271.9094,
-          "pct_change": -0.5065,
+          "change": -271.8594,
+          "pct_change": -0.5064,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/.DJI"
         },
@@ -63,18 +63,18 @@
         "status": "ok"
       },
       "dxy": {
-        "price": 99.157,
+        "price": 99.176,
         "prev_close": 99.0,
-        "change": 0.157,
-        "pct_change": 0.1586,
+        "change": 0.176,
+        "pct_change": 0.1778,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 91.22,
+        "price": 91.48,
         "prev_close": 91.30000305175781,
-        "change": -0.08,
-        "pct_change": -0.0876,
+        "change": 0.18,
+        "pct_change": 0.1972,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
