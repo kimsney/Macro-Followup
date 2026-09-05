@@ -1,6 +1,6 @@
 {
   "date": "2026-09-05",
-  "generated_at": "2026-09-05T17:14:05+09:00",
+  "generated_at": "2026-09-05T20:57:58+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -63,10 +63,10 @@
         "status": "ok"
       },
       "dxy": {
-        "price": 99.176,
+        "price": 99.157,
         "prev_close": 99.0,
-        "change": 0.176,
-        "pct_change": 0.1778,
+        "change": 0.157,
+        "pct_change": 0.1586,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
