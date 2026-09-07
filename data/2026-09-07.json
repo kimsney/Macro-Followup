@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "generated_at": "2026-09-07T15:32:49+09:00",
+  "generated_at": "2026-09-07T22:24:12+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -63,10 +63,10 @@
         "status": "ok"
       },
       "dxy": {
-        "price": 99.118,
+        "price": 98.908,
         "prev_close": 99.16000366210938,
-        "change": -0.042,
-        "pct_change": -0.0424,
+        "change": -0.252,
+        "pct_change": -0.2541,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
@@ -80,36 +80,36 @@
       },
       "domestic_indices": {
         "kospi": {
-          "price": 6981.91,
+          "price": 6995.39,
           "prev_close": 6687.2099609375,
-          "change": 294.7,
-          "pct_change": 4.4069,
+          "change": 308.18,
+          "pct_change": 4.6085,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSPI"
         },
         "kosdaq": {
-          "price": 822.3,
+          "price": 822.19,
           "prev_close": 813.5,
-          "change": 8.8,
-          "pct_change": 1.0817,
+          "change": 8.69,
+          "pct_change": 1.0682,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSDAQ"
         }
       },
       "investor_flow_kospi": {
         "as_of": "26.09.07",
-        "individual": "-68212",
-        "foreign": "25533",
-        "institution": "26327",
+        "individual": "-68374",
+        "foreign": "25532",
+        "institution": "26491",
         "unit": "억원",
         "status": "ok",
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260907&sosok="
       },
       "usdkrw": {
-        "price": 1340.62,
+        "price": 1347.38,
         "prev_close": 1355.4100341796875,
-        "change": -14.79,
-        "pct_change": -1.0912,
+        "change": -8.03,
+        "pct_change": -0.5924,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -131,7 +131,7 @@
       }
     },
     "vix": {
-      "value": 14.53,
+      "value": 15.17,
       "elevated": false,
       "source": "https://www.cnbc.com/quotes/.VIX",
       "analysis": {
