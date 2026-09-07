@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "generated_at": "2026-09-07T10:15:09+09:00",
+  "generated_at": "2026-09-07T15:32:49+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -63,10 +63,10 @@
         "status": "ok"
       },
       "dxy": {
-        "price": 99.115,
+        "price": 99.118,
         "prev_close": 99.16000366210938,
-        "change": -0.045,
-        "pct_change": -0.0454,
+        "change": -0.042,
+        "pct_change": -0.0424,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
@@ -80,36 +80,36 @@
       },
       "domestic_indices": {
         "kospi": {
-          "price": 6895.02,
+          "price": 6981.91,
           "prev_close": 6687.2099609375,
-          "change": 207.81,
-          "pct_change": 3.1076,
+          "change": 294.7,
+          "pct_change": 4.4069,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSPI"
         },
         "kosdaq": {
-          "price": 827.17,
+          "price": 822.3,
           "prev_close": 813.5,
-          "change": 13.67,
-          "pct_change": 1.6804,
+          "change": 8.8,
+          "pct_change": 1.0817,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSDAQ"
         }
       },
       "investor_flow_kospi": {
         "as_of": "26.09.07",
-        "individual": "-18874",
-        "foreign": "7579",
-        "institution": "8073",
+        "individual": "-68212",
+        "foreign": "25533",
+        "institution": "26327",
         "unit": "억원",
         "status": "ok",
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260907&sosok="
       },
       "usdkrw": {
-        "price": 1336.58,
+        "price": 1340.62,
         "prev_close": 1355.4100341796875,
-        "change": -18.83,
-        "pct_change": -1.3892,
+        "change": -14.79,
+        "pct_change": -1.0912,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -243,30 +243,30 @@
       "domestic_sector_groups": {
         "top_up": [
           {
-            "name": "전자제품",
-            "pct_change": 8.94
-          },
-          {
             "name": "반도체와반도체장비",
-            "pct_change": 4.47
+            "pct_change": 6.63
           },
           {
-            "name": "에너지장비및서비스",
-            "pct_change": 3.89
+            "name": "전기장비",
+            "pct_change": 6.61
+          },
+          {
+            "name": "전자제품",
+            "pct_change": 6.05
           }
         ],
         "top_down": [
           {
             "name": "식품",
-            "pct_change": -2.58
+            "pct_change": -2.12
           },
           {
-            "name": "항공사",
-            "pct_change": -2.18
+            "name": "화장품",
+            "pct_change": -1.64
           },
           {
-            "name": "가정용기기와용품",
-            "pct_change": -1.38
+            "name": "인터넷과카탈로그소매",
+            "pct_change": -1.57
           }
         ],
         "status": "ok",
