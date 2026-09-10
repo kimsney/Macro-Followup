@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "generated_at": "2026-09-10T10:21:00+09:00",
+  "generated_at": "2026-09-10T15:30:41+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -29,9 +29,9 @@
           "source": "https://www.cnbc.com/quotes/.IXIC"
         },
         "russell2000": {
-          "price": 2921.2344,
+          "price": 2921.234,
           "prev_close": 2960.199951171875,
-          "change": -38.9656,
+          "change": -38.966,
           "pct_change": -1.3163,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/.RUT"
@@ -48,68 +48,68 @@
       },
       "rates": {
         "us10y": {
-          "value": 4.847,
+          "value": 4.833,
           "prev_close": 4.84,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
-          "value": 4.434,
+          "value": 4.417,
           "prev_close": 4.427,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
-        "spread": 0.413,
+        "spread": 0.416,
         "status": "ok"
       },
       "dxy": {
-        "price": 98.784,
-        "prev_close": 98.83999633789062,
-        "change": -0.056,
-        "pct_change": -0.0567,
+        "price": 98.745,
+        "prev_close": 98.7699966430664,
+        "change": -0.025,
+        "pct_change": -0.0253,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 96.66,
-        "prev_close": 93.02999877929688,
-        "change": 3.63,
-        "pct_change": 3.902,
+        "price": 95.62,
+        "prev_close": 96.05000305175781,
+        "change": -0.43,
+        "pct_change": -0.4477,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
       "domestic_indices": {
         "kospi": {
-          "price": 6946.82,
-          "prev_close": 6954.52001953125,
-          "change": -7.7,
-          "pct_change": -0.1107,
+          "price": 7050.12,
+          "prev_close": 7051.64013671875,
+          "change": -1.5201,
+          "pct_change": -0.0216,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSPI"
         },
         "kosdaq": {
-          "price": 815.89,
-          "prev_close": 811.8800048828125,
-          "change": 4.01,
-          "pct_change": 0.4939,
+          "price": 835.25,
+          "prev_close": 830.3699951171875,
+          "change": 4.88,
+          "pct_change": 0.5877,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSDAQ"
         }
       },
       "investor_flow_kospi": {
         "as_of": "26.09.10",
-        "individual": "5646",
-        "foreign": "-3946",
-        "institution": "-5456",
+        "individual": "-241",
+        "foreign": "-9620",
+        "institution": "-6655",
         "unit": "억원",
         "status": "ok",
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260910&sosok="
       },
       "usdkrw": {
-        "price": 1338.08,
+        "price": 1338.88,
         "prev_close": 1339.2099609375,
-        "change": -1.13,
-        "pct_change": -0.0844,
+        "change": -0.33,
+        "pct_change": -0.0246,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -244,29 +244,29 @@
         "top_up": [
           {
             "name": "가스유틸리티",
-            "pct_change": 1.47
+            "pct_change": 2.59
           },
           {
-            "name": "해운사",
-            "pct_change": 0.9
+            "name": "생명보험",
+            "pct_change": 2.29
           },
           {
-            "name": "손해보험",
-            "pct_change": 0.35
+            "name": "우주항공과국방",
+            "pct_change": 1.63
           }
         ],
         "top_down": [
           {
-            "name": "전기장비",
-            "pct_change": -4.57
-          },
-          {
             "name": "건강관리기술",
-            "pct_change": -4.18
+            "pct_change": -2.51
           },
           {
-            "name": "인터넷과카탈로그소매",
-            "pct_change": -3.62
+            "name": "항공사",
+            "pct_change": -2.33
+          },
+          {
+            "name": "건강관리업체및서비스",
+            "pct_change": -1.9
           }
         ],
         "status": "ok",
@@ -321,9 +321,9 @@
       }
     },
     "fear_greed": {
-      "score": 39.0,
+      "score": 38.9,
       "rating": "fear",
-      "timestamp": "2026-09-09T23:59:55+00:00",
+      "timestamp": "2026-09-10T00:00:00+00:00",
       "status": "ok",
       "source": "https://edition.cnn.com/markets/fear-and-greed",
       "analysis": {
