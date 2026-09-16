@@ -1,13 +1,13 @@
 {
   "date": "2026-09-16",
-  "generated_at": "2026-09-16T08:36:56+09:00",
+  "generated_at": "2026-09-16T13:14:54+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
         "dow": {
-          "price": 52093.11,
+          "price": 52093.1,
           "prev_close": 52421.19921875,
-          "change": -328.0892,
+          "change": -328.0992,
           "pct_change": -0.6259,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/.DJI"
@@ -29,9 +29,9 @@
           "source": "https://www.cnbc.com/quotes/.IXIC"
         },
         "russell2000": {
-          "price": 2870.2854,
+          "price": 2870.285,
           "prev_close": 2892.239990234375,
-          "change": -21.9546,
+          "change": -21.955,
           "pct_change": -0.7591,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/.RUT"
@@ -48,68 +48,68 @@
       },
       "rates": {
         "us10y": {
-          "value": 4.992,
+          "value": 4.986,
           "prev_close": 4.996,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
-          "value": 4.655,
+          "value": 4.653,
           "prev_close": 4.663,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
-        "spread": 0.337,
+        "spread": 0.333,
         "status": "ok"
       },
       "dxy": {
-        "price": 99.612,
-        "prev_close": 99.45999908447266,
-        "change": 0.152,
-        "pct_change": 0.1528,
+        "price": 99.65,
+        "prev_close": 99.6500015258789,
+        "change": -0.0,
+        "pct_change": -0.0,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 105.43,
-        "prev_close": 101.38999938964844,
-        "change": 4.04,
-        "pct_change": 3.9846,
+        "price": 104.67,
+        "prev_close": 105.83000183105469,
+        "change": -1.16,
+        "pct_change": -1.0961,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
       "domestic_indices": {
         "kospi": {
-          "price": 6627.26,
-          "prev_close": 6684.3701171875,
-          "change": -57.1101,
-          "pct_change": -0.8544,
+          "price": 6694.08,
+          "prev_close": 6627.259765625,
+          "change": 66.8202,
+          "pct_change": 1.0083,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSPI"
         },
         "kosdaq": {
-          "price": 812.41,
-          "prev_close": 806.7899780273438,
-          "change": 5.62,
-          "pct_change": 0.6966,
+          "price": 810.43,
+          "prev_close": 812.4099731445312,
+          "change": -1.98,
+          "pct_change": -0.2437,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSDAQ"
         }
       },
       "investor_flow_kospi": {
-        "as_of": "26.09.15",
-        "individual": "8596",
-        "foreign": "-15458",
-        "institution": "-9585",
+        "as_of": "26.09.16",
+        "individual": "-8706",
+        "foreign": "-12971",
+        "institution": "9855",
         "unit": "억원",
         "status": "ok",
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260916&sosok="
       },
       "usdkrw": {
-        "price": 1363.73,
+        "price": 1363.71,
         "prev_close": 1345.6099853515625,
-        "change": 18.12,
-        "pct_change": 1.3466,
+        "change": 18.1,
+        "pct_change": 1.3451,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -295,9 +295,9 @@
       }
     },
     "fear_greed": {
-      "score": 28.7,
+      "score": 28.5,
       "rating": "fear",
-      "timestamp": "2026-09-15T23:18:19+00:00",
+      "timestamp": "2026-09-16T00:00:00+00:00",
       "status": "ok",
       "source": "https://edition.cnn.com/markets/fear-and-greed",
       "analysis": {
