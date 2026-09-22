@@ -1,13 +1,13 @@
 {
   "date": "2026-09-22",
-  "generated_at": "2026-09-22T16:32:17+09:00",
+  "generated_at": "2026-09-22T22:15:35+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
         "dow": {
-          "price": 52048.8,
+          "price": 52048.83,
           "prev_close": 51682.640625,
-          "change": 366.1594,
+          "change": 366.1894,
           "pct_change": 0.7085,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/.DJI"
@@ -48,33 +48,33 @@
       },
       "rates": {
         "us10y": {
-          "value": 4.967,
+          "value": 4.935,
           "prev_close": 4.963,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
-          "value": 4.769,
+          "value": 4.732,
           "prev_close": 4.753,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
-        "spread": 0.198,
+        "spread": 0.203,
         "status": "ok"
       },
       "dxy": {
-        "price": 100.44,
+        "price": 100.456,
         "prev_close": 100.43000030517578,
-        "change": 0.01,
-        "pct_change": 0.01,
+        "change": 0.026,
+        "pct_change": 0.0259,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 93.23,
+        "price": 90.06,
         "prev_close": 95.77999877929688,
-        "change": -2.55,
-        "pct_change": -2.6624,
+        "change": -5.72,
+        "pct_change": -5.972,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
@@ -105,10 +105,10 @@
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260922&sosok="
       },
       "usdkrw": {
-        "price": 1361.68,
+        "price": 1358.78,
         "prev_close": 1384.8599853515625,
-        "change": -23.18,
-        "pct_change": -1.6738,
+        "change": -26.08,
+        "pct_change": -1.8832,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -130,7 +130,7 @@
       }
     },
     "vix": {
-      "value": 14.64,
+      "value": 14.66,
       "elevated": false,
       "source": "https://www.cnbc.com/quotes/.VIX",
       "analysis": {
@@ -294,9 +294,9 @@
       }
     },
     "fear_greed": {
-      "score": 33.6,
+      "score": 33.7,
       "rating": "fear",
-      "timestamp": "2026-09-22T00:59:53+00:00",
+      "timestamp": "2026-09-22T12:55:01+00:00",
       "status": "ok",
       "source": "https://edition.cnn.com/markets/fear-and-greed",
       "analysis": {
