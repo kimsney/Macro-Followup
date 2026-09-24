@@ -1,6 +1,6 @@
 {
   "date": "2026-09-25",
-  "generated_at": "2026-09-25T05:19:12+09:00",
+  "generated_at": "2026-09-25T08:20:00+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -29,10 +29,10 @@
           "source": "https://www.cnbc.com/quotes/.IXIC"
         },
         "russell2000": {
-          "price": 2835.5789,
+          "price": 2835.5742,
           "prev_close": 2838.659912109375,
-          "change": -3.081,
-          "pct_change": -0.1085,
+          "change": -3.0857,
+          "pct_change": -0.1087,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/.RUT"
         }
@@ -48,33 +48,33 @@
       },
       "rates": {
         "us10y": {
-          "value": 5.219,
-          "prev_close": 5.114,
+          "value": 5.208,
+          "prev_close": 5.162,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
-          "value": 4.941,
+          "value": 4.931,
           "prev_close": 4.895,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
-        "spread": 0.278,
+        "spread": 0.277,
         "status": "ok"
       },
       "dxy": {
-        "price": 101.269,
+        "price": 101.248,
         "prev_close": 101.0999984741211,
-        "change": 0.169,
-        "pct_change": 0.1672,
+        "change": 0.148,
+        "pct_change": 0.1464,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 95.31,
+        "price": 94.27,
         "prev_close": 92.16000366210938,
-        "change": 3.15,
-        "pct_change": 3.418,
+        "change": 2.11,
+        "pct_change": 2.2895,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
@@ -105,10 +105,10 @@
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20260925&sosok="
       },
       "usdkrw": {
-        "price": 1366.78,
+        "price": 1367.75,
         "prev_close": 1362.5,
-        "change": 4.28,
-        "pct_change": 0.3141,
+        "change": 5.25,
+        "pct_change": 0.3853,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -130,7 +130,7 @@
       }
     },
     "vix": {
-      "value": 15.64,
+      "value": 15.67,
       "elevated": false,
       "source": "https://www.cnbc.com/quotes/.VIX",
       "analysis": {
@@ -140,10 +140,10 @@
     "sector_flow": {
       "global_sector_etfs": {
         "XLK": {
-          "price": 194.68,
+          "price": 194.71,
           "prev_close": 195.33999633789062,
-          "change": -0.66,
-          "pct_change": -0.3379,
+          "change": -0.63,
+          "pct_change": -0.3225,
           "status": "ok",
           "name_kr": "기술",
           "source": "https://finance.yahoo.com/quote/XLK"
@@ -296,7 +296,7 @@
     "fear_greed": {
       "score": 36.1,
       "rating": "fear",
-      "timestamp": "2026-09-24T20:07:16+00:00",
+      "timestamp": "2026-09-24T23:02:31+00:00",
       "status": "ok",
       "source": "https://edition.cnn.com/markets/fear-and-greed",
       "analysis": {
