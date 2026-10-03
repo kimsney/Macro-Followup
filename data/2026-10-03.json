@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "generated_at": "2026-10-03T10:48:53+09:00",
+  "generated_at": "2026-10-03T16:50:47+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -71,10 +71,10 @@
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 91.26,
+        "price": 91.11,
         "prev_close": 92.87000274658203,
-        "change": -1.61,
-        "pct_change": -1.7336,
+        "change": -1.76,
+        "pct_change": -1.8951,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
