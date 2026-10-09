@@ -1,14 +1,14 @@
 {
   "date": "2026-10-09",
-  "generated_at": "2026-10-09T10:05:07+09:00",
+  "generated_at": "2026-10-09T16:53:20+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
         "dow": {
-          "price": 51231.64,
+          "price": 51231.6,
           "prev_close": 51179.87109375,
-          "change": 51.7689,
-          "pct_change": 0.1012,
+          "change": 51.7289,
+          "pct_change": 0.1011,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/.DJI"
         },
@@ -48,33 +48,33 @@
       },
       "rates": {
         "us10y": {
-          "value": 5.231,
+          "value": 5.24,
           "prev_close": 5.233,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
-          "value": 4.757,
+          "value": 4.781,
           "prev_close": 4.756,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
-        "spread": 0.474,
+        "spread": 0.459,
         "status": "ok"
       },
       "dxy": {
-        "price": 102.09,
-        "prev_close": 102.23999786376953,
-        "change": -0.15,
-        "pct_change": -0.1467,
+        "price": 102.061,
+        "prev_close": 102.13999938964844,
+        "change": -0.079,
+        "pct_change": -0.0773,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 91.06,
-        "prev_close": 88.27999877929688,
-        "change": 2.78,
-        "pct_change": 3.1491,
+        "price": 90.61,
+        "prev_close": 91.48999786376953,
+        "change": -0.88,
+        "pct_change": -0.9619,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
@@ -105,10 +105,10 @@
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20261009&sosok="
       },
       "usdkrw": {
-        "price": 1344.46,
+        "price": 1339.4,
         "prev_close": 1339.0799560546875,
-        "change": 5.38,
-        "pct_change": 0.4018,
+        "change": 0.32,
+        "pct_change": 0.0239,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -130,7 +130,7 @@
       }
     },
     "vix": {
-      "value": 15.41,
+      "value": 15.3,
       "elevated": false,
       "source": "https://www.cnbc.com/quotes/.VIX",
       "analysis": {
@@ -296,7 +296,7 @@
     "fear_greed": {
       "score": 38.1,
       "rating": "fear",
-      "timestamp": "2026-10-08T23:59:44+00:00",
+      "timestamp": "2026-10-09T07:36:16+00:00",
       "status": "ok",
       "source": "https://edition.cnn.com/markets/fear-and-greed",
       "analysis": {
