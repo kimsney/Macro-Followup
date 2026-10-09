@@ -1,6 +1,6 @@
 {
   "date": "2026-10-09",
-  "generated_at": "2026-10-09T05:35:38+09:00",
+  "generated_at": "2026-10-09T10:05:07+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -49,32 +49,32 @@
       "rates": {
         "us10y": {
           "value": 5.231,
-          "prev_close": 5.277,
+          "prev_close": 5.233,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
-          "value": 4.758,
-          "prev_close": 4.764,
+          "value": 4.757,
+          "prev_close": 4.756,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
-        "spread": 0.473,
+        "spread": 0.474,
         "status": "ok"
       },
       "dxy": {
-        "price": 102.096,
+        "price": 102.09,
         "prev_close": 102.23999786376953,
-        "change": -0.144,
-        "pct_change": -0.1408,
+        "change": -0.15,
+        "pct_change": -0.1467,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 90.76,
+        "price": 91.06,
         "prev_close": 88.27999877929688,
-        "change": 2.48,
-        "pct_change": 2.8092,
+        "change": 2.78,
+        "pct_change": 3.1491,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
@@ -105,10 +105,10 @@
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20261009&sosok="
       },
       "usdkrw": {
-        "price": 1342.4,
+        "price": 1344.46,
         "prev_close": 1339.0799560546875,
-        "change": 3.32,
-        "pct_change": 0.2479,
+        "change": 5.38,
+        "pct_change": 0.4018,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -296,7 +296,7 @@
     "fear_greed": {
       "score": 38.1,
       "rating": "fear",
-      "timestamp": "2026-10-08T20:20:01+00:00",
+      "timestamp": "2026-10-08T23:59:44+00:00",
       "status": "ok",
       "source": "https://edition.cnn.com/markets/fear-and-greed",
       "analysis": {
