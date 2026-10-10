@@ -1,6 +1,6 @@
 {
   "date": "2026-10-10",
-  "generated_at": "2026-10-10T05:16:09+09:00",
+  "generated_at": "2026-10-10T09:15:06+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -29,10 +29,10 @@
           "source": "https://www.cnbc.com/quotes/.IXIC"
         },
         "russell2000": {
-          "price": 2806.9778,
+          "price": 2806.9814,
           "prev_close": 2794.1298828125,
-          "change": 12.8479,
-          "pct_change": 0.4598,
+          "change": 12.8515,
+          "pct_change": 0.4599,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/.RUT"
         }
@@ -48,33 +48,33 @@
       },
       "rates": {
         "us10y": {
-          "value": 5.246,
+          "value": 5.242,
           "prev_close": 5.233,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
-          "value": 4.793,
+          "value": 4.791,
           "prev_close": 4.756,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
-        "spread": 0.453,
+        "spread": 0.451,
         "status": "ok"
       },
       "dxy": {
-        "price": 102.223,
+        "price": 102.231,
         "prev_close": 102.13999938964844,
-        "change": 0.083,
-        "pct_change": 0.0813,
+        "change": 0.091,
+        "pct_change": 0.0891,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 91.67,
+        "price": 91.66,
         "prev_close": 91.48999786376953,
-        "change": 0.18,
-        "pct_change": 0.1967,
+        "change": 0.17,
+        "pct_change": 0.1858,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
@@ -105,10 +105,10 @@
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20261010&sosok="
       },
       "usdkrw": {
-        "price": 1340.53,
+        "price": 1340.02,
         "prev_close": 1342.989990234375,
-        "change": -2.46,
-        "pct_change": -0.1832,
+        "change": -2.97,
+        "pct_change": -0.2211,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -130,7 +130,7 @@
       }
     },
     "vix": {
-      "value": 14.79,
+      "value": 14.84,
       "elevated": false,
       "source": "https://www.cnbc.com/quotes/.VIX",
       "analysis": {
@@ -294,9 +294,9 @@
       }
     },
     "fear_greed": {
-      "score": 45.2,
-      "rating": "neutral",
-      "timestamp": "2026-10-09T20:02:38+00:00",
+      "score": 45,
+      "rating": "fear",
+      "timestamp": "2026-10-09T23:58:06+00:00",
       "status": "ok",
       "source": "https://edition.cnn.com/markets/fear-and-greed",
       "analysis": {
