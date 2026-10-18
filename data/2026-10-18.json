@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "generated_at": "2026-10-18T12:55:55+09:00",
+  "generated_at": "2026-10-18T17:45:32+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -48,25 +48,24 @@
       },
       "rates": {
         "us10y": {
-          "value": 5.081,
-          "prev_close": 5.087,
-          "status": "ok",
+          "value": null,
+          "status": "manual_needed",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
-          "value": 4.715,
-          "prev_close": 4.751,
-          "status": "ok",
+          "value": null,
+          "status": "manual_needed",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
-        "spread": 0.366,
-        "status": "ok"
+        "spread": null,
+        "status": "manual_needed",
+        "error": "'last'"
       },
       "dxy": {
         "price": 101.779,
-        "prev_close": 102.0,
-        "change": -0.221,
-        "pct_change": -0.2167,
+        "prev_close": 101.83999633789062,
+        "change": -0.061,
+        "pct_change": -0.0599,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
