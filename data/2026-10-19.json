@@ -1,6 +1,6 @@
 {
   "date": "2026-10-19",
-  "generated_at": "2026-10-19T09:01:39+09:00",
+  "generated_at": "2026-10-19T14:07:52+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -48,50 +48,50 @@
       },
       "rates": {
         "us10y": {
-          "value": 5.058,
+          "value": 5.067,
           "prev_close": 5.098,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
-          "value": 4.706,
+          "value": 4.723,
           "prev_close": 4.736,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
-        "spread": 0.352,
+        "spread": 0.344,
         "status": "ok"
       },
       "dxy": {
-        "price": 101.851,
+        "price": 101.82,
         "prev_close": 101.83999633789062,
-        "change": 0.011,
-        "pct_change": 0.0108,
+        "change": -0.02,
+        "pct_change": -0.0196,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 97.77,
+        "price": 97.39,
         "prev_close": 101.41000366210938,
-        "change": -3.64,
-        "pct_change": -3.5894,
+        "change": -4.02,
+        "pct_change": -3.9641,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
       "domestic_indices": {
         "kospi": {
-          "price": 5668.05,
+          "price": 5707.37,
           "prev_close": 5668.0498046875,
-          "change": 0.0002,
-          "pct_change": 0.0,
+          "change": 39.3202,
+          "pct_change": 0.6937,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSPI"
         },
         "kosdaq": {
-          "price": 794.78,
+          "price": 797.64,
           "prev_close": 794.780029296875,
-          "change": -0.0,
-          "pct_change": -0.0,
+          "change": 2.86,
+          "pct_change": 0.3598,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSDAQ"
         }
@@ -105,10 +105,10 @@
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20261019&sosok="
       },
       "usdkrw": {
-        "price": 1335.08,
+        "price": 1330.63,
         "prev_close": 1340.949951171875,
-        "change": -5.87,
-        "pct_change": -0.4377,
+        "change": -10.32,
+        "pct_change": -0.7696,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
