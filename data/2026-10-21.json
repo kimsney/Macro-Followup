@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "generated_at": "2026-10-21T05:20:57+09:00",
+  "generated_at": "2026-10-21T08:18:53+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -48,33 +48,33 @@
       },
       "rates": {
         "us10y": {
-          "value": 5.113,
-          "prev_close": 5.136,
+          "value": 5.111,
+          "prev_close": 5.117,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
-          "value": 4.783,
-          "prev_close": 4.761,
+          "value": 4.78,
+          "prev_close": 4.787,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
-        "spread": 0.33,
+        "spread": 0.331,
         "status": "ok"
       },
       "dxy": {
-        "price": 101.721,
+        "price": 101.73,
         "prev_close": 101.9800033569336,
-        "change": -0.259,
-        "pct_change": -0.254,
+        "change": -0.25,
+        "pct_change": -0.2451,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 98.02,
+        "price": 98.27,
         "prev_close": 103.66000366210938,
-        "change": -5.64,
-        "pct_change": -5.4409,
+        "change": -5.39,
+        "pct_change": -5.1997,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
@@ -105,10 +105,10 @@
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20261021&sosok="
       },
       "usdkrw": {
-        "price": 1325.58,
+        "price": 1325.9,
         "prev_close": 1330.0,
-        "change": -4.42,
-        "pct_change": -0.3323,
+        "change": -4.1,
+        "pct_change": -0.3083,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -130,7 +130,7 @@
       }
     },
     "vix": {
-      "value": 17.38,
+      "value": 17.31,
       "elevated": false,
       "source": "https://www.cnbc.com/quotes/.VIX",
       "analysis": {
@@ -140,10 +140,10 @@
     "sector_flow": {
       "global_sector_etfs": {
         "XLK": {
-          "price": 185.46,
+          "price": 185.44,
           "prev_close": 185.9600067138672,
-          "change": -0.5,
-          "pct_change": -0.2689,
+          "change": -0.52,
+          "pct_change": -0.2796,
           "status": "ok",
           "name_kr": "기술",
           "source": "https://finance.yahoo.com/quote/XLK"
@@ -167,19 +167,19 @@
           "source": "https://finance.yahoo.com/quote/XLE"
         },
         "XLV": {
-          "price": 179.83,
+          "price": 179.82,
           "prev_close": 175.64999389648438,
-          "change": 4.18,
-          "pct_change": 2.3797,
+          "change": 4.17,
+          "pct_change": 2.374,
           "status": "ok",
           "name_kr": "헬스케어",
           "source": "https://finance.yahoo.com/quote/XLV"
         },
         "XLY": {
-          "price": 115.51,
+          "price": 115.5,
           "prev_close": 114.45999908447266,
-          "change": 1.05,
-          "pct_change": 0.9174,
+          "change": 1.04,
+          "pct_change": 0.9086,
           "status": "ok",
           "name_kr": "임의소비재",
           "source": "https://finance.yahoo.com/quote/XLY"
@@ -296,7 +296,7 @@
     "fear_greed": {
       "score": 27.2,
       "rating": "fear",
-      "timestamp": "2026-10-20T20:09:57+00:00",
+      "timestamp": "2026-10-20T22:59:55+00:00",
       "status": "ok",
       "source": "https://edition.cnn.com/markets/fear-and-greed",
       "analysis": {
