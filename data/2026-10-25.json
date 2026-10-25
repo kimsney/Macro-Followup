@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "generated_at": "2026-10-25T09:28:24+09:00",
+  "generated_at": "2026-10-25T14:11:08+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -29,9 +29,9 @@
           "source": "https://www.cnbc.com/quotes/.IXIC"
         },
         "russell2000": {
-          "price": 2775.8987,
+          "price": 2775.899,
           "prev_close": 2784.030029296875,
-          "change": -8.1313,
+          "change": -8.131,
           "pct_change": -0.2921,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/.RUT"
@@ -64,9 +64,9 @@
       },
       "dxy": {
         "price": 101.752,
-        "prev_close": 101.61000061035156,
-        "change": 0.142,
-        "pct_change": 0.1398,
+        "prev_close": 101.80999755859375,
+        "change": -0.058,
+        "pct_change": -0.057,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
