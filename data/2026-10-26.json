@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "generated_at": "2026-10-26T03:17:11+09:00",
+  "generated_at": "2026-10-26T06:08:22+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -105,10 +105,10 @@
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20261026&sosok="
       },
       "usdkrw": {
-        "price": 1323.66,
+        "price": 1323.61,
         "prev_close": 1325.989990234375,
-        "change": -2.33,
-        "pct_change": -0.1757,
+        "change": -2.38,
+        "pct_change": -0.1795,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
