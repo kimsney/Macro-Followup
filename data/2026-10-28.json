@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "generated_at": "2026-10-28T15:07:31+09:00",
+  "generated_at": "2026-10-28T22:24:51+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -48,50 +48,50 @@
       },
       "rates": {
         "us10y": {
-          "value": 5.024,
+          "value": 4.995,
           "prev_close": 4.993,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US10Y"
         },
         "us2y": {
-          "value": 4.755,
+          "value": 4.747,
           "prev_close": 4.737,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/US2Y"
         },
-        "spread": 0.269,
+        "spread": 0.248,
         "status": "ok"
       },
       "dxy": {
-        "price": 102.44,
+        "price": 102.35,
         "prev_close": 102.31999969482422,
-        "change": 0.12,
-        "pct_change": 0.1173,
+        "change": 0.03,
+        "pct_change": 0.0293,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 101.4,
+        "price": 101.66,
         "prev_close": 99.9000015258789,
-        "change": 1.5,
-        "pct_change": 1.5015,
+        "change": 1.76,
+        "pct_change": 1.7618,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
       "domestic_indices": {
         "kospi": {
-          "price": 6014.46,
+          "price": 6012.44,
           "prev_close": 5638.33984375,
-          "change": 376.1202,
-          "pct_change": 6.6708,
+          "change": 374.1002,
+          "pct_change": 6.6349,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSPI"
         },
         "kosdaq": {
-          "price": 767.91,
+          "price": 771.28,
           "prev_close": 743.8300170898438,
-          "change": 24.08,
-          "pct_change": 3.2373,
+          "change": 27.45,
+          "pct_change": 3.6904,
           "status": "ok",
           "source": "https://finance.naver.com/sise/sise_index.naver?code=KOSDAQ"
         }
@@ -105,10 +105,10 @@
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20261028&sosok="
       },
       "usdkrw": {
-        "price": 1336.71,
+        "price": 1340.38,
         "prev_close": 1324.77001953125,
-        "change": 11.94,
-        "pct_change": 0.9013,
+        "change": 15.61,
+        "pct_change": 1.1783,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
@@ -130,7 +130,7 @@
       }
     },
     "vix": {
-      "value": 17.52,
+      "value": 17.32,
       "elevated": false,
       "source": "https://www.cnbc.com/quotes/.VIX",
       "analysis": {
@@ -294,9 +294,9 @@
       }
     },
     "fear_greed": {
-      "score": 33.6,
+      "score": 33.3,
       "rating": "fear",
-      "timestamp": "2026-10-28T00:00:00+00:00",
+      "timestamp": "2026-10-28T13:06:49+00:00",
       "status": "ok",
       "source": "https://edition.cnn.com/markets/fear-and-greed",
       "analysis": {
