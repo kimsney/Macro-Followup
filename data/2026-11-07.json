@@ -1,6 +1,6 @@
 {
   "date": "2026-11-07",
-  "generated_at": "2026-11-07T11:14:36+09:00",
+  "generated_at": "2026-11-07T18:05:50+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -29,10 +29,10 @@
           "source": "https://www.cnbc.com/quotes/.IXIC"
         },
         "russell2000": {
-          "price": 2754.1055,
+          "price": 2754.105,
           "prev_close": 2729.889892578125,
-          "change": 24.2156,
-          "pct_change": 0.8871,
+          "change": 24.2151,
+          "pct_change": 0.887,
           "status": "ok",
           "source": "https://www.cnbc.com/quotes/.RUT"
         }
@@ -71,10 +71,10 @@
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
       "wti": {
-        "price": 90.34,
+        "price": 90.83,
         "prev_close": 90.5199966430664,
-        "change": -0.18,
-        "pct_change": -0.1989,
+        "change": 0.31,
+        "pct_change": 0.3425,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/@CL.1"
       },
