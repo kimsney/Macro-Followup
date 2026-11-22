@@ -1,6 +1,6 @@
 {
   "date": "2026-11-22",
-  "generated_at": "2026-11-22T10:09:26+09:00",
+  "generated_at": "2026-11-22T17:39:46+09:00",
   "sections": {
     "market_structure": {
       "global_indices": {
@@ -64,9 +64,9 @@
       },
       "dxy": {
         "price": 103.84,
-        "prev_close": 103.9000015258789,
-        "change": -0.06,
-        "pct_change": -0.0577,
+        "prev_close": 103.80999755859375,
+        "change": 0.03,
+        "pct_change": 0.0289,
         "status": "ok",
         "source": "https://www.cnbc.com/quotes/.DXY"
       },
@@ -105,10 +105,10 @@
         "source": "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=20261122&sosok="
       },
       "usdkrw": {
-        "price": 1346.13,
-        "prev_close": 1330.4000244140625,
-        "change": 15.73,
-        "pct_change": 1.1824,
+        "price": 1337.8,
+        "prev_close": 1334.7900390625,
+        "change": 3.01,
+        "pct_change": 0.2255,
         "status": "ok",
         "source": "https://finance.naver.com/marketindex/"
       },
